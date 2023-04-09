@@ -1,14 +1,16 @@
-import { useRouter } from "next/router";
+'use client';
+
+import { useRouter } from "next/navigation";
 import React from "react";
-import Button from "../components/Button";
-import Input from "../components/Input";
-import styles from '../styles/Home.module.css'
+import Button from "../../components/Button";
+import Input from "../../components/Input";
+import styles from '../../styles/Home.module.css'
 
 export default function Login() {
   const history = useRouter();
 
   const onSignIn = () => {
-    history.push('/naami-form')
+    history.push('/naami')
   };
 
   return (
