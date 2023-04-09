@@ -1,0 +1,22 @@
+[
+  {
+    "name":"Mumbai",
+    "key":"Mumbai",
+    "label":"Mumbai"
+  },
+  {
+    "name":"Delhi",
+    "key":"Delhi",
+    "label":"Delhi"
+  },
+  {
+    "name":"Gonda",
+    "key":"Gonda",
+    "label":"Gonda"
+  },
+  {
+    "name":"Bhopal",
+    "key":"Bhopal",
+    "label":"Bhopal"
+  }
+]
