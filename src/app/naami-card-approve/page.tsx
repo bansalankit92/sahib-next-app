@@ -1,96 +1,116 @@
-'use client';
+"use client";
 
+import useMounted from "@/hooks/useMounted";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
-import Button from "../../components/Button";
+import Button, { ButtonColors } from "../../components/Button";
 import Input from "../../components/Input";
-import styles from '../../styles/Home.module.css'
+import styles from "../../styles/Home.module.css";
 
 export default function Login() {
   const history = useRouter();
-
+  const mounted = useMounted();
   const onSignIn = () => {
-    history.push('/naami-card-approve')
+    // history.push('/naami-card-approve')
   };
 
   return (
-    <div className={styles.container}>
-    <section className="bg-gray-50 dark:bg-gray-900">
-      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-        <a
-          href="#"
-          className="md:mt-0 sm:max-w-md flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
-        >
-          {/* <img
-            className="w-screen"
-            src="http://sahibbandgi.org/images/Satya%20Sahib%20Bandgi%20logo%20-%20EN.png"
-            alt="logo"
-          /> */}
-        </a>
-        <div>Demo Sahib B</div>
-        <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-          <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-            <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-              Sewa Samiti Admin login
-            </h1>
-            <form className="space-y-4 md:space-y-6">
-              <Input
-                label="Email Id"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="name@company.com"
-              />
-              <Input
-                label="Password"
-                type="password"
-                name="password"
-                id="password"
-                placeholder="••••••••"
-              />
-              <div className="flex items-center justify-between">
-                <div className="flex items-start">
-                  <div className="flex items-center h-5">
-                    <input
-                      id="remember"
-                      aria-describedby="remember"
-                      type="checkbox"
-                      className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
-                    />
-                  </div>
-                  <div className="ml-3 text-sm">
-                    <label
-                      htmlFor="remember"
-                      className="text-gray-500 dark:text-gray-300"
-                    >
-                      Remember me
-                    </label>
-                  </div>
-                </div>
-                <a
-                  href="#"
-                  className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
-                >
-                  Forgot password?
-                </a>
-              </div>
-              <Button text="Sign In" onClick={() => onSignIn()} />
-              <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                Don’t have an account yet? 
-                <a
-                  href="#"
-                  className="font-medium text-primary-600 hover:underline dark:text-primary-500"
-                >
-                  Sign up
-                </a>
+    mounted && (
+      <div className={styles.container}>
+        <div className="min-h-screen p-6 bg-gray-100  items-center justify-center dark:bg-gray-900">
+          <div className="container max-w-screen-lg mx-auto">
+            <div>
+              <h2 className="font-semibold text-xl text-gray-600 dark:text-white">
+                Welcome Atreji,
+              </h2>
+              <p className="text-gray-500 mb-6">
+                Please approve the card of naamis
               </p>
-            </form>
+
+              <div className="">
+                <table className="border-collapse table-fixed min-w-full text-left dark:text-white ">
+                  <thead className="border-b font-medium dark:border-neutral-500">
+                    <tr>
+                      <th></th>
+                      <th>Naami Details</th>
+                      <th>Approve</th>
+                      <th>Later</th>
+                      <th>Reject</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b">
+                      <td width="15%">
+                        <img
+                          src="/images/pexels-photo-614810.webp"
+                          alt="tailwind logo"
+                          className="rounded-full max-w-[50%]"
+                        />
+                      </td>
+                      <td>
+                        <p className="">
+                          <span className="font-bold "> Name:</span>{" "}
+                          <span className="">Ram Demo</span>
+                        </p>
+                        <p className="">
+                          <span className="font-bold  "> Address:</span> Ayodhya:
+                          412101, MH, IN
+                        </p>
+                        <p className="">
+                          <span className="font-bold  "> Naam Daan:</span>{" "}
+                          Mumbai, 19 Feb 2015
+                        </p>
+                      </td>
+                      <td>
+                        <Link href="/naami-card"><Button text="Approve" type={ButtonColors.SUCCESS} /></Link>
+                      </td>
+                      <td>
+                        <Button text="Later" type={ButtonColors.WARNING} />
+                      </td>
+                      <td>
+                        <Button text="Reject" type={ButtonColors.DANGER} />
+                      </td>
+                    </tr>
+                    <tr className="border-b">
+                      <td width="15%">
+                        <img
+                          src="/images/pexels-photo-2379004.jpeg"
+                          alt="tailwind logo"
+                          className="rounded-full max-w-[50%]"
+                        />
+                      </td>
+                      <td>
+                        <p className="">
+                          <span className="font-bold "> Name:</span>{" "}
+                          <span className="">Sample Kumar</span>
+                        </p>
+                        <p className="">
+                          <span className="font-bold  "> Address:</span> Patna:
+                          612101, BH, PT
+                        </p>
+                        <p className="">
+                          <span className="font-bold  "> Naam Daan:</span>{" "}
+                          Mumbai, 19 Feb 2015
+                        </p>
+                      </td>
+                      <td>
+                        <Link href="/naami-card"><Button text="Approve" type={ButtonColors.SUCCESS} /></Link>
+                      </td>
+                      <td>
+                        <Button text="Later" type={ButtonColors.WARNING} />
+                      </td>
+                      <td>
+                        <Button text="Reject" type={ButtonColors.DANGER} />
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    </div>
+    )
   );
-};
-
-// export default login;
+}

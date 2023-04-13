@@ -4,23 +4,21 @@ import React from "react";
 import styles from "../../styles/Home.module.css";
 
 export default function Login() {
-  
   return (
     <div className={styles.container}>
-      <section className="bg-gray-50 dark:bg-gray-900">
-
+      <section className="">
         <div className="mt-16  md:space-x-5 space-y-0 rounded-xl shadow-lg p-3 max-w-lg mx-auto border border-white bg-white ">
           <div className="  max-w-screen-lg mx-auto flex justify-center item-center">
             <img
               className="max-w-[30%]"
-              src="http://sahibbandgi.org/images/Satya%20Sahib%20Bandgi%20logo%20-%20EN.png"
+              src="/images/Satya Sahib Bandgi logo - EN.png"
               alt="logo"
             />
           </div>
           <div className="relative flex flex-row">
             <div className="w-1/5 bg-white mt-8">
               <img
-                src="http://ankitbansal.co.in/jpg/ankit2.jpeg"
+                src="/images/pexels-photo-614810.webp"
                 alt="tailwind logo"
                 className="rounded-full"
               />
@@ -30,11 +28,11 @@ export default function Login() {
               <div className="ml-4">
                 <p className="text-black">
                   <span className="font-bold text-black"> Name:</span>{" "}
-                  <span className="">Ankit Bansal</span>
+                  <span className="">Shri Raam Demo</span>
                 </p>
                 <p className="text-black">
-                  <span className="font-bold text-black "> Address:</span> Pune:
-                  412101,
+                  <span className="font-bold text-black "> Address:</span> Ayodhya:
+                  411001,
                   <br /> MH, IN
                 </p>
                 <p className="text-black">

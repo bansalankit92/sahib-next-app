@@ -43,7 +43,7 @@ const NaamiForm = () => {
   const updateForm = (obj = {}) => setForm({ ...form, ...obj });
 
   const onSubmit = () => {
-    // history.push('/naami-form')
+    history.push('/')
   };
 
   return (
@@ -169,11 +169,11 @@ const NaamiForm = () => {
                         />
                       </div>
 
-                      <div className="md:col-span-5 text-right">
+                      {/* <div className="md:col-span-5 text-right">
                         <div className="inline-flex items-end">
                           <Button text="Submit" onClick={() => onSubmit()} />
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
