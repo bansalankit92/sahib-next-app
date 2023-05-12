@@ -1,16 +1,26 @@
 "use client";
 
+import useMounted from "@/hooks/useMounted";
+import { Admin } from "@/models/Admin";
 import { useRouter } from "next/navigation";
-import React from "react";
+import React, { useState } from "react";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 import styles from "../../styles/Home.module.css";
+import { adminLogin } from "../services/in-memory-db";
 
 export default function Login() {
   const history = useRouter();
+  const [form, setForm] = useState<Admin>({} as Admin);
+  const mounted = useMounted();
+
+  const updateForm = (obj = {}) => setForm({ ...form, ...obj });
 
   const onSignIn = () => {
     history.push("/naami-card-approve");
+    const loggedinUser  = adminLogin(form.name);
+    console.log(loggedinUser);
+    
   };
 
   return (
@@ -40,6 +50,11 @@ export default function Login() {
                   name="email"
                   id="email"
                   placeholder="name@company.com"
+                  value={form.email}
+                  onChange={(e) => {
+                    updateForm({ email: e.target.value });
+                    updateForm({ username: e.target.value.split('@')[0] })
+                }}
                 />
                 <Input
                   label="Password"
@@ -47,6 +62,11 @@ export default function Login() {
                   name="password"
                   id="password"
                   placeholder="••••••••"
+                  value={form.email}
+                  onChange={(e) => {
+                    updateForm({ password: e.target.value });
+                  }
+                }
                 />
                 <div className="flex items-center justify-between">
                   <div className="flex items-start">

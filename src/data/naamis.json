@@ -1,0 +1,45 @@
+[
+  {
+    "id":"1",
+    "fullName": "Raamji",
+    "profilePic": "/images/pexels-photo-614810.webp",
+    "address": "",
+    "email": "ram@gmail.com",
+    "city": "Ayodhya",
+    "country": "IN",
+    "state": "UP",
+    "dob": "1992-06-12",
+    "pincode": "321234",
+    "naamDate": "2018-01-10",
+    "naamDaanLocation": "Mumbai",
+    "status":"APPROVE"
+  },
+  {
+    "id":"2",
+    "fullName": "Lakshmanji",
+    "profilePic": "/images/pexels-photo-614810.webp",
+    "address": "",
+    "email": "lakshman@gmail.com",
+    "city": "Ayodhya",
+    "country": "IN",
+    "state": "UP",
+    "dob": "1993-06-12",
+    "pincode": "321234",
+    "naamDate": "2017-01-10",
+    "naamDaanLocation": "Mumbai"
+  },
+  {
+    "id":"3",
+    "fullName": "Sample Kumar",
+    "profilePic": "/images/pexels-photo-2379004.jpeg",
+    "address": "Rohini",
+    "email": "sample@gmail.com",
+    "city": "Delhi",
+    "country": "IN",
+    "state": "Delhi",
+    "dob": "1985-06-15",
+    "pincode": "110011",
+    "naamDate": "2011-01-10",
+    "naamDaanLocation": "Delhi"
+  }
+]

@@ -7,7 +7,7 @@ export default function Login() {
   return (
     <div className={styles.container}>
       <section className="">
-        <div className="mt-16  md:space-x-5 space-y-0 rounded-xl shadow-lg p-3 max-w-lg mx-auto border border-white bg-white ">
+        <div className="mt-16  md:space-x-5 space-y-0 rounded-xl shadow-lg p-3 max-w-lg mx-auto border border-white  bg-white">
           <div className="  max-w-screen-lg mx-auto flex justify-center item-center">
             <img
               className="max-w-[30%]"

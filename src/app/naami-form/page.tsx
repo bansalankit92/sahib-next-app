@@ -8,6 +8,8 @@ import Button from "../../components/Button";
 import styles from "../../styles/Home.module.css";
 import ashramLocationsAll from "../../data/asharamLocations.json";
 import useMounted from "../../hooks/useMounted";
+import { getNaamiList, saveNaamiForm } from "../services/in-memory-db";
+import { Naami } from "@/models/Naami";
 
 interface NaamiForm {
   fullName: string;
@@ -43,6 +45,9 @@ const NaamiForm = () => {
   const updateForm = (obj = {}) => setForm({ ...form, ...obj });
 
   const onSubmit = () => {
+    const naami = form as Naami;
+    naami.id = String((getNaamiList().length || 0)+1);
+    saveNaamiForm(naami);
     history.push('/')
   };
 
