@@ -1,10 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import ReactPlayer from 'react-player';
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {getRandomNumber} from "@/services/utils";
-import Button from "@/components/Button";
+import Button, {ButtonColors} from "@/components/Button";
 
 enum VIDEO_TYPE {
     SATSANG, BHAJAN
@@ -42,49 +41,70 @@ function Home() {
 
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex max-h-screen flex-col items-center justify-between py-8">
             <div className="flex row justify-between">
                 <div className="mx-4">
-                    <Button text="Satsangs" onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>
-
+                    <Button type={ButtonColors.DANGER} text="Satsangs" onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>
                 </div>
                 <div className="mx-4">
-                    <Button text="Bhajans" onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>
-
+                    <Button type={ButtonColors.WARNING} text="Bhajans" onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>
                 </div>
             </div>
-            {selectedType === VIDEO_TYPE.SATSANG && <div>
-                <Button text="Play Next Satsang" onClick={() => setVideoUrl(getRandomVideo())}></Button>
-                <div className="my-4">
-                    <a href={videoUrl}>{videoUrl}</a>
-                </div>
-
-                <div>
-                    {videoUrl &&
-                        <ReactPlayer url={videoUrl} controls={true} loop={true}
-                                     onEnded={() => setVideoUrl(getRandomVideo())}/>}
-                </div>
-
-            </div>}
+            <div className="mt-4"></div>
+            {selectedType === VIDEO_TYPE.SATSANG
+                && <div>
+                    <Player type={selectedType} url={videoUrl} onEnd={() => setVideoUrl(getRandomVideo())}/>
+                </div>}
 
             {selectedType === VIDEO_TYPE.BHAJAN && <div>
-                <Button text="Play Next Bhajan" onClick={() => setBhajanUrl(getRandomBhajanVideo())}></Button>
-                <div className="my-4">
-                    <a href={bhajanUrl}>{bhajanUrl}</a>
-                </div>
-
                 <div>
-                    {bhajanUrl &&
-                        <ReactPlayer url={bhajanUrl} controls={true} loop={true}
-                                     onEnded={() => setBhajanUrl(getRandomBhajanVideo())}/>}
+                    <Player type={selectedType} url={bhajanUrl} onEnd={() => setBhajanUrl(getRandomBhajanVideo())}/>
                 </div>
 
             </div>}
-            <div>
-                <Link href="/card-app">Checkout card app</Link>
+            <div className="mt-24 bottom-0"> card-app
+                {/*<Link href="/card-app">Checkout card app</Link>*/}
             </div>
         </main>
     );
 }
 
+interface Playerprops {
+    url: string | undefined;
+    onEnd?: () => void;
+    type: VIDEO_TYPE
+}
+
+const Player: React.FC<Playerprops> = ({
+                                           url, onEnd = () => {
+    }, type
+                                       }) => {
+    console.log(url)
+
+    return (
+        <div>
+            <Button text={`Play Next ${VIDEO_TYPE[type].toLowerCase()}`} onClick={onEnd}></Button>
+            <div className="my-4">
+                <a href={url}>
+                    {url}
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </a>
+            </div>
+            <div className="wrapper">
+                {url &&
+                    <ReactPlayer url={url} controls={true} loop={true}
+                                 className="player"
+
+                                 width='100%'
+                                 height='100%'
+                                 onEnded={onEnd}/>}
+            </div>
+        </div>
+    )
+}
 export default Home;
