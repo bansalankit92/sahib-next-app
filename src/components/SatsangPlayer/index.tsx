@@ -8,52 +8,59 @@ import MediaPlayer from "@/components/MediaPlayer";
 
 interface PlayerProps {
     type: VIDEO_TYPE,
-    default?: PlayerContent
+    defaultContent?: PlayerContent,
+    contentList: PlayerContent[],
+    onNextClick?: (playerContent: PlayerContent) => void,
 }
 
-const SatsangBhajanPlayer: React.FC<PlayerProps> = ({type = VIDEO_TYPE.SATSANG}) => {
+const SatsangBhajanPlayer: React.FC<PlayerProps> = ({
+                                                        type = VIDEO_TYPE.SATSANG,
+                                                        defaultContent,
+                                                        contentList,
+                                                        onNextClick = () => {
+                                                        }
+                                                    }) => {
 
     const [mediaList, setMediaList] = useState<PlayerContent[]>([]);
     const [media, setMedia] = useState<PlayerContent>();
     const [currentIndex, setCurrentIndex] = useState<number>();
 
     async function fetchInitialData() {
-        let data = [];
-        switch (type) {
-            case VIDEO_TYPE.SATSANG:
-                data = await MediaService.fetchSatsangs();
-                break;
-            case VIDEO_TYPE.BHAJAN:
-                data = await MediaService.fetchBhajans();
-                break;
-            case VIDEO_TYPE.SAHIB_BHAJAN:
-                data = await MediaService.fetchSahibBhajans();
-                break;
+        setMediaList(contentList);
+        let index = getRandomNumber(0, contentList.length);
+        if (defaultContent) {
+            index = contentList.findIndex(x => x.url === defaultContent.url)
         }
-        console.log(data,type
-        )
-        setMediaList(data);
-        const index = getRandomNumber(0, data.length);
         setCurrentIndex(index);
-        setMedia(data[index]);
+        onPlayingNext(contentList[index]);
     }
+
+    useEffect(() => {
+        if (defaultContent) {
+            onPlayingNext(defaultContent);
+        }
+    }, [defaultContent]);
 
     useEffect(() => {
         fetchInitialData();
     }, []);
 
+    const onPlayingNext = (playerContent: PlayerContent) => {
+        setMedia(playerContent)
+        onNextClick(playerContent);
+    }
 
     const selectRandomVideo = () => {
         const index = getRandomNumber(0, mediaList.length);
         setCurrentIndex(index);
-        setMedia(mediaList[index]);
+        onPlayingNext(mediaList[index]);
     };
 
     const selectNextVideo = () => {
         if (currentIndex) {
             const index = currentIndex + 1;
             setCurrentIndex(index);
-            setMedia(mediaList[index]);
+            onPlayingNext(mediaList[index]);
         } else {
             selectRandomVideo();
         }
