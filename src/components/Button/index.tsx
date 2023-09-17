@@ -8,11 +8,12 @@ interface Props {
     text: string;
     onClick?: () => void;
     type?: ButtonColors;
+    selected?: boolean;
 }
 
 const Button: React.FC<Props> = ({
                                      text = "Button", onClick = () => {
-    }, type = ButtonColors.PRIMARY
+    }, type = ButtonColors.PRIMARY, selected
                                  }) => {
     let className = 'w-full text-white focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-800 '
     switch (type) {
@@ -29,13 +30,14 @@ const Button: React.FC<Props> = ({
             className += ' bg-indigo-600 hover:bg-indigo-700  dark:bg-indigo-600 dark:hover:bg-indigo-700'
             break;
     }
+    className += ` ${selected ? "border-primary-400" : ''}`
     return (
         <button
             type="submit"
             className={className}
             onClick={onClick}
-        >
-            {text}
+
+        >{selected ? (<strong>{text}</strong>) : text}
         </button>
     );
 };

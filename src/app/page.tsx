@@ -6,7 +6,7 @@ import {useLocalStorage} from "react-use";
 import SatsangBhajanPlayer from "@/components/SatsangPlayer";
 import {PlayerContent, VIDEO_TYPE} from "@/models/Player";
 import MediaService from "@/services/mediaService";
-import Select, {SingleValue} from "react-select";
+import Select, {SingleValue, components, createFilter} from "react-select";
 
 interface LastMediaContent {
     [VIDEO_TYPE.SATSANG]?: PlayerContent;
@@ -31,6 +31,10 @@ function Home() {
     useEffect(() => {
         if (storageHistory && storageHistory.length > 0) {
             setSetelectedType(VIDEO_TYPE[storageHistory[0].type as keyof typeof VIDEO_TYPE]);
+
+            updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.SATSANG));
+            updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.BHAJAN));
+            updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.SAHIB_BHAJAN));
         }
     }, []);
 
@@ -66,7 +70,7 @@ function Home() {
         }
     };
 
-    function updateLastMediaContent(playerContent: PlayerContent): void {
+    function updateLastMediaContent(playerContent?: PlayerContent): void {
         if (playerContent && lastMediaContent) {
             const h = {...lastMediaContent};
             h[VIDEO_TYPE[playerContent.type as keyof typeof VIDEO_TYPE]] = playerContent;
@@ -87,50 +91,85 @@ function Home() {
     }
 
     // @ts-ignore
+    const MenuList = ({children, ...props}) => {
+        // @ts-ignore
+        return (
+            // @ts-ignore
+            <components.MenuList {...props}>
+                {Array.isArray(children)
+                    ? children.slice(0, 50) /* Options */
+                    : children /* NoOptionsLabel */
+                }
+            </components.MenuList>
+        );
+    };
+
+    const customStyles = {
+        option: (provided: any, state: { isSelected: any; }) => ({
+            ...provided,
+            borderBottom: '1px dotted pink',
+            color: state.isSelected ? 'red' : 'blue',
+        })
+    }
+
+    // @ts-ignore
     return (
         <main className="flex max-h-screen flex-col items-center justify-between py-8">
             <div className="w-full flex flex-col items-center justify-center">
-                <h1 className="text-4xl font-bold">
+                <h1 className="text-3xl sm:text-2xl font-bold">
                     Welcome to the (Un-Official) Sahibji Satsang Bhajan playlist
                 </h1>
                 <p className="text-lg font-medium">
                     This is a simple player to play the Sahibji satsang and bhajans.
                 </p>
             </div>
-            <div className="w-full m-4 p-4 ">
+            <div className="w-full  p-4 ">
                 <Select
                     className="my-react-select-container"
                     classNamePrefix="my-react-select"
                     getOptionLabel={option => option.title}
                     getOptionValue={option => option.url}
                     onChange={handleChange}
+                    styles={customStyles}
+                    theme={(theme) => ({
+                        ...theme,
+                        borderRadius: 0,
+                        colors: {
+                            ...theme.colors,
+                            text: '#3599B8',
+                            font: '#3599B8',
+                            primary25: '#3599B8',
+                            primary: '#3599B8',
+                            neutral80: 'black',
+                            color: 'black',
+                        },
+                    })}
                     options={allContentList}
-                    // theme={(theme) => ({
-                    //     ...theme,
-                    //     borderRadius: 0,
-                    //     colors: {
-                    //         ...theme.colors,
-                    //         primary25: 'hotpink',
-                    //         primary: 'black',
-                    //     },
-                    // })}
+                    components={{MenuList}}
+                    filterOption={createFilter({ignoreAccents: false})}
                 />
             </div>
-            <div className="flex row justify-between">
+            <div className="grid grid-flow-col justify-stretch w-full">
                 <div className="mx-4">
-                    {satsangList.length && <Button type={ButtonColors.DANGER} text="Satsangs"
-                                                   onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>}
+                    {satsangList.length > 0 && <Button type={ButtonColors.DANGER} text="Satsangs"
+                                                       selected={selectedType === VIDEO_TYPE.SATSANG}
+                                                       onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>}
                 </div>
                 <div className="mx-4">
-                    {bhajanList.length && <Button type={ButtonColors.WARNING} text="Bhajans"
-                                                  onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>}
+                    {bhajanList.length > 0 && <Button type={ButtonColors.WARNING} text="Bhajans"
+                                                      selected={selectedType === VIDEO_TYPE.BHAJAN}
+                                                      onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>}
                 </div>
                 <div className="mx-4">
-                    {sahibBhajanList.length && <Button type={ButtonColors.SUCCESS} text="Sahib Bhajans"
-                                                       onClick={() => setSetelectedType(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>}
+                    {sahibBhajanList.length > 0 && <Button type={ButtonColors.SUCCESS} text="Sahib Bhajans"
+                                                           selected={selectedType === VIDEO_TYPE.SAHIB_BHAJAN}
+                                                           onClick={() => setSetelectedType(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>}
                 </div>
             </div>
-            <div className="mt-4"></div>
+            <hr className="my-4"/>
+            <div className="mt-4">
+
+
             {selectedType === VIDEO_TYPE.SATSANG
                 && satsangList.length && <div>
                     <SatsangBhajanPlayer type={VIDEO_TYPE.SATSANG} contentList={satsangList}
@@ -154,10 +193,10 @@ function Home() {
                 </div>
 
             </div>}
-
-            <div className="mt-20 mx-4 items-center">
+            </div>
+            <div className="mt-20 mx-4">
                 <div className="cursor-pointer" onClick={() => setShowHistory(!showHistory)}>
-                    <h3>History</h3>
+                    <h3 className="my-4">History</h3>
                 </div>
                 {showHistory && history?.map((value, index) => <li key={value.url}>
                     <span>

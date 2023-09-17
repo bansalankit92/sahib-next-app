@@ -17,7 +17,7 @@ export default function RootLayout({
       <link rel="manifest" href="/manifest.json" />
       <link rel="apple-touch-icon" href="/icon.png"></link>
     </Head>
-      <body>{children}</body>
+      <body className="lg:container mx-auto px-4 sm:px-2">{children}</body>
     </html>
   )
 }
