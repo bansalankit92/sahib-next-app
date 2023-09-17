@@ -6,7 +6,6 @@ const MediaService = {
     fetchSatsangs: async (): Promise<PlayerContent[]> => {
         const res = await fetch(MEDIA_PATH_JSON.SATSANG_PATH)
         const result = await res.json();
-        console.log(result)
         return result.map((r: any) => ({...r, type: VIDEO_TYPE.SATSANG}))
     },
     fetchBhajans: async (): Promise<PlayerContent[]> => {

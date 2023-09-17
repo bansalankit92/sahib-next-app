@@ -1,4 +1,5 @@
 import './globals.css'
+import Head from "next/head";
 
 export const metadata = {
   title: 'Sahibji Satsang and Bhajans (UnOfficial)',
@@ -12,6 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+    <Head>
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="apple-touch-icon" href="/icon.png"></link>
+    </Head>
       <body>{children}</body>
     </html>
   )
