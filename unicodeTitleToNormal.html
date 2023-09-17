@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My Heading</h2>
+
+<p>Play around with the code and click on the "Run" button to view the result.</p>
+
+<p id="demo"></p>
+
+<script>
+    let x = 5;
+    let y = 6;
+    let z = x + y;
+
+    var x1 = "\u0915\u0941\u0902\u091C\u0940 \u092C\u0924\u093E\u092F \u0926\u0942\u0901 \u092E\u0948\u0902 \u0924\u093E\u0932\u093E \u0916\u0941\u0932\u0928 \u0915\u0940, \u0915\u0930\u094B \u0930\u0947 \u0938\u0916\u0940 \u091C\u0924\u0928 \u0938\u093E\u0939\u093F\u092C \u092E\u093F\u0932\u0928 \u0915\u0940";
+    var r = /\\u([\d\w]{4})/gi;
+    x = x1.replace(r, function (match, grp) {
+        return String.fromCharCode(parseInt(grp, 16)); } );
+    console.log(x1);
+
+    document.getElementById("demo").innerHTML = "The value of z is: " + z + JSON.parse('" \u0915\u0941\u0902\u091C\u0940 \u092C\u0924\u093E\u092F \u0926\u0942\u0901 \u092E\u0948\u0902 \u0924\u093E\u0932\u093E \u0916\u0941\u0932\u0928 \u0915\u0940, \u0915\u0930\u094B \u0930\u0947 \u0938\u0916\u0940 \u091C\u0924\u0928 \u0938\u093E\u0939\u093F\u092C \u092E\u093F\u0932\u0928 \u0915\u0940" ')+x1;
+
+
+    let arr= [
+
+        {
+            "url": "https://www.youtube.com/watch?v=L5yGFyI1ZAM\r",
+            "title": "\u0915\u092C\u0940\u0930 \u091C\u0940 \u0915\u093E \u092C\u0939\u0941\u0924 \u0939\u0940 \u092A\u094D\u092F\u093E\u0930\u093E \u092D\u091C\u0928 : Guru Meri Pooja - \u0917\u0941\u0930\u0941 \u092E\u0947\u0930\u0940 \u092A\u0942\u091C\u093E !! Kabir Bhajan 2022"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=zR1jhWDM4G0",
+            "title": "\"MUJPE KARMA NAZAR TU SADA RAKHNA\" - Sung By SAHIBJI\n#sahibbandgibhajans"
+        }
+    ]
+
+
+
+
+    function download(content, mimeType, filename){
+        const a = document.createElement('a') // Create "a" element
+        const blob = new Blob([content], {type: mimeType}) // Create a blob (file-like object)
+        const url = URL.createObjectURL(blob) // Create an object URL from blob
+        a.setAttribute('href', url) // Set "a" element link
+        a.setAttribute('download', filename) // Set download filename
+        a.click() // Start downloading
+    }
+
+
+    let filtered = arr.map(a=>{
+        var title = a.title;
+        var r = /\\u([\d\w]{4})/gi;
+        let txt= title.replace(r, function (match, grp) {
+            return String.fromCharCode(parseInt(grp, 16)); } );
+        return {url:a.url,title:txt}
+    })
+
+    download(JSON.stringify(filtered),'text/plain','bhajans.json')
+
+</script>
+
+</body>
+</html>
