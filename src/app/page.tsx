@@ -31,7 +31,7 @@ function Home() {
     useEffect(() => {
         if (storageHistory && storageHistory.length > 0) {
             setSetelectedType(VIDEO_TYPE[storageHistory[0].type as keyof typeof VIDEO_TYPE]);
-
+            setHistory(storageHistory);
             updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.SATSANG));
             updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.BHAJAN));
             updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.SAHIB_BHAJAN));
