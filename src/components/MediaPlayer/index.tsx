@@ -36,9 +36,11 @@ const MediaPlayer: React.FC<PlayerProps> = ({
         <div className="">
             <div className="flex justify-around">
                 <div>
-                    <Button text={`Play ${isRandom ? 'random' : 'next'} ${(type || '').toLowerCase().replace('_', " ")}`} onClick={() => {
-                        onNextClick();
-                    }}></Button>
+                    <Button
+                        text={`Play ${isRandom ? 'random' : 'next'} ${(type || '').toLowerCase().replace('_', " ")}`}
+                        onClick={() => {
+                            onNextClick();
+                        }}></Button>
                 </div>
                 <div>
                     <Button text={`${isRandom ? 'Normalize' : 'Randomize'}`} onClick={() => {
@@ -60,11 +62,11 @@ const MediaPlayer: React.FC<PlayerProps> = ({
             </div>
             <div className="wrapper">
                 {url &&
-                    <ReactPlayer url={url} controls={true} playing={true}
-                                 className="player"
-                                 width='100%'
-                                 height='100%'
-                                 onEnded={onNextClick}/>}
+                    (<ReactPlayer url={url} controls={true} playing={true}
+                                  className="player"
+                                  width='100%'
+                                  height='100%'
+                                  onEnded={onNextClick}/>)}
             </div>
         </div>
     )

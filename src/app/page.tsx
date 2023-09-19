@@ -151,19 +151,19 @@ function Home() {
             </div>
             <div className="grid grid-flow-col justify-stretch w-full">
                 <div className="mx-4">
-                    {satsangList.length > 0 && <Button type={ButtonColors.DANGER} text="Satsangs"
+                    {satsangList.length > 0 && (<Button type={ButtonColors.DANGER} text="Satsangs"
                                                        selected={selectedType === VIDEO_TYPE.SATSANG}
-                                                       onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>}
+                                                       onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>)}
                 </div>
                 <div className="mx-4">
-                    {bhajanList.length > 0 && <Button type={ButtonColors.WARNING} text="Bhajans"
+                    {bhajanList.length > 0 && (<Button type={ButtonColors.WARNING} text="Bhajans"
                                                       selected={selectedType === VIDEO_TYPE.BHAJAN}
-                                                      onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>}
+                                                      onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>)}
                 </div>
                 <div className="mx-4">
-                    {sahibBhajanList.length > 0 && <Button type={ButtonColors.SUCCESS} text="Sahib Bhajans"
+                    {sahibBhajanList.length > 0 && (<Button type={ButtonColors.SUCCESS} text="Sahib Bhajans"
                                                            selected={selectedType === VIDEO_TYPE.SAHIB_BHAJAN}
-                                                           onClick={() => setSetelectedType(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>}
+                                                           onClick={() => setSetelectedType(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>)}
                 </div>
             </div>
             <hr className="my-4"/>
@@ -171,33 +171,33 @@ function Home() {
 
 
             {selectedType === VIDEO_TYPE.SATSANG
-                && satsangList.length && <div>
+                && satsangList.length && (<div>
                     <SatsangBhajanPlayer type={VIDEO_TYPE.SATSANG} contentList={satsangList}
                                          defaultContent={lastMediaContent[VIDEO_TYPE.SATSANG]}
                                          onNextClick={handleNextClick}/>
-                </div>}
+                </div>)}
 
-            {selectedType === VIDEO_TYPE.BHAJAN && bhajanList.length && <div>
+            {selectedType === VIDEO_TYPE.BHAJAN && bhajanList.length && (<div>
                 <div>
                     <SatsangBhajanPlayer type={VIDEO_TYPE.BHAJAN} contentList={bhajanList}
                                          defaultContent={lastMediaContent[VIDEO_TYPE.BHAJAN]}
                                          onNextClick={handleNextClick}/>
                 </div>
 
-            </div>}
-            {selectedType === VIDEO_TYPE.SAHIB_BHAJAN && sahibBhajanList.length && <div>
+            </div>)}
+            {selectedType === VIDEO_TYPE.SAHIB_BHAJAN && sahibBhajanList.length && (<div>
                 <div>
                     <SatsangBhajanPlayer type={VIDEO_TYPE.SAHIB_BHAJAN} contentList={sahibBhajanList}
                                          defaultContent={lastMediaContent[VIDEO_TYPE.SAHIB_BHAJAN]}
                                          onNextClick={handleNextClick}/>
                 </div>
 
-            </div>}
+            </div>)}
             </div>
             <div className="mt-20 mx-4">
-                <div className="cursor-pointer" onClick={() => setShowHistory(!showHistory)}>
+                <button onClick={() => setShowHistory(!showHistory)}>
                     <h3 className="my-4">History</h3>
-                </div>
+                </button>
                 {showHistory && history?.map((value, index) => <li key={value.url}>
                     <span>
                         <strong>{value.type.toLowerCase().replace('_', " ")}</strong>: &nbsp;
