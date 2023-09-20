@@ -26,6 +26,9 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.language-rt {
+  display: flex; justify-content: center;
+}
 
 .wrapper {
   position: relative;

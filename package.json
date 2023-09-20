@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
@@ -17,6 +18,7 @@
     "eslint": "8.37.0",
     "eslint-config-next": "13.3.0",
     "html-metadata-parser": "^2.0.4",
+    "marked": "^9.0.3",
     "next": "13.3.0",
     "next-pwa": "^5.6.0",
     "postcss": "8.4.21",
