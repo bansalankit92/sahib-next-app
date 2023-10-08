@@ -7,7 +7,7 @@ import SatsangBhajanPlayer from "@/components/SatsangPlayer";
 import {PlayerContent, VIDEO_TYPE} from "@/models/Player";
 import MediaService from "@/services/mediaService";
 import Select, {SingleValue, components, createFilter} from "react-select";
-import {ReadonlyURLSearchParams, usePathname, useRouter, useSearchParams} from 'next/navigation'
+import {ReadonlyURLSearchParams, useSearchParams} from 'next/navigation'
 
 interface LastMediaContent {
     [VIDEO_TYPE.SATSANG]?: PlayerContent;
@@ -16,8 +16,6 @@ interface LastMediaContent {
 }
 
 function Home() {
-    const router = useRouter();
-    const pathname = usePathname()
 
     const searchParams = useSearchParams()
     const [selectedType, setSetelectedType] = useState<VIDEO_TYPE>(VIDEO_TYPE.SATSANG);
@@ -132,7 +130,10 @@ function Home() {
 
     const onTypeChange = (type: VIDEO_TYPE) => {
         setSetelectedType(type)
-        router.replace(`${pathname}?type=${type}`);
+        if (window?.history?.pushState) {
+            const newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?type=${type}`;
+            window.history.pushState({path: newurl}, '', newurl);
+        }
     }
 
     // @ts-ignore
@@ -172,18 +173,18 @@ function Home() {
                     filterOption={createFilter({ignoreAccents: false})}
                 />
             </div>
-            <div className="grid grid-flow-col justify-stretch w-full">
-                <div className="mx-4">
+            <div className="grid  justify-stretch w-full gap-1 grid-cols-3 ">
+                <div className="">
                     {satsangList.length > 0 && (<Button type={ButtonColors.DANGER} text="Satsangs"
                                                         selected={selectedType === VIDEO_TYPE.SATSANG}
                                                         onClick={() => onTypeChange(VIDEO_TYPE.SATSANG)}></Button>)}
                 </div>
-                <div className="mx-4">
+                <div className="">
                     {bhajanList.length > 0 && (<Button type={ButtonColors.WARNING} text="Bhajans"
                                                        selected={selectedType === VIDEO_TYPE.BHAJAN}
                                                        onClick={() => onTypeChange(VIDEO_TYPE.BHAJAN)}></Button>)}
                 </div>
-                <div className="mx-4">
+                <div className="">
                     {sahibBhajanList.length > 0 && (<Button type={ButtonColors.SUCCESS} text="Sahib Bhajans"
                                                             selected={selectedType === VIDEO_TYPE.SAHIB_BHAJAN}
                                                             onClick={() => onTypeChange(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>)}
