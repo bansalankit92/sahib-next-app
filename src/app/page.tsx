@@ -7,6 +7,7 @@ import SatsangBhajanPlayer from "@/components/SatsangPlayer";
 import {PlayerContent, VIDEO_TYPE} from "@/models/Player";
 import MediaService from "@/services/mediaService";
 import Select, {SingleValue, components, createFilter} from "react-select";
+import {ReadonlyURLSearchParams, usePathname, useRouter, useSearchParams} from 'next/navigation'
 
 interface LastMediaContent {
     [VIDEO_TYPE.SATSANG]?: PlayerContent;
@@ -15,6 +16,10 @@ interface LastMediaContent {
 }
 
 function Home() {
+    const router = useRouter();
+    const pathname = usePathname()
+
+    const searchParams = useSearchParams()
     const [selectedType, setSetelectedType] = useState<VIDEO_TYPE>(VIDEO_TYPE.SATSANG);
 
     const [satsangList, setSatsangList] = useState<PlayerContent[]>([]);
@@ -27,11 +32,21 @@ function Home() {
     const [showHistory, setShowHistory] = useState<boolean>(false);
     const [lastMediaContent, setLastMediaContent] = useState<LastMediaContent>({});
 
+    const setSearchParamsContentType = (searchParams: ReadonlyURLSearchParams) => {
+        const type = searchParams.get('type') || searchParams.get('tab');
+        if (type && type.toUpperCase() in VIDEO_TYPE) {
+            setSetelectedType(VIDEO_TYPE[type.toUpperCase() as keyof typeof VIDEO_TYPE]);
+        }
+    }
+    useEffect(() => {
+        setSearchParamsContentType(searchParams)
+    }, [searchParams]);
 
     useEffect(() => {
         if (storageHistory && storageHistory.length > 0) {
             setSetelectedType(VIDEO_TYPE[storageHistory[0].type as keyof typeof VIDEO_TYPE]);
             setHistory(storageHistory);
+            setSearchParamsContentType(searchParams);
             updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.SATSANG));
             updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.BHAJAN));
             updateLastMediaContent(storageHistory.find(x => x.type === VIDEO_TYPE.SAHIB_BHAJAN));
@@ -41,17 +56,20 @@ function Home() {
 
     useEffect(() => {
         MediaService.fetchSatsangs().then((data) => {
-            setSatsangList(data);
-            setAllContentList(prevState => [...prevState, ...data]);
+            const res = data.filter(x => x.title !== ' - YouTube')
+            setSatsangList(res);
+            setAllContentList(prevState => [...prevState, ...res]);
         });
         MediaService.fetchBhajans().then((data) => {
-            setBhajanList(data);
-            setAllContentList(prevState => [...prevState, ...data]);
+            const res = data.filter(x => x.title !== ' - YouTube')
+            setBhajanList(res);
+            setAllContentList(prevState => [...prevState, ...res]);
         });
 
         MediaService.fetchSahibBhajans().then((data) => {
-            setSahibBhajanList(data);
-            setAllContentList(prevState => [...prevState, ...data]);
+            const res = data.filter(x => x.title !== ' - YouTube')
+            setSahibBhajanList(res);
+            setAllContentList(prevState => [...prevState, ...res]);
         });
 
     }, []);
@@ -112,6 +130,11 @@ function Home() {
         })
     }
 
+    const onTypeChange = (type: VIDEO_TYPE) => {
+        setSetelectedType(type)
+        router.replace(`${pathname}?type=${type}`);
+    }
+
     // @ts-ignore
     return (
         <main className="flex max-h-screen flex-col items-center justify-between py-8">
@@ -152,47 +175,47 @@ function Home() {
             <div className="grid grid-flow-col justify-stretch w-full">
                 <div className="mx-4">
                     {satsangList.length > 0 && (<Button type={ButtonColors.DANGER} text="Satsangs"
-                                                       selected={selectedType === VIDEO_TYPE.SATSANG}
-                                                       onClick={() => setSetelectedType(VIDEO_TYPE.SATSANG)}></Button>)}
+                                                        selected={selectedType === VIDEO_TYPE.SATSANG}
+                                                        onClick={() => onTypeChange(VIDEO_TYPE.SATSANG)}></Button>)}
                 </div>
                 <div className="mx-4">
                     {bhajanList.length > 0 && (<Button type={ButtonColors.WARNING} text="Bhajans"
-                                                      selected={selectedType === VIDEO_TYPE.BHAJAN}
-                                                      onClick={() => setSetelectedType(VIDEO_TYPE.BHAJAN)}></Button>)}
+                                                       selected={selectedType === VIDEO_TYPE.BHAJAN}
+                                                       onClick={() => onTypeChange(VIDEO_TYPE.BHAJAN)}></Button>)}
                 </div>
                 <div className="mx-4">
                     {sahibBhajanList.length > 0 && (<Button type={ButtonColors.SUCCESS} text="Sahib Bhajans"
-                                                           selected={selectedType === VIDEO_TYPE.SAHIB_BHAJAN}
-                                                           onClick={() => setSetelectedType(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>)}
+                                                            selected={selectedType === VIDEO_TYPE.SAHIB_BHAJAN}
+                                                            onClick={() => onTypeChange(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>)}
                 </div>
             </div>
             <hr className="my-4"/>
             <div className="mt-4">
 
 
-            {selectedType === VIDEO_TYPE.SATSANG
-                && satsangList.length && (<div>
-                    <SatsangBhajanPlayer type={VIDEO_TYPE.SATSANG} contentList={satsangList}
-                                         defaultContent={lastMediaContent[VIDEO_TYPE.SATSANG]}
-                                         onNextClick={handleNextClick}/>
+                {selectedType === VIDEO_TYPE.SATSANG
+                    && satsangList.length && (<div>
+                        <SatsangBhajanPlayer type={VIDEO_TYPE.SATSANG} contentList={satsangList}
+                                             defaultContent={lastMediaContent[VIDEO_TYPE.SATSANG]}
+                                             onNextClick={handleNextClick}/>
+                    </div>)}
+
+                {selectedType === VIDEO_TYPE.BHAJAN && bhajanList.length && (<div>
+                    <div>
+                        <SatsangBhajanPlayer type={VIDEO_TYPE.BHAJAN} contentList={bhajanList}
+                                             defaultContent={lastMediaContent[VIDEO_TYPE.BHAJAN]}
+                                             onNextClick={handleNextClick}/>
+                    </div>
+
                 </div>)}
+                {selectedType === VIDEO_TYPE.SAHIB_BHAJAN && sahibBhajanList.length && (<div>
+                    <div>
+                        <SatsangBhajanPlayer type={VIDEO_TYPE.SAHIB_BHAJAN} contentList={sahibBhajanList}
+                                             defaultContent={lastMediaContent[VIDEO_TYPE.SAHIB_BHAJAN]}
+                                             onNextClick={handleNextClick}/>
+                    </div>
 
-            {selectedType === VIDEO_TYPE.BHAJAN && bhajanList.length && (<div>
-                <div>
-                    <SatsangBhajanPlayer type={VIDEO_TYPE.BHAJAN} contentList={bhajanList}
-                                         defaultContent={lastMediaContent[VIDEO_TYPE.BHAJAN]}
-                                         onNextClick={handleNextClick}/>
-                </div>
-
-            </div>)}
-            {selectedType === VIDEO_TYPE.SAHIB_BHAJAN && sahibBhajanList.length && (<div>
-                <div>
-                    <SatsangBhajanPlayer type={VIDEO_TYPE.SAHIB_BHAJAN} contentList={sahibBhajanList}
-                                         defaultContent={lastMediaContent[VIDEO_TYPE.SAHIB_BHAJAN]}
-                                         onNextClick={handleNextClick}/>
-                </div>
-
-            </div>)}
+                </div>)}
             </div>
             <div className="mt-20 mx-4">
                 <button onClick={() => setShowHistory(!showHistory)}>

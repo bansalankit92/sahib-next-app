@@ -2,6 +2,7 @@
 
 import React, {useEffect, useState} from "react";
 import {marked} from "marked";
+import {useSearchParams} from "next/navigation";
 
 
 interface PlayerProps {
@@ -11,20 +12,21 @@ interface PlayerProps {
 const BooksSection: React.FC<PlayerProps> = ({}) => {
 
     const [mdBook, setMdBook] = useState<string>();
+    const searchParams = useSearchParams()
 
     useEffect(() => {
-
-        fetch("https://raw.githubusercontent.com/bansalankit92/indian-script-reader/master/assets/aavey-na-javey-na-marey/aavey-na-javey-na-janme-hin.md",)
+        let url = searchParams.get("url") || "https://raw.githubusercontent.com/bansalankit92/indian-script-reader/master/assets/70-pralay-marag-mahi/70-praylay-marag-mahi-hin.md";
+        fetch(url,)
             .then(response => response.blob())
             .then(buffer => {
                 var reader = new FileReader();
-                reader.readAsText(buffer, "ISO-8859-1")
+                reader.readAsText(buffer)//, "ISO-8859-1")
                 reader.onload = function (e) {
                     console.log(reader.result)
                     setMdBook(reader.result as string)
                 }
             })
-    }, []);
+    }, [searchParams]);
 
     return (
         <section

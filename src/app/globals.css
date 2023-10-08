@@ -27,9 +27,17 @@ body {
 }
 
 .language-rt {
-  display: flex; justify-content: center;
+  display: flex;
+  justify-content: center;
+  white-space: pre-wrap;
 }
 
+.language-rt-box {
+  display: flex;
+  justify-content: center;
+  white-space: pre-wrap;
+  border: 1px solid;
+}
 .wrapper {
   position: relative;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
