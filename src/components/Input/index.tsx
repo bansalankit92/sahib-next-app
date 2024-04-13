@@ -6,7 +6,7 @@ import { DateValueType } from "react-tailwindcss-datepicker/dist/types";
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
   label: string;
-  inputType?: "DROPDOWN" | "DATE_PICKER";
+  inputType?: "DROPDOWN" | "DATE_PICKER" | "CHECKBOX";
   onClickClear?: () => void;
   dateValue?: Date;
   onDateSelect?: (e: DateValueType) => void;
@@ -51,6 +51,18 @@ const Input: React.FC<Props> = ({
         {...rest}
       />
     </div>
+  );
+
+  const Checkbox = () => (
+      <div className="flex">
+        {labelTag}
+        <input
+            name={name}
+            type="checkbox"
+            className=" ml-2 w-4 h-4"
+            {...rest}
+        />
+      </div>
   );
 
   const datePicker = () => (
@@ -139,6 +151,7 @@ const Input: React.FC<Props> = ({
       return dropDownInput();
     case "DATE_PICKER":
       return datePicker();
+    case "CHECKBOX": return Checkbox();
     default:
       return defaultInput();
   }

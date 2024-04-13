@@ -18,8 +18,10 @@ const BooksDb = {
             authorName: data.authorName,
         })
     },
-    search: async ({query = ""}) => {
-        return Books.find({$or: [
+    search: async ({query = "", skip=0, limit=10}) => {
+        const match: any = {}
+        if(query){
+            match['$or'] = [
                 // {
                 //     name: {$regex: `^${query}`, $options: 'i'}
                 // },
@@ -29,7 +31,9 @@ const BooksDb = {
                 {$text: {
                         $search: query,
                     }}
-            ]})
+            ];
+        }
+        return Books.find(match).skip(skip).limit(limit).sort({updatedAt:-1})
     },
     getByName: async ({query = ''}) => {
         return Books.find({

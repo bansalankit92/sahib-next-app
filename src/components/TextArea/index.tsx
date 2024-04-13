@@ -9,6 +9,7 @@ interface Props extends InputHTMLAttributes<HTMLTextAreaElement> {
   inputType?: "DROPDOWN" | "DATE_PICKER";
   onClickClear?: () => void;
   dateValue?: Date;
+  row:number,
   onDateSelect?: (e: DateValueType) => void;
   dropdownValues?: DropdownType[];
   onDropdownSelect?: (e: DropdownType) => void;
@@ -16,7 +17,7 @@ interface Props extends InputHTMLAttributes<HTMLTextAreaElement> {
 
 const TextArea: React.FC<Props> = ({
   name,
-  label,
+  label, row=5,
   inputType,
   onClickClear = () => {},
   onDateSelect = () => {},
@@ -47,6 +48,7 @@ const TextArea: React.FC<Props> = ({
       {labelTag}
       <textarea
         name={name}
+        rows={row}
         className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
         {...rest}
       />
