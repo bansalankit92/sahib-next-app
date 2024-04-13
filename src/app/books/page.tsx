@@ -72,7 +72,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
 
                 <Accordion>
                     {
-                        booksList?.map(x => (
+                        booksList?.map((x: any) => (
                             <AccordionItem key={x?.name}>
                                 <AccordionItemHeading>
                                     <AccordionItemButton>
