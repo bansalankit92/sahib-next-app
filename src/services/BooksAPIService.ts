@@ -23,9 +23,10 @@ const BooksAPIService = {
     search: async (query = '') => {
         const headers = {
             ...DefaultHeaders,
-            method: 'GET',
+            method: 'POST',
+            body: JSON.stringify({query})
         }
-        const res = await fetch(BASE_URL+'?query=' + query, headers)
+        const res = await fetch(BASE_URL+'/search', headers)
         const result = await res.json();
         return result;
     },

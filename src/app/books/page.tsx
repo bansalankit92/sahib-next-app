@@ -72,7 +72,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
             <div>
                 Books List
 
-                <Accordion>
+                <Accordion allowZeroExpanded={true} allowMultipleExpanded={true}>
                     {
                         booksList?.map((x: any) => (
                             <AccordionItem key={x?.name}>

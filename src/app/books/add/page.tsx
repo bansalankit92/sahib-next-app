@@ -21,7 +21,7 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
     const [transliterationContent, setTransliterationContent] = useState('')
     function handleChange(e:any) {
         setTransliterationCheck(e.target.checked);
-        setTransliterationContent(hi2en(bookData.content))
+        setTransliterationContent(hi2en(bookData?.content||''))
     }
     const updateFields = (key = '', value = '') => {
         setBookData({
