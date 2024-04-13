@@ -8,7 +8,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
     "./src/**/*.{js,jsx,ts,tsx}",
     "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",
-
+    // "./node_modules/flowbite-react/lib/**/*.js",
   ],
   theme: {
     extend: {
@@ -27,5 +27,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    // require("flowbite/plugin")
   ],
 }
