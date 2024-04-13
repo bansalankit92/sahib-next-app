@@ -1,6 +1,6 @@
 "use client";
 
-import React, {useEffect, useState} from "react";
+import React, {Suspense, useEffect, useState} from "react";
 import {marked} from "marked";
 import {useSearchParams} from "next/navigation";
 
@@ -29,6 +29,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
     }, [searchParams]);
 
     return (
+        <Suspense>
         <section
             className="container mx-auto px-4 py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 bg-white dark:bg-gray-900"
             id="books-section">
@@ -45,6 +46,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                 {mdBook && <MarkdownRenderer markdown={mdBook}/>}
             </div>
         </section>
+            </Suspense>
     );
 }
 

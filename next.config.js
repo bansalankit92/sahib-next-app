@@ -12,6 +12,7 @@ const withPWA = require('next-pwa')({
 const nextConfig = {
   reactStrictMode: false,
   experimental: {
+    missingSuspenseWithCSRBailout: false,
   },
   async headers() {
     return [
