@@ -52,8 +52,11 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
                     name: bookData.name + ' en'
                 });
                 toast("Transliterated Content added successfully")
+                setTransliterationCheck(false);
+                setTransliterationContent('');
             }
-
+            updateFields('content','')
+            updateFields('name','')
         } catch (e) {
             toast("Failed to add books")
         }
