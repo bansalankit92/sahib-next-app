@@ -26,17 +26,21 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
     const [query, setQuery] = useState<string | null>();
     const searchParams = useSearchParams()
     const [booksList, setBooksList] = useState([])
+    const [loading, setLoading] = useState(false)
 
     const onSearch = async (val: string | null | undefined) => {
         let q = val || query || searchParams.get("q")
         try {
             console.log(q);
+            setLoading(true);
             const res = await BooksAPIService.search(q || '');
             console.log(res)
             const list = res?.data?.results;
             setBooksList(list)
         } catch (e) {
             toast("Failed to find books")
+        } finally {
+            setLoading(false)
         }
     }
     useEffect(() => {
@@ -68,7 +72,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                        onChange={(e) => {
                            setQuery(e.target.value)
                        }}/>
-                <Button text={"Submit"} onClick={() => onSearch(query)}/>
+                <Button text={"Submit"} loading={loading} onClick={() => onSearch(query)}/>
 
 
             <div>

@@ -19,10 +19,13 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
     const [bookData, setBookData] = useState<any>();
     const [transliterationCheck, setTransliterationCheck] = React.useState(false);
     const [transliterationContent, setTransliterationContent] = useState('')
-    function handleChange(e:any) {
+    const [loading, setLoading] = useState(false)
+
+    function handleChange(e: any) {
         setTransliterationCheck(e.target.checked);
-        setTransliterationContent(hi2en(bookData?.content||''))
+        setTransliterationContent(hi2en(bookData?.content || ''))
     }
+
     const updateFields = (key = '', value = '') => {
         setBookData(JSON.parse(JSON.stringify({
             ...bookData || {},
@@ -36,13 +39,14 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
     const onSubmit = async () => {
         try {
             console.log(bookData);
-            if(!bookData.name && !bookData.content){
+            setLoading(true);
+            if (!bookData.name && !bookData.content) {
                 toast("Please add book name and content");
             }
 
             const res = await BooksAPIService.add(bookData);
             toast("Book added successfully")
-            if(transliterationCheck){
+            if (transliterationCheck) {
                 await BooksAPIService.add({
                     ...bookData,
                     content: transliterationContent || hi2en(bookData.content),
@@ -54,10 +58,12 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
                 setTransliterationCheck(false);
                 setTransliterationContent('');
             }
-            updateFields('content','')
-            updateFields('name','')
+            updateFields('content', '')
+            updateFields('name', '')
         } catch (e) {
             toast("Failed to add books")
+        } finally {
+            setLoading(false);
         }
     }
 
@@ -75,11 +81,11 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
                 </p>
             </div>
             <div className="flex flex-col gap-4">
-                <Input name={"name"} label={"Book Name"} onChange={(e) => updateFields('name', e.target.value)}/>
+                <Input name={"name"} value={bookData?.name||''} label={"Book Name"} onChange={(e) => updateFields('name', e.target.value)}/>
                 <Input name={"authorName"} label={"Author Name"}
                        onChange={(e) => updateFields('authorName', e.target.value)}/>
 
-                <TextArea row={6} name={"content"} label={"Content"}
+                <TextArea row={6} value={bookData?.content||''} name={"content"} label={"Content"}
                           onChange={(e) => updateFields('content', e.target.value)}/>
 
 
@@ -114,9 +120,10 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
                 </div>
                 {transliterationCheck ?
                     <TextArea row={6} name={"English Transliterated content"} label={"English Transliterated content"}
-                          value={transliterationContent}    onChange={(e) => setTransliterationContent(e.target.value) }/>
+                              value={transliterationContent}
+                              onChange={(e) => setTransliterationContent(e.target.value)}/>
                     : null}
-                <Button text={"Submit"} onClick={() => onSubmit()}/>
+                <Button text={"Submit"} onClick={() => onSubmit()} loading={loading}/>
             </div>
         </section>
     );

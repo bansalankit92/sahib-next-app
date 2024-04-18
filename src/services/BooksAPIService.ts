@@ -24,7 +24,7 @@ const BooksAPIService = {
         const headers = {
             ...DefaultHeaders,
             method: 'POST',
-            body: JSON.stringify({query})
+            body: JSON.stringify({query:query?.trim()||''})
         }
         const res = await fetch(BASE_URL+'/search', headers)
         const result = await res.json();

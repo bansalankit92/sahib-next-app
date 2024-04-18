@@ -1,4 +1,5 @@
 import React from "react";
+import Loader from "@/components/Loader";
 
 export enum ButtonColors {
     PRIMARY, DANGER, SUCCESS, WARNING
@@ -9,11 +10,15 @@ interface Props {
     onClick?: () => void;
     type?: ButtonColors;
     selected?: boolean;
+    loading?: boolean;
 }
 
 const Button: React.FC<Props> = ({
-                                     text = "Button", onClick = () => {
-    }, type = ButtonColors.PRIMARY, selected
+                                     text = "Button",
+                                     onClick = () => {},
+                                     type = ButtonColors.PRIMARY,
+                                     selected,
+                                     loading= false
                                  }) => {
     let className = 'w-full text-white focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-800 '
     switch (type) {
@@ -37,7 +42,7 @@ const Button: React.FC<Props> = ({
             className={className}
             onClick={onClick}
 
-        >{selected ? (<strong>{text}</strong>) : text}
+        > {loading?<Loader />: ( selected ? (<strong>{text}</strong>) : text)}
         </button>
     );
 };

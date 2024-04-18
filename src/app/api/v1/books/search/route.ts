@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
     const query = body.query || body.q || '';
     const name = body.name;
     const skip = body.skip || 0;
-    const limit = body.limit || 0;
+    const limit = body.limit || 10;
     console.log(query, name)
     if (name) {
         const results = await BooksDb.searchByName({query: name})

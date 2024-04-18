@@ -27,7 +27,7 @@ const BooksDb = {
             newSlug = Utils.getSlugRemovingSpace(name);
         }
         return await Books.create({
-            name,
+            name: name.trim(),
             slug: newSlug,
             lang,
             content,
@@ -48,16 +48,15 @@ const BooksDb = {
                 //     name: {$regex: `^${query}`, $options: 'i'}
                 // },
                 {
-                    content: {$regex: `^${query}`, $options: 'i'}
+                    content: {$regex: `^${query.trim()}`, $options: 'i'}
                 },
                 {
                     $text: {
-                        $search: query,
+                        $search: query.trim(),
                     }
                 }
             ];
         }
-        console.log(JSON.stringify(match))
         return Books.find(match).skip(skip).limit(limit).sort({updatedAt: -1})
     },
     searchByName: async ({query = ''}) => {
