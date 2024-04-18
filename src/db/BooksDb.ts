@@ -20,7 +20,8 @@ const BooksDb = {
             actualName,
             isTransliteration,
             sourceURL,
-            authorName
+            authorName,
+            bookId,
         } = data;
         let newSlug = slug;
         if (!slug) {
@@ -37,7 +38,8 @@ const BooksDb = {
             actualName: actualName || name,
             isTransliteration,
             sourceURL,
-            authorName
+            authorName,
+            bookId,
         })
     },
     search: async ({query = "", skip = 0, limit = 10}) => {
