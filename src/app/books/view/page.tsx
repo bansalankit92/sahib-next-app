@@ -3,6 +3,7 @@
 import React, {Suspense, useEffect, useState} from "react";
 import {marked} from "marked";
 import {useSearchParams} from "next/navigation";
+import MarkdownRenderer from "@/components/MarkdownRenderer";
 
 
 interface PlayerProps {
@@ -48,21 +49,6 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
         </section>
             </Suspense>
     );
-}
-
-
-const MarkdownRenderer = ({markdown}: { markdown: string }) => {
-
-    function getMarkdownText() {
-        let rawMarkup = marked.parse(markdown);
-        return {__html: rawMarkup};
-    }
-
-    return (
-        <article className="md1 prose dark:prose-invert max-w-none">
-            <div dangerouslySetInnerHTML={getMarkdownText()}/>
-        </article>
-    )
 }
 
 export default BooksSection;

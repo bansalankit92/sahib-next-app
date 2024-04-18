@@ -24,10 +24,10 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
         setTransliterationContent(hi2en(bookData?.content||''))
     }
     const updateFields = (key = '', value = '') => {
-        setBookData({
+        setBookData(JSON.parse(JSON.stringify({
             ...bookData || {},
             [key]: value
-        })
+        })))
     }
     useEffect(() => {
         toast("Page to add books");
@@ -43,7 +43,6 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
             const res = await BooksAPIService.add(bookData);
             toast("Book added successfully")
             if(transliterationCheck){
-
                 await BooksAPIService.add({
                     ...bookData,
                     content: transliterationContent || hi2en(bookData.content),

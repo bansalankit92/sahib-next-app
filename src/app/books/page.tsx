@@ -14,6 +14,7 @@ import {
     AccordionItemPanel
 } from "react-accessible-accordion";
 import Highlighter from "react-highlight-words";
+import MarkdownRenderer from "@/components/MarkdownRenderer";
 
 
 interface PlayerProps {
@@ -89,7 +90,6 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                                         autoEscape={true}
                                         textToHighlight={x.content}
                                     />
-
                                 </AccordionItemPanel>
                             </AccordionItem>
                         ))

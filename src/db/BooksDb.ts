@@ -1,5 +1,6 @@
 import Books from "@/db/model/Books";
 import connectDB from "@/db/connectDb";
+import Utils from "@/lib/utils";
 
 
 (async () => {
@@ -8,19 +9,40 @@ import connectDB from "@/db/connectDb";
 
 const BooksDb = {
     create: async (data: any = {}) => {
-        await Books.create({
-            name: data.name,
-            slug: data.slug,
-            lang: data.lang,
-            content: data.content,
-            isTransliteration: data.isTransliteration,
-            sourceURL: data.sourceURL,
-            authorName: data.authorName,
+        const {
+            name,
+            slug,
+            lang,
+            content,
+            prev,
+            next,
+            current,
+            actualName,
+            isTransliteration,
+            sourceURL,
+            authorName
+        } = data;
+        let newSlug = slug;
+        if (!slug) {
+            newSlug = Utils.getSlugRemovingSpace(name);
+        }
+        return await Books.create({
+            name,
+            slug: newSlug,
+            lang,
+            content,
+            prev,
+            next,
+            current: current || 0,
+            actualName: actualName || name,
+            isTransliteration,
+            sourceURL,
+            authorName
         })
     },
-    search: async ({query = "", skip=0, limit=10}) => {
+    search: async ({query = "", skip = 0, limit = 10}) => {
         const match: any = {}
-        if(query){
+        if (query) {
             match['$or'] = [
                 // {
                 //     name: {$regex: `^${query}`, $options: 'i'}
@@ -28,14 +50,17 @@ const BooksDb = {
                 {
                     content: {$regex: `^${query}`, $options: 'i'}
                 },
-                {$text: {
+                {
+                    $text: {
                         $search: query,
-                    }}
+                    }
+                }
             ];
         }
-        return Books.find(match).skip(skip).limit(limit).sort({updatedAt:-1})
+        console.log(JSON.stringify(match))
+        return Books.find(match).skip(skip).limit(limit).sort({updatedAt: -1})
     },
-    getByName: async ({query = ''}) => {
+    searchByName: async ({query = ''}) => {
         return Books.find({
             $or: [
                 {
@@ -45,6 +70,19 @@ const BooksDb = {
                 },
             ]
         }).lean();
+    },
+    getOneBy: async ({name, actualName, current}: any = {}) => {
+        const match: any = {};
+        if (name) {
+            match.name = name
+        }
+        if (actualName) {
+            match.actualName = actualName
+        }
+        if (current >= 0) {
+            match.current = current
+        }
+        return Books.findOne(match).lean();
     },
 };
 

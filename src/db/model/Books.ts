@@ -8,7 +8,11 @@ const BooksSchema = new mongoose.Schema({
         sourceURL: String,
         authorName: String,
         slug: String,
-
+        prev: Number,
+        next: Number,
+        current: Number,
+        actualName: String,
+        bookId: String,
     },
     {
         timestamps: true, collection: 'books'

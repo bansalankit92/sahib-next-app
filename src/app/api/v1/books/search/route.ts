@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
     const limit = body.limit || 0;
     console.log(query, name)
     if (name) {
-        const results = await BooksDb.getByName({query: name})
+        const results = await BooksDb.searchByName({query: name})
         return NextResponse.json({success: true, data: results}, {status: 200})
     } else {
         const results = await BooksDb.search({query, skip, limit})
