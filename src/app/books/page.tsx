@@ -71,7 +71,12 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                 <Input name={"query"} label={"Search Query"}
                        onChange={(e) => {
                            setQuery(e.target.value)
-                       }}/>
+                       }}
+                       onKeyDown={(event) => {
+                           if (event.key === 'Enter') {
+                               onSearch(query)
+                           }}}
+                />
                 <Button text={"Submit"} loading={loading} onClick={() => onSearch(query)}/>
 
 
@@ -90,7 +95,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                                 <AccordionItemPanel>
                                     <Highlighter
                                         highlightClassName=""
-                                        searchWords={(query||'').split(' ')}
+                                        searchWords={ query?.includes('"')?[query.replaceAll('"','')] :(query||'').split(' ')}
                                         autoEscape={true}
                                         textToHighlight={x.content}
                                     />
