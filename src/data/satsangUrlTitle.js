@@ -11328,491 +11328,491 @@ export const SATSANG_URL = [
     "title": "1289 - 27 02 2024 - गुरु सामना शिष्य में, शिष्य लिया कर नेह"
   },
   {
-    "link": "https://www.youtube.com/watch?v=C46CwuQ1g8M",
+    "url": "https://www.youtube.com/watch?v=C46CwuQ1g8M",
     "title": "1290 - 28 02 2024 - प्रथम योग ज्ञान है भाई, ताहि ते सुख परम पद पाई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=gjOk2hHZQyw",
+    "url": "https://www.youtube.com/watch?v=gjOk2hHZQyw",
     "title": "1291 - 29 02 2024 - अति प्रबल माया परिवारा, खल कामधिक मोह अपरा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=6lp2nsToMBU",
+    "url": "https://www.youtube.com/watch?v=6lp2nsToMBU",
     "title": "1292 - 01 03 2024 - निंदक मेरा गुरु"
   },
   {
-    "link": "https://www.youtube.com/watch?v=nQiYnn6-4hM",
+    "url": "https://www.youtube.com/watch?v=nQiYnn6-4hM",
     "title": "1293 - 02 03 2024 - जिन्दा नाम है सुन मोरा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ldyo1A_8AsI",
+    "url": "https://www.youtube.com/watch?v=ldyo1A_8AsI",
     "title": "1294 - 04 03 2024 - क्रिया क्या है? इस पर नियंत्रण कैसे करें?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Tqe16_yOXIM",
+    "url": "https://www.youtube.com/watch?v=Tqe16_yOXIM",
     "title": "1295 - 05 03 2024 - लोक रीति में जगत भुलाना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=7VPUZ-OuxLE",
+    "url": "https://www.youtube.com/watch?v=7VPUZ-OuxLE",
     "title": "1296 - 06 03 2024 - माया मोह कठिन है फंदा, होये विवेकी सो जग बंदा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=GHXAktRA-Vw",
+    "url": "https://www.youtube.com/watch?v=GHXAktRA-Vw",
     "title": "Aaj Purani  Rahon Se Koi Mujhe Awaaz Na De -  Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=xHrx8I6rsAs",
+    "url": "https://www.youtube.com/watch?v=xHrx8I6rsAs",
     "title": "1297 - 07 03 2024 - ब्रह्म जपत हैं विष्णु जपत हैं और जपत हैं शिव"
   },
   {
-    "link": "https://www.youtube.com/watch?v=hfJW0H4Br2Y",
+    "url": "https://www.youtube.com/watch?v=hfJW0H4Br2Y",
     "title": "1298 - 08 03 2024 - या तन में और रहे न कोई, मन और जीव रहे मिल दोई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=hVf09Pc9PVk",
+    "url": "https://www.youtube.com/watch?v=hVf09Pc9PVk",
     "title": "1299 - 09 03 2024 - गुरु सामना शिष्य में, शिष्य लिया कर नेह"
   },
   {
-    "link": "https://www.youtube.com/watch?v=-VNyioIr0IU",
+    "url": "https://www.youtube.com/watch?v=-VNyioIr0IU",
     "title": "SADGURU CHALISA -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=kuDFjB9RYyc",
+    "url": "https://www.youtube.com/watch?v=kuDFjB9RYyc",
     "title": "1300 - 11 03 2024 - सच्चे गुरु की पहचान कैसे करें?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=dxKJxL_p9ok",
+    "url": "https://www.youtube.com/watch?v=dxKJxL_p9ok",
     "title": "1301 - 12 03 2024 - क्या देवलोक, ब्रह्मलोक, स्वर्ग इत्यादि में अनंत आनंद है?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=VOrpcAEX990",
+    "url": "https://www.youtube.com/watch?v=VOrpcAEX990",
     "title": "1302 - 13 03 2024 - ब्राह्मण, क्षत्रिय, वैश्य, शूद्र इत्यादि किनको कहेंगे?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=5tTmh8054O8",
+    "url": "https://www.youtube.com/watch?v=5tTmh8054O8",
     "title": "1303 - 14 03 2024 - बिन बादल जहाँ बिजली चमके, बिन सूरज उजियारा है"
   },
   {
-    "link": "https://www.youtube.com/watch?v=0TMnjhnfp1I",
+    "url": "https://www.youtube.com/watch?v=0TMnjhnfp1I",
     "title": "1304 - 15 03 2024 - गोरख अटके कालपुर, कौन कहावे सार"
   },
   {
-    "link": "https://www.youtube.com/watch?v=vl_vG32khJ4",
+    "url": "https://www.youtube.com/watch?v=vl_vG32khJ4",
     "title": "1305 - 16 03 2024 - सुरत संभाले काज है तू मत भरम भुलाए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=qbmfVPApvQI",
+    "url": "https://www.youtube.com/watch?v=qbmfVPApvQI",
     "title": "1306 - 17 03 2023 - नानक दुखिया सब संसार, सुखी सोइ जे नाम आधार"
   },
   {
-    "link": "https://www.youtube.com/watch?v=rDl-n7Sgbac",
+    "url": "https://www.youtube.com/watch?v=rDl-n7Sgbac",
     "title": "1307 - 18 03 2024 - कोटि नाम संसार में तिनते मुक्ति न होये"
   },
   {
-    "link": "https://www.youtube.com/watch?v=2NL85xjGhp4",
+    "url": "https://www.youtube.com/watch?v=2NL85xjGhp4",
     "title": "1308 - 19 03 2024 - कुल की लज़्ज़ा भरम नसावे"
   },
   {
-    "link": "https://www.youtube.com/watch?v=wZrujf7yqiY",
+    "url": "https://www.youtube.com/watch?v=wZrujf7yqiY",
     "title": "1309 - 20 03 2024 - गण गन्धर्व की कौन चलावे, सनक सनन्दन पार न पाए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=7Cje-QXSsmU",
+    "url": "https://www.youtube.com/watch?v=7Cje-QXSsmU",
     "title": "३ करोड़ वर्ष बाद मनुष्य तन मिलता है"
   },
   {
-    "link": "https://www.youtube.com/watch?v=LuP7wOrXn7k",
+    "url": "https://www.youtube.com/watch?v=LuP7wOrXn7k",
     "title": "1310 - 21 03 2024 - लाली मेरे लाल की, जित देखूँ तित लाल"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ssqn9C_HCI4",
+    "url": "https://www.youtube.com/watch?v=ssqn9C_HCI4",
     "title": "1311 - 22 03 2024 - माया महा ठगनी हम जानी"
   },
   {
-    "link": "https://www.youtube.com/watch?v=9XafnDYWdz4",
+    "url": "https://www.youtube.com/watch?v=9XafnDYWdz4",
     "title": "\"DIAMOND JUBILEE CELEBRATION OF SADGURU SAHIBJI'"
   },
   {
-    "link": "https://www.youtube.com/watch?v=t3sysd0JoTA",
+    "url": "https://www.youtube.com/watch?v=t3sysd0JoTA",
     "title": "“YEH ZINDAGI SAHIB KI HAI\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=eNE3GL87WW0",
+    "url": "https://www.youtube.com/watch?v=eNE3GL87WW0",
     "title": "1312 - 25 03 2024 - मन मुरीद संसार है, गुरु मुरीद कोई एक"
   },
   {
-    "link": "https://www.youtube.com/watch?v=fyirUIOxOxU",
+    "url": "https://www.youtube.com/watch?v=fyirUIOxOxU",
     "title": "1313 - 26 03 2024 - चिंता तो सतनाम की, और न चितवे दास"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Vr4tqNnFIXg",
+    "url": "https://www.youtube.com/watch?v=Vr4tqNnFIXg",
     "title": "1314 - 27 03 2024 - गुरु सामना शिष्य में, शिष्य लिया कर नेह"
   },
   {
-    "link": "https://www.youtube.com/watch?v=flJNSicQV-I",
+    "url": "https://www.youtube.com/watch?v=flJNSicQV-I",
     "title": "1315 - 28 03 2024 - भाई रे दो जगदीश कहाँ से आए?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=KjeBZsJC5R8",
+    "url": "https://www.youtube.com/watch?v=KjeBZsJC5R8",
     "title": "1316 - 29 03 2024 - ताहे पुरुष सुमिरे जो कोई, तन छोड़े सतलोक सिधाई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ipbyZoOuygg",
+    "url": "https://www.youtube.com/watch?v=ipbyZoOuygg",
     "title": "1317 - 30 03 2024 - पंच तत्त्व को अधम शरीरा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=L5QOCcUWlMM",
+    "url": "https://www.youtube.com/watch?v=L5QOCcUWlMM",
     "title": "\"PINJRE KE PANCHHI RE\" - Sung by SADGURU SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=_atGeuCRrAY",
+    "url": "https://www.youtube.com/watch?v=_atGeuCRrAY",
     "title": "1318 - 31 03 2024 - बंद दशा में जीव है, मोक्ष दशा में शीव"
   },
   {
-    "link": "https://www.youtube.com/watch?v=fBNTHIYKrt0",
+    "url": "https://www.youtube.com/watch?v=fBNTHIYKrt0",
     "title": "1319 - 01 04 2024 - चंद्र न सूर्य पवन नहीं पानी, बाल वृद्ध पुरुष न नारी"
   },
   {
-    "link": "https://www.youtube.com/watch?v=_TIBgkTonjs",
+    "url": "https://www.youtube.com/watch?v=_TIBgkTonjs",
     "title": "1320 - 02 04 2024 - गुरु बिन भव निधि तरए न कोई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=lnoRaSUZ3As",
+    "url": "https://www.youtube.com/watch?v=lnoRaSUZ3As",
     "title": "1321 - 03 04 2024 - जाको होये गुरु को विस्वासा, निष्चय जाये पुरुष के पासा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=AC2-XgXb1JI",
+    "url": "https://www.youtube.com/watch?v=AC2-XgXb1JI",
     "title": "1322 - 04 04 2024 - कहें कबीर बस सुरति से सब कुछ भयो प्रकाश"
   },
   {
-    "link": "https://www.youtube.com/watch?v=3ij77h4Qo2s",
+    "url": "https://www.youtube.com/watch?v=3ij77h4Qo2s",
     "title": "\"Sahibji Ardaas Hai Meri\" -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=XDSCgRZL-Is",
+    "url": "https://www.youtube.com/watch?v=XDSCgRZL-Is",
     "title": "1323 - 05 04 2024 - स्वाँस स्वाँस प्रभु सुमर ले, वृथा स्वाँस न खोये"
   },
   {
-    "link": "https://www.youtube.com/watch?v=EY1XSyLoErg",
+    "url": "https://www.youtube.com/watch?v=EY1XSyLoErg",
     "title": "1324 - 06 04 2024 - कोई सरगुण में रीझ रहा, कोई निर्गुण ठहराए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=eTn1PICG7YU",
+    "url": "https://www.youtube.com/watch?v=eTn1PICG7YU",
     "title": "1325 - 07 04 2024 - स्वाँस सुरति एक डोरी लाये, अजर अमर होय लोक सिधावे"
   },
   {
-    "link": "https://www.youtube.com/watch?v=l0-3LaJo4Ow",
+    "url": "https://www.youtube.com/watch?v=l0-3LaJo4Ow",
     "title": "1326 - 08 04 2024 - पोथी पढ़ पढ़ जग मुआ, पंडित भया न कोई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=fVnshtIv0oQ",
+    "url": "https://www.youtube.com/watch?v=fVnshtIv0oQ",
     "title": "1327 - 09 04 2024 - निराकार में सब जन अटके, यही सभिन की भूल"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Z-84D3qbi_s",
+    "url": "https://www.youtube.com/watch?v=Z-84D3qbi_s",
     "title": "1328 - 10 04 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ZhVtMI9PqEw",
+    "url": "https://www.youtube.com/watch?v=ZhVtMI9PqEw",
     "title": "SADGURU CHALISA -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=dbsqH606FOA",
+    "url": "https://www.youtube.com/watch?v=dbsqH606FOA",
     "title": "1329 - 11 04 2024 - कर्म के कारण ही कोई ब्राह्मण या शूद्र होता है"
   },
   {
-    "link": "https://www.youtube.com/watch?v=7GsPwhZuF5I",
+    "url": "https://www.youtube.com/watch?v=7GsPwhZuF5I",
     "title": "12 04 2024 - संतो तन खोजे मन पाया"
   },
   {
-    "link": "https://www.youtube.com/watch?v=F90nUAtuAO0",
+    "url": "https://www.youtube.com/watch?v=F90nUAtuAO0",
     "title": "13 04 2024 - पहले बनी प्रारब्ध पाछे बना शरीर"
   },
   {
-    "link": "https://www.youtube.com/watch?v=t8sQ8VY2mt4",
+    "url": "https://www.youtube.com/watch?v=t8sQ8VY2mt4",
     "title": "\"SAFAL HUA HAI UNHI KA JEEVAN\" - Sung by Sadguru Sahibji"
   },
   {
-    "link": "https://www.youtube.com/watch?v=qNZQ26ExkGM",
+    "url": "https://www.youtube.com/watch?v=qNZQ26ExkGM",
     "title": "\"HANSA SATNAM BHAJO\" -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=oClkAkTG1RY",
+    "url": "https://www.youtube.com/watch?v=oClkAkTG1RY",
     "title": "25 04 2024 - तन धर सुखिया कोई न देखा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=YjSiokJIFQ0",
+    "url": "https://www.youtube.com/watch?v=YjSiokJIFQ0",
     "title": "26 04 2024 - चिंता तो सतनाम की, और न चितवे दास"
   },
   {
-    "link": "https://www.youtube.com/watch?v=BBarOia1_Uw",
+    "url": "https://www.youtube.com/watch?v=BBarOia1_Uw",
     "title": "27 04 2024 - युगों का मनुष्य पर प्रभाव"
   },
   {
-    "link": "https://www.youtube.com/watch?v=pmFdCuz8QUs",
+    "url": "https://www.youtube.com/watch?v=pmFdCuz8QUs",
     "title": "28 04 2024 - चाल चले कुल दशा मिटाए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Mq0totpqpLM",
+    "url": "https://www.youtube.com/watch?v=Mq0totpqpLM",
     "title": "29 04 2023 - कर्म फांस में जगत फंदना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=NaDFylhsb2Q",
+    "url": "https://www.youtube.com/watch?v=NaDFylhsb2Q",
     "title": "30 04 2024 - क्या शरीर की छः अवस्थाओं में कहीं भी सुख है?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=0DT7hbrY0j0",
+    "url": "https://www.youtube.com/watch?v=0DT7hbrY0j0",
     "title": "01 05 2024 - पाप पुण्य ये दोनों बड़ी, इक लोहा इक कंचन केरी"
   },
   {
-    "link": "https://www.youtube.com/watch?v=vVftrookmEs",
+    "url": "https://www.youtube.com/watch?v=vVftrookmEs",
     "title": "03 05 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=tQ1mmSHcU_s",
+    "url": "https://www.youtube.com/watch?v=tQ1mmSHcU_s",
     "title": "04 05 2024 - कोई सरगुण में रीझ रहा, कोई निर्गुण ठहराए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=bGK4yVjQJZY",
+    "url": "https://www.youtube.com/watch?v=bGK4yVjQJZY",
     "title": "05 05 2024 - काया माया एक ही जानो"
   },
   {
-    "link": "https://www.youtube.com/watch?v=6c9Nn5g8Zn4",
+    "url": "https://www.youtube.com/watch?v=6c9Nn5g8Zn4",
     "title": "08 05 2024 - काया की गत काहू न जाना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=NCSsyWOUhhk",
+    "url": "https://www.youtube.com/watch?v=NCSsyWOUhhk",
     "title": "“NAAM KARLE GHADI DO GHADI\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=Cf6M5t5qXI4",
+    "url": "https://www.youtube.com/watch?v=Cf6M5t5qXI4",
     "title": "09 05 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=QApDnInxSLo",
+    "url": "https://www.youtube.com/watch?v=QApDnInxSLo",
     "title": "10 05 2024 - जात पात होकर नहीं आये, ये झगड़ा जग में फैलाए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=1kaZ1vqwRwQ",
+    "url": "https://www.youtube.com/watch?v=1kaZ1vqwRwQ",
     "title": "11 05 2024 - कर्म प्रधान विश्व रचि रखा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=pQ9lIP-XKFk",
+    "url": "https://www.youtube.com/watch?v=pQ9lIP-XKFk",
     "title": "13 05 2024 - साकट से गुरु वैष्णव कीना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ImtV9wsvvYU",
+    "url": "https://www.youtube.com/watch?v=ImtV9wsvvYU",
     "title": "20 05 2024 - क्या सरगुन क्या निर्गुण"
   },
   {
-    "link": "https://www.youtube.com/watch?v=BFLQ9H_pKQc",
+    "url": "https://www.youtube.com/watch?v=BFLQ9H_pKQc",
     "title": "21 05 2024 - जप तप व्रत यम नियम अपारा, श्रुति पुराण सब ग्रंथन गाया"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Zkvh2n61a2E",
+    "url": "https://www.youtube.com/watch?v=Zkvh2n61a2E",
     "title": "22 05 2024 - क्या शरीर की चारों अवस्थाएँ भ्रमांक हैं?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=vHfvPNp61wE",
+    "url": "https://www.youtube.com/watch?v=vHfvPNp61wE",
     "title": "25 05 2024 - भवसागर में अगम अपारा, तामे बूड़ गयो संसारा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Gm9PmkS5tEA",
+    "url": "https://www.youtube.com/watch?v=Gm9PmkS5tEA",
     "title": "27 05 2024 - भाई रे दो जगदीश कहाँ से आये?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=j4pS9Av7xJk",
+    "url": "https://www.youtube.com/watch?v=j4pS9Av7xJk",
     "title": "28 05 2024 - जँह जाना तँह निकट है, रहा सकल घट पूर। बाड़ी गरब गुमान ते, ताते पड़ गया धूर।।"
   },
   {
-    "link": "https://www.youtube.com/watch?v=qUp7v5Jewjw",
+    "url": "https://www.youtube.com/watch?v=qUp7v5Jewjw",
     "title": "30 05 2024 - काल काल सब कोई कहे, काल ने जाने कोय"
   },
   {
-    "link": "https://www.youtube.com/watch?v=2r9rvL2SXrU",
+    "url": "https://www.youtube.com/watch?v=2r9rvL2SXrU",
     "title": "31 05 2024 - आदि नाम है जीव रखवारा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=_Wwxgh-1EAE",
+    "url": "https://www.youtube.com/watch?v=_Wwxgh-1EAE",
     "title": "01 06 2024 - जँह खोजत ब्रह्मा थके, सुर मुनि और शेष"
   },
   {
-    "link": "https://www.youtube.com/watch?v=6_BZFC7-JXE",
+    "url": "https://www.youtube.com/watch?v=6_BZFC7-JXE",
     "title": "02 06 2024 - जीव होय सम्मुख मोहे जबहिं, कोटि जन्म अग नाशे तबहीं"
   },
   {
-    "link": "https://www.youtube.com/watch?v=i95DRpeyWlE",
+    "url": "https://www.youtube.com/watch?v=i95DRpeyWlE",
     "title": "03 06 2024 - गुरु दयाल तो पुरुष दयाला"
   },
   {
-    "link": "https://www.youtube.com/watch?v=OszhMDx67hM",
+    "url": "https://www.youtube.com/watch?v=OszhMDx67hM",
     "title": "04 06 2024 - माया महा ठगनी हम जानी"
   },
   {
-    "link": "https://www.youtube.com/watch?v=aX9hUPJruTI",
+    "url": "https://www.youtube.com/watch?v=aX9hUPJruTI",
     "title": "05 06 2024 - अंधी सुरति नाम बिन जानो"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Ep2Z5DWcEfw",
+    "url": "https://www.youtube.com/watch?v=Ep2Z5DWcEfw",
     "title": "06 06 2024 - यह संसार काल है राजा यहाँ कर्म का जाल पसारा है"
   },
   {
-    "link": "https://www.youtube.com/watch?v=GHgx3DCb83s",
+    "url": "https://www.youtube.com/watch?v=GHgx3DCb83s",
     "title": "07 06 2024 - भक्ति करे कोई शूरमा जाति वरण को खोय"
   },
   {
-    "link": "https://www.youtube.com/watch?v=sckxQTZrQj8",
+    "url": "https://www.youtube.com/watch?v=sckxQTZrQj8",
     "title": "09 06 2024 - निंदक जिए युगन युग काम हमारा होये"
   },
   {
-    "link": "https://www.youtube.com/watch?v=aZII-rAQLDU",
+    "url": "https://www.youtube.com/watch?v=aZII-rAQLDU",
     "title": "10 06 2024 - ऐसी मरनी जो मरे, तो बहुरि न मरना होये"
   },
   {
-    "link": "https://www.youtube.com/watch?v=OnOgah56f5I",
+    "url": "https://www.youtube.com/watch?v=OnOgah56f5I",
     "title": "12 06 2024 - इस घट भीतर रिद्धि सिद्धि के भरे अखंड भंडारा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=GDa-SqkqmIM",
+    "url": "https://www.youtube.com/watch?v=GDa-SqkqmIM",
     "title": "13 06 2024 - कर्म फांस में जगत फंदना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=RK6knpZsGYo",
+    "url": "https://www.youtube.com/watch?v=RK6knpZsGYo",
     "title": "14 06 2024 - बिन यकतार थाह नहीं पाए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=V-xrsUx2xOo",
+    "url": "https://www.youtube.com/watch?v=V-xrsUx2xOo",
     "title": "16 06 2024 - कहे सुने सब भक्ति करई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=CbPeBb3XQGo",
+    "url": "https://www.youtube.com/watch?v=CbPeBb3XQGo",
     "title": "18 06 2024 - मन करता यह देह समाना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=21tFcRRHlpw",
+    "url": "https://www.youtube.com/watch?v=21tFcRRHlpw",
     "title": "19 06 2024 - पाँच तत्त्व की गुदड़ी बीनी, तीन गुण से ठाड़ी कीनी"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ytT0grl7cUQ",
+    "url": "https://www.youtube.com/watch?v=ytT0grl7cUQ",
     "title": "21 06 2024 - एक ही राह से सब कोई आया"
   },
   {
-    "link": "https://www.youtube.com/watch?v=rSHaiz2OMNI",
+    "url": "https://www.youtube.com/watch?v=rSHaiz2OMNI",
     "title": "\"Aarti Karoon Hoon\" - Sung by Sadguru Sahibji"
   },
   {
-    "link": "https://www.youtube.com/watch?v=eKA-dQrbL_Q",
+    "url": "https://www.youtube.com/watch?v=eKA-dQrbL_Q",
     "title": "22 06 2024 - सतयुग सात हँस मुक्ताये"
   },
   {
-    "link": "https://www.youtube.com/watch?v=QTVl7ZKBTy0",
+    "url": "https://www.youtube.com/watch?v=QTVl7ZKBTy0",
     "title": "25 06 2024 - कोई सरगुण में रीझ रहा, कोई निर्गुण ठहराए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=xNSRMgCD5Ts",
+    "url": "https://www.youtube.com/watch?v=xNSRMgCD5Ts",
     "title": "26 06 2024 - रूप कुरूप जाए नहीं बोली"
   },
   {
-    "link": "https://www.youtube.com/watch?v=EN1LBFtEy44",
+    "url": "https://www.youtube.com/watch?v=EN1LBFtEy44",
     "title": "27 06 2024 - पाप पुण्य ये दोनों बड़ी, इक लोहा इक कंचन केरी"
   },
   {
-    "link": "https://www.youtube.com/watch?v=nKsbcbHMO1o",
+    "url": "https://www.youtube.com/watch?v=nKsbcbHMO1o",
     "title": "28 06 2024 - अस असुर घट में बसे कैसे रहत कुशल"
   },
   {
-    "link": "https://www.youtube.com/watch?v=pV7m_gh6hbg",
+    "url": "https://www.youtube.com/watch?v=pV7m_gh6hbg",
     "title": "29 06 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=xDCTCCoW_js",
+    "url": "https://www.youtube.com/watch?v=xDCTCCoW_js",
     "title": "01 07 2024 - सार शब्द सद्गुरु से पावे तब हँसा सतलोक सिधावे"
   },
   {
-    "link": "https://www.youtube.com/watch?v=AvietvqJJgw",
+    "url": "https://www.youtube.com/watch?v=AvietvqJJgw",
     "title": "02 07 2024 - जो सुख को चाहे सदा तो शरण नाम की ले"
   },
   {
-    "link": "https://www.youtube.com/watch?v=H6b-CJpvbl8",
+    "url": "https://www.youtube.com/watch?v=H6b-CJpvbl8",
     "title": "03 07 2024 - अमर नाम को जानहि, काल दगा मिट जाय"
   },
   {
-    "link": "https://www.youtube.com/watch?v=F6NwvfZEXW8",
+    "url": "https://www.youtube.com/watch?v=F6NwvfZEXW8",
     "title": "guru ka dhyan hamesha karne ko kyu kaha gaya hai?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=-BVIr0VUvy0",
+    "url": "https://www.youtube.com/watch?v=-BVIr0VUvy0",
     "title": "04 07 2024 - काया की गत काहू न जाना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=2cN78YgloXw",
+    "url": "https://www.youtube.com/watch?v=2cN78YgloXw",
     "title": "05 07 2024 - जप तप संयम साधना सब सुमिरन के माहीं"
   },
   {
-    "link": "https://www.youtube.com/watch?v=zd1L6mpGFvg",
+    "url": "https://www.youtube.com/watch?v=zd1L6mpGFvg",
     "title": "06 07 2024 - जात पात होकर नहीं आये, ये झगड़ा जग में फैलाए"
   },
   {
-    "link": "https://www.youtube.com/watch?v=uO5XyG1V3aU",
+    "url": "https://www.youtube.com/watch?v=uO5XyG1V3aU",
     "title": "08 07 2024 - कँह लग करूँ मैं नाम बड़ाई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=7AHlqw3sP88",
+    "url": "https://www.youtube.com/watch?v=7AHlqw3sP88",
     "title": "कबीर साहिब कब से वैरागी हुए ?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=BdaWMv9arJU",
+    "url": "https://www.youtube.com/watch?v=BdaWMv9arJU",
     "title": "09 07 2024 - जबै सद्गुरु भेटिया वा दिन जन्म सनाथ"
   },
   {
-    "link": "https://www.youtube.com/watch?v=AeUIwHTH-Uw",
+    "url": "https://www.youtube.com/watch?v=AeUIwHTH-Uw",
     "title": "10 07 2024 - ध्यान हे वेद शास्त्र कहत हैं, ध्यान ही संत बखाना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=41nPWZepsbg",
+    "url": "https://www.youtube.com/watch?v=41nPWZepsbg",
     "title": "11 07 2024 - इंद्री साधे साध कहावे"
   },
   {
-    "link": "https://www.youtube.com/watch?v=SfIn51lW8OI",
+    "url": "https://www.youtube.com/watch?v=SfIn51lW8OI",
     "title": "12 07 2024 - ऊंच वही जो नामहि जाना, बिना नाम सब नीच बखाना"
   },
   {
-    "link": "https://www.youtube.com/watch?v=mEq9CetGdbA",
+    "url": "https://www.youtube.com/watch?v=mEq9CetGdbA",
     "title": "13 07 2024 - जप तप संयम साधना, सब सुमिरन के माहीं"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Alc0CH4aojk",
+    "url": "https://www.youtube.com/watch?v=Alc0CH4aojk",
     "title": "14 07 2024 - भवसागर में अगम अपारा, तामे बूड़ गयो संसारा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=RcXDKQhE8qE",
+    "url": "https://www.youtube.com/watch?v=RcXDKQhE8qE",
     "title": "15 07 2024 - भाई रे दो जगदीश कहाँ से आये?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=k0iIZaUMNUA",
+    "url": "https://www.youtube.com/watch?v=k0iIZaUMNUA",
     "title": "16 07 2024 - गुप्त मता कोई और है, विरला लाख पाई"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Iow3T2ezM8w",
+    "url": "https://www.youtube.com/watch?v=Iow3T2ezM8w",
     "title": "17 07 2024 - जँह खोजत ब्रह्मा थके सुर नर मुनि और शेष"
   },
   {
-    "link": "https://www.youtube.com/watch?v=CbF96KGRjfU",
+    "url": "https://www.youtube.com/watch?v=CbF96KGRjfU",
     "title": "18 07 2024 - क्षिति जल पावक गगन समीरा, पंच तत्त्व को अधम शरीरा"
   },
   {
-    "link": "https://www.youtube.com/watch?v=7xEIiSJ4h1M",
+    "url": "https://www.youtube.com/watch?v=7xEIiSJ4h1M",
     "title": "24 07 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?"
   },
   {
-    "link": "https://www.youtube.com/watch?v=oDxa2lHjpOU",
+    "url": "https://www.youtube.com/watch?v=oDxa2lHjpOU",
     "title": "LIVE SATSANG 25 07 2024"
   },
   {
-    "link": "https://www.youtube.com/watch?v=jkPZsDm612s",
+    "url": "https://www.youtube.com/watch?v=jkPZsDm612s",
     "title": "LIVE SATSANG 26 07 2024"
   },
   {
-    "link": "https://www.youtube.com/watch?v=11qHVecwUBQ",
+    "url": "https://www.youtube.com/watch?v=11qHVecwUBQ",
     "title": "LIVE SATSANG 27 07 2024"
   }
 ]

@@ -316,155 +316,155 @@ export const SAHIB_BHAJANS_URL = [
     "title": "जनम जनम का साथ है गुरुदेव तुम्हारा - Janam Janam Ka Sath Hai Gurudev Tumhara - Sahib Bandgi Bhajan.mp3"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Nm-NQUYl9WM&index=1&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=Nm-NQUYl9WM&index=1&pp=iAQB8AUB",
     "title": "“SAHIB MERA                                     Kailash Kher & P.Balram"
   },
   {
-    "link": "https://www.youtube.com/watch?v=rl7XmadCUYQ&index=2&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=rl7XmadCUYQ&index=2&pp=iAQB8AUB",
     "title": "“SADGURU SAHIB\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=HuqpXkxWtwo&index=3&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=HuqpXkxWtwo&index=3&pp=iAQB8AUB",
     "title": "“SADGURU PRATHANA\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=0KWHfC8IYvQ&index=4&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=0KWHfC8IYvQ&index=4&pp=iAQB8AUB",
     "title": "Satya Naam Hai Sahib Bandgi - Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=t3sysd0JoTA&index=5&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=t3sysd0JoTA&index=5&pp=iAQB8AUB",
     "title": "“YEH ZINDAGI SAHIB KI HAI\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=-VNyioIr0IU&index=6&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=-VNyioIr0IU&index=6&pp=iAQB8AUB",
     "title": "SADGURU CHALISA -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=ZhVtMI9PqEw&index=7&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=ZhVtMI9PqEw&index=7&pp=iAQB8AUB",
     "title": "SADGURU CHALISA -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=3ij77h4Qo2s&index=8&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=3ij77h4Qo2s&index=8&pp=iAQB8AUB",
     "title": "\"Sahibji Ardaas Hai Meri\" -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=qNZQ26ExkGM&index=9&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=qNZQ26ExkGM&index=9&pp=iAQB8AUB",
     "title": "\"HANSA SATNAM BHAJO\" -  Sung By SAHIBJI & CHORUS"
   },
   {
-    "link": "https://www.youtube.com/watch?v=NCSsyWOUhhk&index=10&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=NCSsyWOUhhk&index=10&pp=iAQB8AUB",
     "title": "“NAAM KARLE GHADI DO GHADI\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=eqC4J1gMRRI&index=1&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=eqC4J1gMRRI&index=1&pp=iAQB8AUB",
     "title": "“NAAM GURU KA” Sung by KAILASH KHER"
   },
   {
-    "link": "https://www.youtube.com/watch?v=WXmnPbB5xxM&index=2&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=WXmnPbB5xxM&index=2&pp=iAQB8AUB",
     "title": "\"SAHIB NAAM HAI TARANHAARA\" sung by P.BALRAM"
   },
   {
-    "link": "https://www.youtube.com/watch?v=8b31sLywbCw&index=3&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=8b31sLywbCw&index=3&pp=iAQB8AUB",
     "title": "\"Sahib Bandgi\" - Sung By P. Balram"
   },
   {
-    "link": "https://www.youtube.com/watch?v=3ifwgZJ3zls&index=4&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=3ifwgZJ3zls&index=4&pp=iAQB8AUB",
     "title": "“ MAAN MEIN JYOT JAGADE SAHIB”sung by KAILASH KHER"
   },
   {
-    "link": "https://www.youtube.com/watch?v=-n56KMUl4Oc&index=5&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=-n56KMUl4Oc&index=5&pp=iAQB8AUB",
     "title": "“WAH GURU\" (Punjabi Song) - Sung by HAPPY RAIKOTI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=BDS5kCSm_PE&index=6&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=BDS5kCSm_PE&index=6&pp=iAQB8AUB",
     "title": "“KYA LEKE AAYA JAGAT MEIN”COVID WARRIOR OF 2020 - SATGURU SHRI MADHU PARAMHANSJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=g0A6kkHX-dE&index=7&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=g0A6kkHX-dE&index=7&pp=iAQB8AUB",
     "title": "SAHIB MERA"
   },
   {
-    "link": "https://www.youtube.com/watch?v=V4R-NPeENo0&index=8&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=V4R-NPeENo0&index=8&pp=iAQB8AUB",
     "title": "Song -  \"Guru Khewa Hamri Naiya\"  Sung by SATGURU SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=zR1jhWDM4G0&index=9&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=zR1jhWDM4G0&index=9&pp=iAQB8AUB",
     "title": "\"MUJPE KARMA NAZAR TU SADA RAKHNA\" - Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=DrTkkbjl2T4&index=10&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=DrTkkbjl2T4&index=10&pp=iAQB8AUB",
     "title": "\"Ae Sahib Tere Bande Hum\" - Sung by SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=8BmTJ042VeQ&index=11&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=8BmTJ042VeQ&index=11&pp=iAQB8AUB",
     "title": "\"Naam Karle Ghadi Do Ghadi\" - Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=x2Nx2TqjNbg&index=12&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=x2Nx2TqjNbg&index=12&pp=iAQB8AUB",
     "title": "Punjabi Song - \"MAHERA WALEYA SAHIBA RAKHEEN CHARNA DE KOL\" Sung by SATGURU SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=LdElnDvCFYA&index=13&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=LdElnDvCFYA&index=13&pp=iAQB8AUB",
     "title": "\"Chu Lene Do Gurke Charno Ko\" - Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=PFBMkVQEKAI&index=14&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=PFBMkVQEKAI&index=14&pp=iAQB8AUB",
     "title": "\"JAISE SURAJ KI GARMI SE\" - Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=lS_hmwU-2wQ&index=15&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=lS_hmwU-2wQ&index=15&pp=iAQB8AUB",
     "title": "\"TUM GAGAN KE CHANDRAMA HO\" - SUNG BY SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=tJX9qOujLgw&index=16&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=tJX9qOujLgw&index=16&pp=iAQB8AUB",
     "title": "\"TERA NAAM WOH HAI KI\" - SUNG BY SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=U-RaFrKVuE0&index=17&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=U-RaFrKVuE0&index=17&pp=iAQB8AUB",
     "title": "\"MERE SAHIB KI KYA SHAAN HAI ' - Sung by P. Balram"
   },
   {
-    "link": "https://www.youtube.com/watch?v=LDUwWL9k55w&index=18&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=LDUwWL9k55w&index=18&pp=iAQB8AUB",
     "title": "\"SUKH KE SAB SAATHI\" Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=GiCGhgRG-0E&index=19&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=GiCGhgRG-0E&index=19&pp=iAQB8AUB",
     "title": "\"Aurat Ne Janam Diya Mardon Ko\" - Sung by SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=Iify21jd7K8&index=20&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=Iify21jd7K8&index=20&pp=iAQB8AUB",
     "title": "\"MAAN TARPAT HARI DARSHAN KO AAJ\" - Sung by SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=xi-KnIC-N_w&index=21&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=xi-KnIC-N_w&index=21&pp=iAQB8AUB",
     "title": "\"TERI NIGAH MEIN HAMEIN RAKHANA\" - Sung by SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=33wO48IsdbQ&index=22&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=33wO48IsdbQ&index=22&pp=iAQB8AUB",
     "title": "\"BAS HO GAYA BHAJAN\" - Sung by SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=22XUZ6AhLLI&index=23&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=22XUZ6AhLLI&index=23&pp=iAQB8AUB",
     "title": "\"MERE SATGURU AA JAO\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=yse8S6DQn6c&index=24&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=yse8S6DQn6c&index=24&pp=iAQB8AUB",
     "title": "\"SAHIB KI SHARAN MEIN JO AAYE\""
   },
   {
-    "link": "https://www.youtube.com/watch?v=GHXAktRA-Vw&index=25&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=GHXAktRA-Vw&index=25&pp=iAQB8AUB",
     "title": "Aaj Purani  Rahon Se Koi Mujhe Awaaz Na De -  Sung By SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=9XafnDYWdz4&index=26&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=9XafnDYWdz4&index=26&pp=iAQB8AUB",
     "title": "\"DIAMOND JUBILEE CELEBRATION OF SADGURU SAHIBJI'"
   },
   {
-    "link": "https://www.youtube.com/watch?v=L5QOCcUWlMM&index=27&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=L5QOCcUWlMM&index=27&pp=iAQB8AUB",
     "title": "\"PINJRE KE PANCHHI RE\" - Sung by SADGURU SAHIBJI"
   },
   {
-    "link": "https://www.youtube.com/watch?v=t8sQ8VY2mt4&index=28&pp=iAQB8AUB",
+    "url": "https://www.youtube.com/watch?v=t8sQ8VY2mt4&index=28&pp=iAQB8AUB",
     "title": "\"SAFAL HUA HAI UNHI KA JEEVAN\" - Sung by Sadguru Sahibji"
   }
 ];
