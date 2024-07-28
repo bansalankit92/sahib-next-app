@@ -5,9 +5,10 @@ import Button, {ButtonColors} from "@/components/Button";
 import {useLocalStorage} from "react-use";
 import SatsangBhajanPlayer from "@/components/SatsangPlayer";
 import {PlayerContent, VIDEO_TYPE} from "@/models/Player";
-import MediaService from "@/services/mediaService";
-import Select, {SingleValue, components, createFilter} from "react-select";
+import Select, {components, createFilter, SingleValue} from "react-select";
 import {ReadonlyURLSearchParams, useSearchParams} from 'next/navigation'
+import {SATSANG_URL} from "@/data/satsangUrlTitle";
+import {BHAJANS_URL, SAHIB_BHAJANS_URL} from "@/data/bhajansUrlTitle";
 
 interface LastMediaContent {
     [VIDEO_TYPE.SATSANG]?: PlayerContent;
@@ -53,22 +54,28 @@ function Home() {
 
 
     useEffect(() => {
-        MediaService.fetchSatsangs().then((data) => {
-            const res = data.filter(x => x.title !== ' - YouTube')
-            setSatsangList(res);
-            setAllContentList(prevState => [...prevState, ...res]);
-        });
-        MediaService.fetchBhajans().then((data) => {
-            const res = data.filter(x => x.title !== ' - YouTube')
-            setBhajanList(res);
-            setAllContentList(prevState => [...prevState, ...res]);
-        });
+        const satsangURLS = SATSANG_URL.filter((x: any) => x.title !== ' - YouTube').map((r: any) => ({
+            ...r,
+            type: VIDEO_TYPE.SATSANG
+        }))
+        setSatsangList(satsangURLS);
+        setAllContentList(prevState => [...prevState, ...satsangURLS]);
 
-        MediaService.fetchSahibBhajans().then((data) => {
-            const res = data.filter(x => x.title !== ' - YouTube')
-            setSahibBhajanList(res);
-            setAllContentList(prevState => [...prevState, ...res]);
-        });
+
+        const sahibBhajanURLS = SAHIB_BHAJANS_URL.filter((x: any) => x.title !== ' - YouTube').map((r: any) => ({
+            ...r,
+            type: VIDEO_TYPE.BHAJAN
+        }))
+        setSahibBhajanList(sahibBhajanURLS);
+        setAllContentList(prevState => [...prevState, ...sahibBhajanURLS]);
+
+        const allBhajanURLS = BHAJANS_URL.filter((x: any) => x.title !== ' - YouTube').map((r: any) => ({
+            ...r,
+            type: VIDEO_TYPE.SAHIB_BHAJAN
+        }))
+        setBhajanList(allBhajanURLS);
+        setAllContentList(prevState => [...prevState, ...allBhajanURLS]);
+
 
     }, []);
 
@@ -140,12 +147,12 @@ function Home() {
     return (
         <main className="flex max-h-screen flex-col items-center justify-between py-8">
             <div className="w-full flex flex-col items-center justify-center">
-                <h1 className="text-3xl sm:text-2xl font-bold">
-                    Welcome to the (Un-Official) Sahibji Satsang Bhajan playlist
-                </h1>
-                <p className="text-lg font-medium">
-                    This is a simple player to play the Sahibji satsang and bhajans.
-                </p>
+                {/*<h1 className="text-3xl sm:text-2xl font-bold">*/}
+                {/*    Welcome to the (Un-Official) Sahibji Satsang Bhajan playlist*/}
+                {/*</h1>*/}
+                {/*<p className="text-lg font-medium">*/}
+                {/*    This is a simple player to play the Sahibji satsang and bhajans.*/}
+                {/*</p>*/}
             </div>
             <div className="w-full  p-4 ">
                 <Select
@@ -233,9 +240,9 @@ function Home() {
 
             </div>
 
-            <div className="mt-24 bottom-0"> card-app
-                {/*<Link href="/card-app">Checkout card app</Link>*/}
-            </div>
+            {/*<div className="mt-24 bottom-0"> card-app*/}
+            {/*    <Link href="/card-app">Checkout card app</Link>*/}
+            {/*</div>*/}
         </main>
     );
 }
