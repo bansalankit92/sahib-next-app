@@ -11803,16 +11803,335 @@ export const SATSANG_URL = [
     "url": "https://www.youtube.com/watch?v=7xEIiSJ4h1M",
     "title": "24 07 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?"
   },
-  {
-    "url": "https://www.youtube.com/watch?v=oDxa2lHjpOU",
-    "title": "LIVE SATSANG 25 07 2024"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=jkPZsDm612s",
-    "title": "LIVE SATSANG 26 07 2024"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=11qHVecwUBQ",
-    "title": "LIVE SATSANG 27 07 2024"
-  }
+    {
+        "link": "https://www.youtube.com/watch?v=oDxa2lHjpOU",
+        "title": "1495 - 25 07 2024 - जो सुख को चाहे सदा तो शरण नाम की ले"
+    }, {
+        "link": "https://www.youtube.com/watch?v=jkPZsDm612s",
+        "title": "1496 - 26 07 2024 - स्वाँस स्वाँस प्रभु सुमिर ले, वृथा स्वाँस ने खोए"
+    }, {
+        "link": "https://www.youtube.com/watch?v=11qHVecwUBQ",
+        "title": "1497 - 27 07 2024 - कर्म फांस में जगत फन्दाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=EYJxGpnMvcE",
+        "title": "1498 - 29 07 2024 - काचे कुम्भ न ठहरे पानी"
+    }, {
+        "link": "https://www.youtube.com/watch?v=o913mvR-X-g",
+        "title": "1499 - 30 07 2024 - ऐसा भेद सुनो धरमदासु, जन्म जन्म की मेटत त्रासु"
+    }, {
+        "link": "https://www.youtube.com/watch?v=C7DuKKVbJRM",
+        "title": "1500 - 01 08 2024 - भाई रे दो जगदीश कहाँ से आये?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=EMRjuLWmOPI",
+        "title": "1501 - 02 08 2024 - भवसागर में अगम अपारा, तामे बूड़ गयो संसारा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=X68Vz0TS6IY",
+        "title": "1502 - 03 08 2024 - चार वेद मिल झगड़ा कीना, ब्रह्म रूप कहु नहीं चीन्हा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ytWG2wTrLdE",
+        "title": "1503 - 04 08 2024 - काया की गत काहू न जाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=c3EcwGB2810",
+        "title": "1504 - 08 08 2024 - काया मध्ये स्वाँसा सार"
+    }, {
+        "link": "https://www.youtube.com/watch?v=JZ17H-DF-10",
+        "title": "1505 - 09 08 2024 - चार पदारथ इक मग माँही"
+    }, {
+        "link": "https://www.youtube.com/watch?v=KCTgo0Eal3s",
+        "title": "1506 - 13 08 2024 - संतों झूठे जग पतियाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=7Gay2vQGWJo",
+        "title": "\"Ae Mere Watan Ke Logon\" - Sung by Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=dBtQHH2vF6M",
+        "title": "1507 - 14 08 2024 - कबीर काया अथाह है कोई बिरला जाने भेद"
+    }, {
+        "link": "https://www.youtube.com/watch?v=GG8fsIjrCBI",
+        "title": "1508 - 15 08 2024 - स्वतंत्रता दिवस पर साहिबजी का सन्देश"
+    }, {
+        "link": "https://www.youtube.com/watch?v=WjrfjAYlRBA",
+        "title": "1509 - 16 08 2024 - गुरु सजीवन नाम बताये"
+    }, {
+        "link": "https://www.youtube.com/watch?v=kTnHwC5cgLg",
+        "title": "1510 - 17 08 2024 - धीमर जाल डाल क्या करिहैं जब मीनः बन गया पानी"
+    }, {
+        "link": "https://www.youtube.com/watch?v=6HbjfzGcjIA",
+        "title": "1511 - 20 08 2024 - काया की गत काहू न जाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=WccdUvKByTg",
+        "title": "1512 - 22 08 2024 - जगत है रैन का सपना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=C8D30nB_WFo",
+        "title": "1513 - 23 08 2024 - कस्तूरी कुण्डल बसे मृग खोजे बन माहीं"
+    }, {
+        "link": "https://www.youtube.com/watch?v=OD5TN1wg6xI",
+        "title": "1515 - 24 08 2024 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=taZLkhw2OA4",
+        "title": "1516 - 25 08 2024 - मन करता यह देह समाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ix4Szvzy06g",
+        "title": "1517 - 27 08 2024 - अपनों कर्म न मेटो जाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=sp6G_jXmhp0",
+        "title": "1518 - 28 08 2024 - है प्रगट पर दीसत नाही सतगुरु सैन सहारा है"
+    }, {
+        "link": "https://www.youtube.com/watch?v=muRpa1k2dDU",
+        "title": "गुरु की क्या आवश्यकता है ?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=5HH-Iv--Ty4",
+        "title": "1519 - 29 08 2024 - कहें कबीर खट दर्शन, सभी काल के वेश"
+    }, {
+        "link": "https://www.youtube.com/watch?v=QxP_Vn4ZkPY",
+        "title": "1520 - 30 08 2024 - सो सद्गुरु मोहे भावे जो भोग में योग दिखावे"
+    }, {
+        "link": "https://www.youtube.com/watch?v=UFUcDqcqpd4",
+        "title": "31 08 2024 - अमर नाम को जानहि, काल दगा मिट जाय"
+    }, {
+        "link": "https://www.youtube.com/watch?v=7He2EFl5jRs",
+        "title": "01 09 2024 - क्या हुआ वेदों को पढ़ कर से न पाया भेद को"
+    }, {
+        "link": "https://www.youtube.com/watch?v=_XLKyZLz4_c",
+        "title": "02 09 2024 - नाम बिना दुखी तीनों देवा, गण गन्धर्व करें जिनकी सेवा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=-MifnDyDxDw",
+        "title": "03 09 2024 - ऐसा भेद सुनो धरमदासु, जन्म जन्म की मेटत त्रासु"
+    }, {
+        "link": "https://www.youtube.com/watch?v=fC0G3yccHjY",
+        "title": "04 09 2024 - मूल नाम जो गुप्त है वो जाने बिरला कोय"
+    }, {
+        "link": "https://www.youtube.com/watch?v=u4XDoH9XXQE",
+        "title": "05 09 2024 - भाई रे दो जगदीश कहाँ से आये?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=c1VEETBGowY",
+        "title": "06 09 2024 - जात पात का चिन्ह न कोई कैसे दूसर जाति होई?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=YCIPAdewvcs",
+        "title": "07 09 2024 - पाप कर्मों से सदा जिसका रहता मन मलीन, उसको सपने में भी परमातम नज़र आता नहीं"
+    }, {
+        "link": "https://www.youtube.com/watch?v=mloeleRYLAU",
+        "title": "\"PARAMPURSH CHAHIYE YA SATGURU\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=HRs5M6QhdJ4",
+        "title": "08 09 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=zHpFajpFj30",
+        "title": "10 09 2024 - एक नाम को जान कर दूजा देई बहाय"
+    }, {
+        "link": "https://www.youtube.com/watch?v=LsMnu0jw8NU",
+        "title": "11 09 2024 - जीव हृदय तम मोह विषेखी"
+    }, {
+        "link": "https://www.youtube.com/watch?v=4GUxCDa7dwQ",
+        "title": "\"Aatma Non Physical Base Mein Kaam Karti Hain\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=TX1p61DCZTY",
+        "title": "12 09 2024 - कबिरा इस संसार में दो बातें हैं सार - सुख दिए सुख होत है दुःख दिए दुःख होये"
+    }, {
+        "link": "https://www.youtube.com/watch?v=GYx7FoDnxvE",
+        "title": "13 09 2024 - इक दुइ होएं तहे समझाऊँ सब जग अँधा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=muPw7B24J_4",
+        "title": "14 09 2024 - आपा पौ आपही बंधलो"
+    }, {
+        "link": "https://www.youtube.com/watch?v=CR9QoKFqLnE",
+        "title": "४ वेदों में परमात्मा की परिभाषा एक नहीं हैं |"
+    }, {
+        "link": "https://www.youtube.com/watch?v=4vl31abd7zo",
+        "title": "\"Main,Khana Bandh Kar Diya\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ytJXgRB-S44",
+        "title": "15 09 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=sotFuuS26sM",
+        "title": "16 09 2024 - काम प्रबल अति भयंकर महा दारुण काल"
+    }, {
+        "link": "https://www.youtube.com/watch?v=z2xcvs2QpKE",
+        "title": "17 09 2024 - मन करता यह देह समाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ElsGLtiO6TA",
+        "title": "\"Mera Aap Ki Kripa Se\" - Sung By Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=EXL3jZVW4VE",
+        "title": "\"Pitra Tarpan\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=a55c3N8ivD4",
+        "title": "19 09 2024 - वस्तु कहीं ढूंढें कहीं कह विधि आवे हाथ"
+    }, {
+        "link": "https://www.youtube.com/watch?v=YubBqZq6Ctw",
+        "title": "20 09 2024 - जो कुछ है सो सुरति है"
+    }, {
+        "link": "https://www.youtube.com/watch?v=8Z0mhf9oGQo",
+        "title": "21 09 2024 - आठवण पठवन दृष्टि न लागे, जहर जूड हो जाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=iUtFxW0Y0Ac",
+        "title": "\"Ghar Mein Bahut Ashanti Hai\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=jSj7ahSw6xY",
+        "title": "22 09 2024 - पाप पुण्य ये दोनों बड़ी, इक लोहा इक कंचन केरी"
+    }, {
+        "link": "https://www.youtube.com/watch?v=3RR8ymX76QQ",
+        "title": "23 09 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Wj5cK0bdEuY",
+        "title": "24 09 2024 - मन मुरीद संसार है गुरु मुरीद कोई एक"
+    }, {
+        "link": "https://www.youtube.com/watch?v=sEGzUew5PqY",
+        "title": "25 09 2024 - बिना नाम विष्ठे का कीड़ा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=bw7cNhWkNpc",
+        "title": "\"Sau Kaputon Se,Ek Saput Achha\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=w7dur6N411I",
+        "title": "26 09 2024 - अपने मरने की खबर न जाने औरन को जियावे रही"
+    }, {
+        "link": "https://www.youtube.com/watch?v=uIclMJ5ukyM",
+        "title": "\"Sachai Pe Chal Kar, Kabhi Dukh Hi Nahin Milega\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Vr2iYvzCWDk",
+        "title": "01 10 2024 - प्रभुजी तुम बिन कौन छुडावे"
+    }, {
+        "link": "https://www.youtube.com/watch?v=PwpLeUzU0-o",
+        "title": "02 10 2024 - जो कुछ है वो सुरति है कहें कबीर विचार"
+    }, {
+        "link": "https://www.youtube.com/watch?v=iKFoYoXOJ8w",
+        "title": "\"Dekhiyein Kaise Kaise Log Hai,Kya Baat Hai\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ZLIvZMcOzCQ",
+        "title": "03 10 2024 - धरमन सुन यह मोर स्वभाऊ, विनय सुनत मम रहा न जाऊ"
+    }, {
+        "link": "https://www.youtube.com/watch?v=BzapcZHxI0k",
+        "title": "05 10 2024 - चिंता तो सतनाम की और न चितवे दास"
+    }, {
+        "link": "https://www.youtube.com/watch?v=7zWl4-rXJvs",
+        "title": "\"Aajkal Drugs  Ka Istemaal Bahut Ho Raha Hai\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=YF5Rc5XRHHs",
+        "title": "07 10 2024 - बिन रोये नहीं पाइया साहिब का दीदार"
+    }, {
+        "link": "https://www.youtube.com/watch?v=UlI0UBUQYa8",
+        "title": "09 10 2024 - संतों सतगुरु अलख लखाया"
+    }, {
+        "link": "https://www.youtube.com/watch?v=VDEOyiTk1zQ",
+        "title": "“Yeh Jism Khuda Ki Niyamat Hai”- Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=K7wDzyJQhS0",
+        "title": "“Aakhir  Insaan Mahapursh Ke Paas Satsang Sunhein Kyon Jaata Hai”- Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=5JHLVjLHpiM",
+        "title": "13 10 2024 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=fZEMfHSFdyg",
+        "title": "14 10 2024 - आपा पौ आपही बंधलो"
+    }, {
+        "link": "https://www.youtube.com/watch?v=JoR_Vtdlutk",
+        "title": "15 10 2024 - बिन यकतार चैन न पावे"
+    }, {
+        "link": "https://www.youtube.com/watch?v=5P147mil-Q4",
+        "title": "16 10 2024 - जात पात का चिन्ह न कोई कैसे दूसर जाति होई?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=dxEC7xxK0pg",
+        "title": "\"RANJARI WALE SAHIB MERE\""
+    }, {
+        "link": "https://www.youtube.com/watch?v=StEcwrz-_H8",
+        "title": "17 10 2024 - जो मेरे शरणागति आई राखूँ तँह मैं प्राण की नाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=1MHDDDhMeto",
+        "title": "18 10 2024 - परमदयाल दया के सागर महाकष्ट दुःख द्वन्द निवारी"
+    }, {
+        "link": "https://www.youtube.com/watch?v=RhFGqXKy3aw",
+        "title": "19 10 2024 - काया की गत काहू न जाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=yQcbw3DvDmU",
+        "title": "“Hinsak Prani Nahin Palna”- Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ruzuMHXHOow",
+        "title": "21 10 2024 - कोई योग कोई ध्यान बतावे, कोई कोई अलख लखावे"
+    }, {
+        "link": "https://www.youtube.com/watch?v=RjteBTQ_-tE",
+        "title": "22 10 2024 - यह कबीर भव भटका खाये, वह कबीर भव पार लगाए"
+    }, {
+        "link": "https://www.youtube.com/watch?v=GPMug__lXfU",
+        "title": "23 10 2024 - ये जग है स्वारथ का मीत"
+    }, {
+        "link": "https://www.youtube.com/watch?v=BfXxr7i68_Y",
+        "title": "“Hey Devi Aaj Se Tum Meri Mata Ho”- Goswami Tulsidas Ji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=8rvgM3KvMBg",
+        "title": "24 10 2024 - खावता, पीवता, जागता, सोवता कहें कबीर सो रहे माहीं"
+    }, {
+        "link": "https://www.youtube.com/watch?v=mWmX04sTEQ8",
+        "title": "25 10 2024 - नानक नन्ने हुई रहो जैसे नन्नी दूब"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Qagf6PouMvc",
+        "title": "26 10 2024 - सैयाद के काबू में हैं सब जीव बेचारे"
+    }, {
+        "link": "https://www.youtube.com/watch?v=uGttqNv85JA",
+        "title": "\"Tantrik Ki Char Logon Ki Team Hai” - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Th19YZpsKsM&t=564s",
+        "title": "RAMSU (J&K) SATSANG - 27 10 2024 - हमारे पंथ के लक्ष्य"
+    }, {
+        "link": "https://www.youtube.com/watch?v=LbJ_LC_EigM",
+        "title": "28 10 2024 - भाई रे दो जगदीश कहाँ से आये?"
+    }, {
+        "link": "https://www.youtube.com/watch?v=axsRdm5oA9k",
+        "title": "29 10 2024 - क्या माँगू कुछ थिर न रहाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=MrSZiHPkD2g",
+        "title": "\"Insaan Paisa Deke,Khud Paagal Banta Hai” - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=kYsTfTo45KQ",
+        "title": "31 10 2024 - पांच सखी पिहू पिहू करत हैं"
+    }, {
+        "link": "https://www.youtube.com/watch?v=ErF5uIa2oJE",
+        "title": "30 10 2024 - मन करता यह देह समाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=cSkFaumNVhc",
+        "title": "01 11 2024 - मन करता यह देह समाना"
+    }, {
+        "link": "https://www.youtube.com/watch?v=XGO0coVH2vg",
+        "title": "02 11 2024 - सो सद्गुरु मोहे भावे जो भोग में योग दिखावे"
+    }, {
+        "link": "https://www.youtube.com/watch?v=DA376pqWDN8",
+        "title": "\"Aatma Toh Paramprush Ka Ansh Hai\" - Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Xm1Wbh0G5gI",
+        "title": "03 11 2024 - चिंता तो सतनाम की और न चितवे दास"
+    }, {
+        "link": "https://www.youtube.com/watch?v=jD124vcl3g4",
+        "title": "06 11 2024 - अविगत से गति विगत है, मन बुद्धि चित्त से दूर"
+    }, {
+        "link": "https://www.youtube.com/watch?v=WUUdn6AR2ps",
+        "title": "\"Mujhe Raat Ke Do Baje Phone Aaya” -  Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Fi3w8mryNHk",
+        "title": "07 11 2024 - जैसे चंद्र कुमोदन की रीति, गहे शिष्य तस उर परतीती"
+    }, {
+        "link": "https://www.youtube.com/watch?v=bYffKU_pqw0",
+        "title": "08 11 2024 - ये जग है स्वारथ का मीत, समझ नहीं कोई अपना हीत"
+    }, {
+        "link": "https://www.youtube.com/watch?v=frf399krusQ",
+        "title": "09 11 2024 - तन धर सुखिया कोई न देखा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=Kf0iprQgsgA",
+        "title": "\"Raja Pipa,Guru Ravidas Maharaj Ke Shishaye The” -  Satguru Sahibji"
+    }, {
+        "link": "https://www.youtube.com/watch?v=pdKZ9FdwFYk",
+        "title": "11 11 2024 - पांच पचीस ये मन के साथा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=SQdCpEjhOGQ",
+        "title": "12 11 2024 - मन की बात अगम अपारा, मन भटकाया सब संसारा"
+    }, {
+        "link": "https://www.youtube.com/watch?v=TVzYlQthtSU",
+        "title": "13 11 2024 - बिन रोये नहीं पाइया साहिब का दीदार"
+    }, {
+        "link": "https://www.youtube.com/watch?v=_iDcxARiVOk",
+        "title": "\"Swami Rama Tirtha Trip To Japan\""
+    }, {
+        "link": "https://www.youtube.com/watch?v=hychdNtzAGg",
+        "title": "14 11 2024 - अपनों कर्म न मेटो जाई"
+    }, {
+        "link": "https://www.youtube.com/watch?v=tT-8VkcH7-4",
+        "title": "15 11 2024 - हमारा इतना विरोध क्यों होता है?"
+    }, {"link": "https://www.youtube.com/watch?v=_w4yZzpKZfY", "title": "LIVE SATSANG 16 11 2024"}
 ]

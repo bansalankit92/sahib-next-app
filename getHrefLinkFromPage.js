@@ -7,7 +7,7 @@ for(var i = 0; i< links.length; i++){
 console.log(JSON.stringify(jsData));
 
 // reverse arr
-const arr=[];
+const arr=jsData;
 const reverse=[];
 arr.forEach(x=>{
     reverse.unshift(x);
