@@ -38,3 +38,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## download youtube playlist 
 https://www.thetubelab.com/get-all-urls-of-youtube-playlist-channel/
 
+
+--
+capacitor android
+npx capacitor copy android && cd android && ./gradlew assembleDebug

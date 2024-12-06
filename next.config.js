@@ -10,6 +10,8 @@ const withPWA = require('next-pwa')({
 })
 
 const nextConfig = {
+  swcMinify: true,
+  output: 'export',
   reactStrictMode: false,
   experimental: {
     missingSuspenseWithCSRBailout: false,
