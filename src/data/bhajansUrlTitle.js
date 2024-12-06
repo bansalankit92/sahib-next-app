@@ -317,7 +317,7 @@ export const SAHIB_BHAJANS_URL = [
   // },
   {
     "url": "https://www.youtube.com/watch?v=Nm-NQUYl9WM&index=1&pp=iAQB8AUB",
-    "title": "“SAHIB MERA                                     Kailash Kher & P.Balram"
+    "title": "“SAHIB MERA | Kailash Kher & P.Balram"
   },
   {
     "url": "https://www.youtube.com/watch?v=rl7XmadCUYQ&index=2&pp=iAQB8AUB",
@@ -896,10 +896,6 @@ export const BHAJANS_URL =[
   {
     "url": "https://www.youtube.com/watch?v=uYFutW8vPgY",
     "title": "Saadho"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=V_08pyhaaTo",
-    "title": "Matkar Maya Ko Ahankar"
   },
   {
     "url": "https://www.youtube.com/watch?v=IN8fQT4qJEQ",
