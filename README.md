@@ -41,4 +41,7 @@ https://www.thetubelab.com/get-all-urls-of-youtube-playlist-channel/
 
 --
 capacitor android
-npx capacitor copy android && cd android && ./gradlew assembleDebug
+
+`npx cap open ios`
+`npm run static`
+`npx capacitor copy android && cd android && ./gradlew assembleDebug`
