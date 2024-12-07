@@ -180,7 +180,7 @@ function Home() {
                     filterOption={createFilter({ignoreAccents: false})}
                 />
             </div>
-            <div className="grid  justify-stretch w-full gap-1 grid-cols-3 ">
+            {/* <div className="grid  justify-stretch w-full gap-1 grid-cols-3 ">
                 <div className="">
                     {satsangList.length > 0 && (<Button type={ButtonColors.DANGER} text="Satsangs"
                                                         selected={selectedType === VIDEO_TYPE.SATSANG}
@@ -196,7 +196,7 @@ function Home() {
                                                             selected={selectedType === VIDEO_TYPE.SAHIB_BHAJAN}
                                                             onClick={() => onTypeChange(VIDEO_TYPE.SAHIB_BHAJAN)}></Button>)}
                 </div>
-            </div>
+            </div> */}
             <hr className="my-4"/>
             <div className="mt-4">
 
