@@ -41,6 +41,17 @@ https://www.thetubelab.com/get-all-urls-of-youtube-playlist-channel/
 
 --
 capacitor android
+`npx cap sync`
+`npx cap open ios`
+`npm run static`
+`npx capacitor copy android && cd android && ./gradlew assembleDebug`
+
+
+local.properties
+`sdk.dir=/Users/ankitbansal/Library/Android/sdk/`
+
+--
+capacitor android
 
 `npx cap open ios`
 `npm run static`
