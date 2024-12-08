@@ -10,7 +10,7 @@ interface Props {
 const Drawer: React.FC<Props> = ({
   header = "",
   children,
-  isOpen = false,
+  isOpen = true,
   setIsOpen = () => {},
 }) => {
   return (

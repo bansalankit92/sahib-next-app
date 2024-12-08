@@ -6,6 +6,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import BottomNavigation from "@/components/BottomNavigation";
 
 // export const metadata = {
 //   title: 'Sahibji Satsang and Bhajans (UnOfficial)',
@@ -18,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const router = useRouter();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <html lang="en">
@@ -48,10 +49,19 @@ export default function RootLayout({
             <ul className="space-y-2 font-medium">
               <li>
                 <Link
+                    href={APP_PATHS.SATSANG}
+                    className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+                >
+
+                  <span className="ms-3">Home</span>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href={APP_PATHS.CHALISA}
                   className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
-              
+
                   <span className="ms-3">Chalisa</span>
                 </Link>
               </li>
@@ -60,7 +70,7 @@ export default function RootLayout({
                   href={APP_PATHS.AARTI1}
                   className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
-              
+
                   <span className="ms-3">Aarti 1</span>
                 </Link>
               </li>
@@ -69,7 +79,7 @@ export default function RootLayout({
                   href={APP_PATHS.AARTI2}
                   className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
-              
+
                   <span className="ms-3">Aarti 2</span>
                 </Link>
               </li>
@@ -77,7 +87,7 @@ export default function RootLayout({
           </div>
       </Drawer>
 
-  
+  <BottomNavigation />
       </body>
     </html>
   );
