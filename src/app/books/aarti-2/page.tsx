@@ -19,7 +19,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
             Sahibji आरती 2
           </h2>
         </div>
-       
+
         <div className="text-center">
           <MarkdownRenderer
             markdown={`
