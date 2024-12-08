@@ -9,6 +9,7 @@ import Select, {components, createFilter, SingleValue} from "react-select";
 import {ReadonlyURLSearchParams, useSearchParams} from 'next/navigation'
 import {SATSANG_URL} from "@/data/satsangUrlTitle";
 import {BHAJANS_URL, SAHIB_BHAJANS_URL} from "@/data/bhajansUrlTitle";
+import ReactPlayer from "react-player";
 
 interface LastMediaContent {
     [VIDEO_TYPE.SATSANG]?: PlayerContent;
@@ -145,7 +146,7 @@ function Home() {
 
     // @ts-ignore
     return (
-        <main className="flex max-h-screen flex-col items-center justify-between py-8">
+        <main className="flex flex-col items-center justify-between py-8 mb-20">
             <div className="w-full flex flex-col items-center justify-center">
                 {/*<h1 className="text-3xl sm:text-2xl font-bold">*/}
                 {/*    Welcome to the (Un-Official) Sahibji Satsang Bhajan playlist*/}
@@ -225,6 +226,13 @@ function Home() {
 
                 </div>)}
             </div>
+            <div>
+            {/* <ReactPlayer url="https://www.youtube.com/embed/jfKfPfyJRdk" controls={true} playing={true}
+                                  className="player"
+                                  width='300px'
+                                  height='400px'
+                                  /> */}
+                                  </div>
             <div className="mt-20 mx-4">
                 <button onClick={() => setShowHistory(!showHistory)}>
                     <h3 className="my-4">History</h3>
