@@ -12,6 +12,16 @@ const withPWA = require('next-pwa')({
 const nextConfig = {
   swcMinify: true,
   output: 'export',
+  webpack: config => {
+    if (process.env.NEXT_OUTPUT_MODE !== 'export' || !config.module) {
+      return config;
+    }
+    config.module.rules?.push({
+      test: /src\/app\/api/,
+      loader: 'ignore-loader',
+    });
+    return config;
+  },
   reactStrictMode: false,
   experimental: {
     missingSuspenseWithCSRBailout: false,
