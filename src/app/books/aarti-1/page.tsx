@@ -19,7 +19,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
             Sahibji आरती 1
           </h2>
         </div>
-        
+
         <div className="text-center">
           <MarkdownRenderer
             markdown={`
@@ -72,7 +72,6 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
             src="https://www.youtube.com/embed/QG_PDj58ON4"
             title='AUDIO "AARTI KAROON HOON SANT SATGURU KI"'
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </div>
       </section>

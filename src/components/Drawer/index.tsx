@@ -1,6 +1,18 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-export default function Drawer({ header = '', children, isOpen, setIsOpen }) {
+interface Props {
+  header?: string;
+  children?: ReactNode;
+  isOpen: Boolean;
+  setIsOpen: (x:boolean) => void;
+}
+
+const Drawer: React.FC<Props> = ({
+  header = "",
+  children,
+  isOpen = false,
+  setIsOpen = () => {},
+}) => {
   return (
     <main
       className={
@@ -17,9 +29,9 @@ export default function Drawer({ header = '', children, isOpen, setIsOpen }) {
         }
       >
         <article className="relative  max-w-sm pb-10 flex flex-col space-y-6 overflow-y-scroll h-full">
-          {header?<header className="p-4 font-bold text-lg">
-            {header}
-          </header>:null}
+          {header ? (
+            <header className="p-4 font-bold text-lg">{header}</header>
+          ) : null}
           {children}
         </article>
       </section>
@@ -31,4 +43,6 @@ export default function Drawer({ header = '', children, isOpen, setIsOpen }) {
       ></section>
     </main>
   );
-}
+};
+
+export default Drawer;

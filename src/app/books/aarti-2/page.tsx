@@ -19,7 +19,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
             Sahibji आरती 2
           </h2>
         </div>
-       
+
         <div className="text-center">
           <MarkdownRenderer
             markdown={`
@@ -80,9 +80,7 @@ _जय सतगुरु देवा, साहिब जय सतगुर�
             height="424"
             src="https://www.youtube.com/embed/osd_10IoXew"
             title='Aarti Video "JAI SATGURU DEVAA"  - Sung by Satguru Sahibji'
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
           ></iframe>
         </div>
       </section>
