@@ -34,7 +34,16 @@ const MediaPlayer: React.FC<PlayerProps> = ({
     const onNextClick = () => isRandom ? onRandom() : onNext();
     return (
         <div className="">
-            <div className="flex justify-around">
+            <div className="wrapper">
+                {url &&
+                    (<ReactPlayer url={url} controls={true} playing={true}
+                                  className="player"
+                                  width='100%'
+                                  height='100%'
+                                  onEnded={onNextClick}/>)}
+            </div>
+
+            <div className="flex items-center justify-between mt-8 flex-wrap gap-4">
                 <div>
                     <Button
                         text={`Play ${isRandom ? 'random' : 'next'} ${(type || '').toLowerCase().replace('_', " ")}`}
@@ -49,7 +58,7 @@ const MediaPlayer: React.FC<PlayerProps> = ({
                 </div>
             </div>
 
-            <div className="my-4">
+            <div className="my-8 text-center">
                 <a href={url} target="_blank">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     Click to open in new tab {title || url}
@@ -59,14 +68,6 @@ const MediaPlayer: React.FC<PlayerProps> = ({
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </a>
-            </div>
-            <div className="wrapper">
-                {url &&
-                    (<ReactPlayer url={url} controls={true} playing={true}
-                                  className="player"
-                                  width='100%'
-                                  height='100%'
-                                  onEnded={onNextClick}/>)}
             </div>
         </div>
     )
