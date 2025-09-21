@@ -1,6 +1,7 @@
 "use client";
 
 import React, { Suspense, useEffect, useState } from "react";
+import Head from "next/head";
 import { marked } from "marked";
 import { useSearchParams } from "next/navigation";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
@@ -9,11 +10,16 @@ interface PlayerProps {}
 
 const BooksSection: React.FC<PlayerProps> = ({}) => {
   return (
-    <Suspense>
-      <section
-        className="text-center container my-10 mx-auto px-4 py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 bg-white dark:bg-gray-900"
-        id="books-section"
-      >
+    <>
+      <Head>
+        <title>Aarti 1 - Sahibji Satsang and Bhajans</title>
+        <meta name="description" content="Read Sahibji Aarti 1 in Hindi and English transliteration" />
+      </Head>
+      <Suspense>
+        <section
+          className="text-center container my-10 mx-auto px-4 py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 bg-white dark:bg-gray-900"
+          id="books-section"
+        >
         <div className="flex flex-col items-center justify-center w-full mb-8 md:mb-12 lg:mb-16 xl:mb-20 2xl:mb-24 3xl:mb-28">
           <h2 className="text-3xl font-bold text-center dark:text-white text-gray-800 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl">
             Sahibji आरती 1
@@ -74,8 +80,9 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
         </div>
-      </section>
-    </Suspense>
+        </section>
+      </Suspense>
+    </>
   );
 };
 

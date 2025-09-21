@@ -1,4 +1,22 @@
-import mongoose from "mongoose";
+import mongoose, { Document, Model } from "mongoose";
+
+// Define the interface for the Book document
+interface IBook extends Document {
+    name?: string;
+    lang?: string;
+    content?: string;
+    isTransliteration?: boolean;
+    sourceURL?: string;
+    authorName?: string;
+    slug?: string;
+    prev?: number;
+    next?: number;
+    current?: number;
+    actualName?: string;
+    bookId?: string;
+    createdAt?: Date;
+    updatedAt?: Date;
+}
 
 const BooksSchema = new mongoose.Schema({
         name: String,
@@ -21,14 +39,17 @@ const BooksSchema = new mongoose.Schema({
 BooksSchema.index(
     { content: 'text', name: 'text' },
     { name: 'books_text_content_name_idx' }
-);BooksSchema.index(
+);
+BooksSchema.index(
     { content: 1, },
     { name: 'books_content_idx' }
-);BooksSchema.index(
+);
+BooksSchema.index(
     {  name: 1 },
     { name: 'books_name_idx' }
 );
-const Books =
-    mongoose.models.Books || mongoose.model("Books", BooksSchema);
+
+// Properly type the model
+const Books: Model<IBook> = mongoose.models.Books || mongoose.model<IBook>("Books", BooksSchema);
 
 export default Books;

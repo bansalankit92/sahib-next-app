@@ -1,6 +1,7 @@
 "use client";
 
 import React, {useEffect, useState} from "react";
+import Head from "next/head";
 import Input from "@/components/Input";
 import TextArea from "@/components/TextArea";
 import Button from "@/components/Button";
@@ -69,9 +70,14 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
 
     // @ts-ignore
     return (
-        <section
-            className="container mx-auto px-4 py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 bg-white dark:bg-gray-900"
-            id="books-section">
+        <>
+            <Head>
+                <title>Add Books - Sahibji Satsang and Bhajans</title>
+                <meta name="description" content="Add new books and spiritual content to the collection" />
+            </Head>
+            <section
+                className="container mx-auto px-4 py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 bg-white dark:bg-gray-900"
+                id="books-section">
             <div
                 className="flex flex-col items-center justify-center w-full mb-8 md:mb-12 lg:mb-16 xl:mb-20 2xl:mb-24 3xl:mb-28">
                 <h2 className="text-3xl font-bold text-center text-gray-800 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl 3xl:text-8xl dark:text-white">
@@ -126,6 +132,7 @@ const AddBooks: React.FC<PlayerProps> = ({}) => {
                 <Button text={"Submit"} onClick={() => onSubmit()} loading={loading}/>
             </div>
         </section>
+        </>
     );
 }
 

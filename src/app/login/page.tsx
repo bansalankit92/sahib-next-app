@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import React from "react";
+import Head from "next/head";
 import Button from "../../components/Button";
 import Input from "../../components/Input";
 import styles from '../../styles/Home.module.css'
@@ -14,8 +15,13 @@ export default function Login() {
   };
 
   return (
-    <div className={styles.container}>
-    <section className="bg-gray-50 dark:bg-gray-900">
+    <>
+      <Head>
+        <title>Login - Sahibji Satsang and Bhajans</title>
+        <meta name="description" content="Login to access Sahibji Satsang and Bhajans application" />
+      </Head>
+      <div className={styles.container}>
+        <section className="bg-gray-50 dark:bg-gray-900">
       <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a
           href="#"
@@ -88,8 +94,9 @@ export default function Login() {
           </div>
         </div>
       </div>
-    </section>
-    </div>
+      </section>
+      </div>
+    </>
   );
 };
 

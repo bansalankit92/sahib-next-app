@@ -1,6 +1,7 @@
 "use client";
 
 import React, {useEffect, useState} from "react";
+import Head from "next/head";
 import Button, {ButtonColors} from "@/components/Button";
 import {useLocalStorage} from "react-use";
 import SatsangBhajanPlayer from "@/components/SatsangPlayer";
@@ -146,7 +147,12 @@ function Home() {
 
     // @ts-ignore
     return (
-        <main className="flex flex-col items-center justify-between py-8 mb-20">
+        <>
+            <Head>
+                <title>Sahibji Satsang and Bhajans - Home</title>
+                <meta name="description" content="Listen to Sahibji Satsang, Bhajans and spiritual content" />
+            </Head>
+            <main className="flex flex-col items-center justify-between py-8 mb-20">
             <div className="w-full flex flex-col items-center justify-center">
                 {/*<h1 className="text-3xl sm:text-2xl font-bold">*/}
                 {/*    Welcome to the (Un-Official) Sahibji Satsang Bhajan playlist*/}
@@ -252,6 +258,7 @@ function Home() {
             {/*    <Link href="/card-app">Checkout card app</Link>*/}
             {/*</div>*/}
         </main>
+        </>
     );
 }
 

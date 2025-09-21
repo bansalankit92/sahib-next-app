@@ -9,10 +9,8 @@ import { useRouter } from 'next/navigation';
 import { APP_PATHS } from '@/services/AppConstants';
 import BottomNavigation from "@/components/BottomNavigation";
 
-// export const metadata = {
-//   title: 'Sahibji Satsang and Bhajans (UnOfficial)',
-//   description: 'This is unofficial sahibji satsang and audio bhajan website.',
-// }
+// Note: Since this is a client component, we'll use Head component for metadata
+// For static metadata, we would export metadata object from a server component
 
 export default function RootLayout({
   children,
@@ -26,6 +24,8 @@ export default function RootLayout({
     <html lang="en">
 
     <Head>
+      <title>Sahibji Satsang and Bhajans (UnOfficial)</title>
+      <meta name="description" content="This is unofficial sahibji satsang and audio bhajan website." />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="manifest" href="/manifest.json" />
       <link rel="apple-touch-icon" href="/icon.png"></link>
