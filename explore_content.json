@@ -1,0 +1,307 @@
+{
+  "version": 1,
+  "quotes": [
+    {
+      "id": "q1",
+      "text": "The mind is everything. What you think you become.",
+      "author": "Buddha"
+    },
+    {
+      "id": "q2",
+      "text": "In the midst of movement and chaos, keep stillness inside of you.",
+      "author": "Deepak Chopra"
+    },
+    {
+      "id": "q3",
+      "text": "Quiet the mind, and the soul will speak.",
+      "author": "Ma Jaya Sati Bhagavati"
+    },
+    {
+      "id": "q4",
+      "text": "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+      "author": "Thich Nhat Hanh"
+    },
+    {
+      "id": "q5",
+      "text": "Meditation is not about stopping thoughts, but recognizing that we are more than our thoughts.",
+      "author": "Arianna Huffington"
+    },
+    {
+      "id": "q6",
+      "text": "The soul always knows what to do to heal itself. The challenge is to silence the mind.",
+      "author": "Caroline Myss"
+    },
+    {
+      "id": "q7",
+      "text": "Peace comes from within. Do not seek it without.",
+      "author": "Buddha"
+    },
+    {
+      "id": "q8",
+      "text": "Your calm mind is the ultimate weapon against your challenges.",
+      "author": "Bryant McGill"
+    },
+    {
+      "id": "q9",
+      "text": "Silence is not empty, it is full of answers.",
+      "author": "Unknown"
+    },
+    {
+      "id": "q10",
+      "text": "Within you there is a stillness and a sanctuary to which you can retreat.",
+      "author": "Hermann Hesse"
+    },
+    {
+      "id": "q11",
+      "text": "The universe is not outside of you. Look inside yourself; everything that you want, you already are.",
+      "author": "Rumi"
+    },
+    {
+      "id": "q12",
+      "text": "You are not a drop in the ocean. You are the entire ocean in a drop.",
+      "author": "Rumi"
+    },
+    {
+      "id": "q13",
+      "text": "When you realize there is nothing lacking, the whole world belongs to you.",
+      "author": "Lao Tzu"
+    },
+    {
+      "id": "q14",
+      "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+      "author": "Alan Watts"
+    },
+    {
+      "id": "q15",
+      "text": "What you seek is seeking you.",
+      "author": "Rumi"
+    }
+  ],
+  "dohas": [
+    {
+      "id": "d1",
+      "text": "काल करे सो आज कर, आज करे सो अब ।\nपल में प्रलय होयगी, बहुरि करेगा कब ॥",
+      "translation": "Do tomorrow's work today, and today's work right now.\nIf destruction comes in a moment, when will you get another chance?",
+      "meaning": "This doha emphasizes the importance of not procrastinating and acting with urgency in spiritual matters.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d2",
+      "text": "दुःख में सुमिरन सब करे, सुख में करे न कोय ।\nजो सुख में सुमिरन करे, तो दुःख काहे को होय ॥",
+      "translation": "Everyone remembers God in sorrow, none in happiness.\nIf one remembers God in happiness, why would sorrow come?",
+      "meaning": "Regular spiritual practice during good times prevents future suffering.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d3",
+      "text": "गुरु गोविन्द दोऊ खड़े, काके लागूं पाँय ।\nबलिहारी गुरु आपने, गोविन्द दियो मिलाय ॥",
+      "translation": "If Guru and God both stand before me, whose feet should I touch first?\nI bow to my Guru, who showed me the path to God.",
+      "meaning": "This highlights the supreme importance of the spiritual teacher in one's journey.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d4",
+      "text": "बोली एक अनमोल है, जो कोई बोलै जानि ।\nहिये तराजू तौलि के, तब मुख बाहर आनि ॥",
+      "translation": "Speech is priceless if one knows how to speak.\nWeigh it on the scales of your heart before bringing it to your mouth.",
+      "meaning": "Think before you speak; words have great power and should be used wisely.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d5",
+      "text": "माला फेरत जुग भया, फिरा न मन का फेर ।\nकर का मनका डार दे, मन का मनका फेर ॥",
+      "translation": "Ages have passed turning prayer beads, but the mind hasn't turned to God.\nDrop the beads from your hands, and turn the beads of your mind instead.",
+      "meaning": "External rituals are meaningless without internal transformation and devotion.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d6",
+      "text": "पोथी पढ़ि पढ़ि जग मुआ, पंडित भया न कोय ।\nढाई आखर प्रेम का, पढ़े सो पंडित होय ॥",
+      "translation": "Reading books, the world died, but none became wise.\nOne who reads the two and a half letters of 'Love' becomes truly learned.",
+      "meaning": "True wisdom comes from love and devotion, not just bookish knowledge.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d7",
+      "text": "जाति न पूछो साधु की, पूछ लीजिये ज्ञान ।\nमोल करो तरवार का, पड़ा रहन दो म्यान ॥",
+      "translation": "Don't ask about a saint's caste, ask about their knowledge.\nValue the sword, let the sheath remain aside.",
+      "meaning": "Judge people by their spiritual wisdom and character, not by their birth or social status.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d8",
+      "text": "साईं इतना दीजिये, जा में कुटुम समाय ।\nमैं भी भूखा न रहूं, साधु न भूखा जाय ॥",
+      "translation": "O Lord, give me just enough to sustain my family.\nSo that I don't go hungry, and no saint goes hungry from my door.",
+      "meaning": "A prayer for moderation - enough to live with dignity and help others.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d9",
+      "text": "निंदक नियरे राखिए, आंगन कुटी छवाय ।\nबिन पानी, साबुन बिना, निर्मल करे सुभाय ॥",
+      "translation": "Keep your critic close, build them a hut in your courtyard.\nWithout water or soap, they'll clean your character.",
+      "meaning": "Critics help us see our flaws and improve ourselves; welcome constructive criticism.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    },
+    {
+      "id": "d10",
+      "text": "धीरे-धीरे रे मना, धीरे सब कुछ होय ।\nमाली सींचे सौ घड़ा, ऋतु आए फल होय ॥",
+      "translation": "Slowly, slowly, O mind, everything happens in its time.\nThe gardener may water a hundred pots, but fruit comes only in season.",
+      "meaning": "Patience is essential in spiritual growth; results come at the right time with consistent effort.",
+      "author": "Sant Kabir Das",
+      "language": "hi"
+    }
+  ],
+  "affirmations": [
+    { "id": "a1", "text": "I am at peace with the flow of life." },
+    { "id": "a2", "text": "I radiate love, compassion, and kindness." },
+    { "id": "a3", "text": "I trust the divine plan unfolding in my life." },
+    { "id": "a4", "text": "I am grateful for every blessing, seen and unseen." },
+    { "id": "a5", "text": "My inner light guides me through all challenges." },
+    { "id": "a6", "text": "I release all that no longer serves my highest good." },
+    { "id": "a7", "text": "I am connected to the infinite wisdom within me." },
+    { "id": "a8", "text": "Every breath fills me with peace and clarity." },
+    { "id": "a9", "text": "I choose love over fear in every moment." },
+    { "id": "a10", "text": "I am worthy of all the good that comes my way." }
+  ],
+  "videos": [
+    {
+      "id": "v1",
+      "title": "Sant Kabir Das Ke Dohe - Spiritual Wisdom",
+      "subtitle": "Spiritual Teachings • Hindi",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "15:30"
+    },
+    {
+      "id": "v2",
+      "title": "Morning Meditation - Pranayama & Dhyana",
+      "subtitle": "Meditation • Guided",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "20:45"
+    },
+    {
+      "id": "v3",
+      "title": "Bhagavad Gita Chapter 2 - Sankhya Yoga",
+      "subtitle": "Scripture Study • Hindi",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "45:20"
+    },
+    {
+      "id": "v4",
+      "title": "Spiritual Discourse - Path to Enlightenment",
+      "subtitle": "Spiritual Teachings • Hindi",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "32:10"
+    },
+    {
+      "id": "v5",
+      "title": "Satsang - Questions and Answers",
+      "subtitle": "Q&A • Interactive",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "28:45"
+    },
+    {
+      "id": "v6",
+      "title": "The Art of Letting Go",
+      "subtitle": "Talk • Alan Watts",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "15:30"
+    }
+  ],
+  "bhajans": [
+    {
+      "id": "b1",
+      "title": "Hanuman Chalisa - Complete Recitation",
+      "artist": "Hariharan",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "8:15"
+    },
+    {
+      "id": "b2",
+      "title": "Om Jai Jagdish Hare - Evening Aarti",
+      "artist": "Traditional",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "12:30"
+    },
+    {
+      "id": "b3",
+      "title": "Bhajans Collection - Devotional Songs",
+      "artist": "Various Artists",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "55:20"
+    },
+    {
+      "id": "b4",
+      "title": "Shri Ram Bhajan - Raghupati Raghav Raja Ram",
+      "artist": "Traditional",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "6:45"
+    },
+    {
+      "id": "b5",
+      "title": "Krishna Bhajan - Hare Krishna Mahamantra",
+      "artist": "ISKCON",
+      "youtubeUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "duration": "10:00"
+    }
+  ],
+  "books": [
+    {
+      "id": "bk1",
+      "title": "Bhagavad Gita",
+      "author": "Vyasa",
+      "description": "The timeless spiritual dialogue between Krishna and Arjuna on duty, righteousness, and the nature of reality.",
+      "tags": ["Scripture", "Classic"],
+      "links": [
+        { "store": "Amazon", "url": "https://amazon.in/s?k=bhagavad+gita" }
+      ]
+    },
+    {
+      "id": "bk2",
+      "title": "Kabir Ke Dohe",
+      "author": "Sant Kabir Das",
+      "description": "Collection of spiritual couplets by Saint Kabir that illuminate the path to self-realization.",
+      "tags": ["Poetry", "Spiritual"],
+      "links": [
+        { "store": "Amazon", "url": "https://amazon.in/s?k=kabir+ke+dohe" }
+      ]
+    },
+    {
+      "id": "bk3",
+      "title": "Ramayana",
+      "author": "Maharishi Valmiki",
+      "description": "The epic tale of Lord Rama's life, teachings, and the triumph of dharma over adharma.",
+      "tags": ["Epic", "Scripture"],
+      "links": [
+        { "store": "Amazon", "url": "https://amazon.in/s?k=ramayana+valmiki" }
+      ]
+    },
+    {
+      "id": "bk4",
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "description": "A guide to spiritual enlightenment that emphasizes the importance of living in the present moment.",
+      "tags": ["Spiritual", "Bestseller"],
+      "links": [
+        { "store": "Amazon", "url": "https://amazon.in/s?k=the+power+of+now" }
+      ]
+    },
+    {
+      "id": "bk5",
+      "title": "Autobiography of a Yogi",
+      "author": "Paramahansa Yogananda",
+      "description": "A spiritual classic introducing Western readers to the teachings of meditation and Kriya Yoga.",
+      "tags": ["Autobiography", "Classic"],
+      "links": [
+        { "store": "Amazon", "url": "https://amazon.in/s?k=autobiography+of+a+yogi" }
+      ]
+    }
+  ]
+}
