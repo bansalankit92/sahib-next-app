@@ -11910,2116 +11910,2116 @@ export const SATSANG_URL = [
     title: "24 07 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?",
   },
   {
-    link: "https://www.youtube.com/watch?v=oDxa2lHjpOU",
+    url: "https://www.youtube.com/watch?v=oDxa2lHjpOU",
     title: "1495 - 25 07 2024 - जो सुख को चाहे सदा तो शरण नाम की ले",
   },
   {
-    link: "https://www.youtube.com/watch?v=jkPZsDm612s",
+    url: "https://www.youtube.com/watch?v=jkPZsDm612s",
     title:
       "1496 - 26 07 2024 - स्वाँस स्वाँस प्रभु सुमिर ले, वृथा स्वाँस ने खोए",
   },
   {
-    link: "https://www.youtube.com/watch?v=11qHVecwUBQ",
+    url: "https://www.youtube.com/watch?v=11qHVecwUBQ",
     title: "1497 - 27 07 2024 - कर्म फांस में जगत फन्दाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=EYJxGpnMvcE",
+    url: "https://www.youtube.com/watch?v=EYJxGpnMvcE",
     title: "1498 - 29 07 2024 - काचे कुम्भ न ठहरे पानी",
   },
   {
-    link: "https://www.youtube.com/watch?v=o913mvR-X-g",
+    url: "https://www.youtube.com/watch?v=o913mvR-X-g",
     title: "1499 - 30 07 2024 - ऐसा भेद सुनो धरमदासु, जन्म जन्म की मेटत त्रासु",
   },
   {
-    link: "https://www.youtube.com/watch?v=C7DuKKVbJRM",
+    url: "https://www.youtube.com/watch?v=C7DuKKVbJRM",
     title: "1500 - 01 08 2024 - भाई रे दो जगदीश कहाँ से आये?",
   },
   {
-    link: "https://www.youtube.com/watch?v=EMRjuLWmOPI",
+    url: "https://www.youtube.com/watch?v=EMRjuLWmOPI",
     title: "1501 - 02 08 2024 - भवसागर में अगम अपारा, तामे बूड़ गयो संसारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=X68Vz0TS6IY",
+    url: "https://www.youtube.com/watch?v=X68Vz0TS6IY",
     title:
       "1502 - 03 08 2024 - चार वेद मिल झगड़ा कीना, ब्रह्म रूप कहु नहीं चीन्हा",
   },
   {
-    link: "https://www.youtube.com/watch?v=ytWG2wTrLdE",
+    url: "https://www.youtube.com/watch?v=ytWG2wTrLdE",
     title: "1503 - 04 08 2024 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=c3EcwGB2810",
+    url: "https://www.youtube.com/watch?v=c3EcwGB2810",
     title: "1504 - 08 08 2024 - काया मध्ये स्वाँसा सार",
   },
   {
-    link: "https://www.youtube.com/watch?v=JZ17H-DF-10",
+    url: "https://www.youtube.com/watch?v=JZ17H-DF-10",
     title: "1505 - 09 08 2024 - चार पदारथ इक मग माँही",
   },
   {
-    link: "https://www.youtube.com/watch?v=KCTgo0Eal3s",
+    url: "https://www.youtube.com/watch?v=KCTgo0Eal3s",
     title: "1506 - 13 08 2024 - संतों झूठे जग पतियाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=7Gay2vQGWJo",
+    url: "https://www.youtube.com/watch?v=7Gay2vQGWJo",
     title: '"Ae Mere Watan Ke Logon" - Sung by Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=dBtQHH2vF6M",
+    url: "https://www.youtube.com/watch?v=dBtQHH2vF6M",
     title: "1507 - 14 08 2024 - कबीर काया अथाह है कोई बिरला जाने भेद",
   },
   {
-    link: "https://www.youtube.com/watch?v=GG8fsIjrCBI",
+    url: "https://www.youtube.com/watch?v=GG8fsIjrCBI",
     title: "1508 - 15 08 2024 - स्वतंत्रता दिवस पर साहिबजी का सन्देश",
   },
   {
-    link: "https://www.youtube.com/watch?v=WjrfjAYlRBA",
+    url: "https://www.youtube.com/watch?v=WjrfjAYlRBA",
     title: "1509 - 16 08 2024 - गुरु सजीवन नाम बताये",
   },
   {
-    link: "https://www.youtube.com/watch?v=kTnHwC5cgLg",
+    url: "https://www.youtube.com/watch?v=kTnHwC5cgLg",
     title: "1510 - 17 08 2024 - धीमर जाल डाल क्या करिहैं जब मीनः बन गया पानी",
   },
   {
-    link: "https://www.youtube.com/watch?v=6HbjfzGcjIA",
+    url: "https://www.youtube.com/watch?v=6HbjfzGcjIA",
     title: "1511 - 20 08 2024 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=WccdUvKByTg",
+    url: "https://www.youtube.com/watch?v=WccdUvKByTg",
     title: "1512 - 22 08 2024 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=C8D30nB_WFo",
+    url: "https://www.youtube.com/watch?v=C8D30nB_WFo",
     title: "1513 - 23 08 2024 - कस्तूरी कुण्डल बसे मृग खोजे बन माहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=OD5TN1wg6xI",
+    url: "https://www.youtube.com/watch?v=OD5TN1wg6xI",
     title: "1515 - 24 08 2024 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=taZLkhw2OA4",
+    url: "https://www.youtube.com/watch?v=taZLkhw2OA4",
     title: "1516 - 25 08 2024 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=ix4Szvzy06g",
+    url: "https://www.youtube.com/watch?v=ix4Szvzy06g",
     title: "1517 - 27 08 2024 - अपनों कर्म न मेटो जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=sp6G_jXmhp0",
+    url: "https://www.youtube.com/watch?v=sp6G_jXmhp0",
     title: "1518 - 28 08 2024 - है प्रगट पर दीसत नाही सतगुरु सैन सहारा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=muRpa1k2dDU",
+    url: "https://www.youtube.com/watch?v=muRpa1k2dDU",
     title: "गुरु की क्या आवश्यकता है ?",
   },
   {
-    link: "https://www.youtube.com/watch?v=5HH-Iv--Ty4",
+    url: "https://www.youtube.com/watch?v=5HH-Iv--Ty4",
     title: "1519 - 29 08 2024 - कहें कबीर खट दर्शन, सभी काल के वेश",
   },
   {
-    link: "https://www.youtube.com/watch?v=QxP_Vn4ZkPY",
+    url: "https://www.youtube.com/watch?v=QxP_Vn4ZkPY",
     title: "1520 - 30 08 2024 - सो सद्गुरु मोहे भावे जो भोग में योग दिखावे",
   },
   {
-    link: "https://www.youtube.com/watch?v=UFUcDqcqpd4",
+    url: "https://www.youtube.com/watch?v=UFUcDqcqpd4",
     title: "31 08 2024 - अमर नाम को जानहि, काल दगा मिट जाय",
   },
   {
-    link: "https://www.youtube.com/watch?v=7He2EFl5jRs",
+    url: "https://www.youtube.com/watch?v=7He2EFl5jRs",
     title: "01 09 2024 - क्या हुआ वेदों को पढ़ कर से न पाया भेद को",
   },
   {
-    link: "https://www.youtube.com/watch?v=_XLKyZLz4_c",
+    url: "https://www.youtube.com/watch?v=_XLKyZLz4_c",
     title: "02 09 2024 - नाम बिना दुखी तीनों देवा, गण गन्धर्व करें जिनकी सेवा",
   },
   {
-    link: "https://www.youtube.com/watch?v=-MifnDyDxDw",
+    url: "https://www.youtube.com/watch?v=-MifnDyDxDw",
     title: "03 09 2024 - ऐसा भेद सुनो धरमदासु, जन्म जन्म की मेटत त्रासु",
   },
   {
-    link: "https://www.youtube.com/watch?v=fC0G3yccHjY",
+    url: "https://www.youtube.com/watch?v=fC0G3yccHjY",
     title: "04 09 2024 - मूल नाम जो गुप्त है वो जाने बिरला कोय",
   },
   {
-    link: "https://www.youtube.com/watch?v=u4XDoH9XXQE",
+    url: "https://www.youtube.com/watch?v=u4XDoH9XXQE",
     title: "05 09 2024 - भाई रे दो जगदीश कहाँ से आये?",
   },
   {
-    link: "https://www.youtube.com/watch?v=c1VEETBGowY",
+    url: "https://www.youtube.com/watch?v=c1VEETBGowY",
     title: "06 09 2024 - जात पात का चिन्ह न कोई कैसे दूसर जाति होई?",
   },
   {
-    link: "https://www.youtube.com/watch?v=YCIPAdewvcs",
+    url: "https://www.youtube.com/watch?v=YCIPAdewvcs",
     title:
       "07 09 2024 - पाप कर्मों से सदा जिसका रहता मन मलीन, उसको सपने में भी परमातम नज़र आता नहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=mloeleRYLAU",
+    url: "https://www.youtube.com/watch?v=mloeleRYLAU",
     title: '"PARAMPURSH CHAHIYE YA SATGURU" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=HRs5M6QhdJ4",
+    url: "https://www.youtube.com/watch?v=HRs5M6QhdJ4",
     title: "08 09 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=zHpFajpFj30",
+    url: "https://www.youtube.com/watch?v=zHpFajpFj30",
     title: "10 09 2024 - एक नाम को जान कर दूजा देई बहाय",
   },
   {
-    link: "https://www.youtube.com/watch?v=LsMnu0jw8NU",
+    url: "https://www.youtube.com/watch?v=LsMnu0jw8NU",
     title: "11 09 2024 - जीव हृदय तम मोह विषेखी",
   },
   {
-    link: "https://www.youtube.com/watch?v=4GUxCDa7dwQ",
+    url: "https://www.youtube.com/watch?v=4GUxCDa7dwQ",
     title: '"Aatma Non Physical Base Mein Kaam Karti Hain" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=TX1p61DCZTY",
+    url: "https://www.youtube.com/watch?v=TX1p61DCZTY",
     title:
       "12 09 2024 - कबिरा इस संसार में दो बातें हैं सार - सुख दिए सुख होत है दुःख दिए दुःख होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=GYx7FoDnxvE",
+    url: "https://www.youtube.com/watch?v=GYx7FoDnxvE",
     title: "13 09 2024 - इक दुइ होएं तहे समझाऊँ सब जग अँधा",
   },
   {
-    link: "https://www.youtube.com/watch?v=muPw7B24J_4",
+    url: "https://www.youtube.com/watch?v=muPw7B24J_4",
     title: "14 09 2024 - आपा पौ आपही बंधलो",
   },
   {
-    link: "https://www.youtube.com/watch?v=CR9QoKFqLnE",
+    url: "https://www.youtube.com/watch?v=CR9QoKFqLnE",
     title: "४ वेदों में परमात्मा की परिभाषा एक नहीं हैं |",
   },
   {
-    link: "https://www.youtube.com/watch?v=4vl31abd7zo",
+    url: "https://www.youtube.com/watch?v=4vl31abd7zo",
     title: '"Main,Khana Bandh Kar Diya" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=ytJXgRB-S44",
+    url: "https://www.youtube.com/watch?v=ytJXgRB-S44",
     title: "15 09 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=sotFuuS26sM",
+    url: "https://www.youtube.com/watch?v=sotFuuS26sM",
     title: "16 09 2024 - काम प्रबल अति भयंकर महा दारुण काल",
   },
   {
-    link: "https://www.youtube.com/watch?v=z2xcvs2QpKE",
+    url: "https://www.youtube.com/watch?v=z2xcvs2QpKE",
     title: "17 09 2024 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=ElsGLtiO6TA",
+    url: "https://www.youtube.com/watch?v=ElsGLtiO6TA",
     title: '"Mera Aap Ki Kripa Se" - Sung By Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=EXL3jZVW4VE",
+    url: "https://www.youtube.com/watch?v=EXL3jZVW4VE",
     title: '"Pitra Tarpan" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=a55c3N8ivD4",
+    url: "https://www.youtube.com/watch?v=a55c3N8ivD4",
     title: "19 09 2024 - वस्तु कहीं ढूंढें कहीं कह विधि आवे हाथ",
   },
   {
-    link: "https://www.youtube.com/watch?v=YubBqZq6Ctw",
+    url: "https://www.youtube.com/watch?v=YubBqZq6Ctw",
     title: "20 09 2024 - जो कुछ है सो सुरति है",
   },
   {
-    link: "https://www.youtube.com/watch?v=8Z0mhf9oGQo",
+    url: "https://www.youtube.com/watch?v=8Z0mhf9oGQo",
     title: "21 09 2024 - आठवण पठवन दृष्टि न लागे, जहर जूड हो जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=iUtFxW0Y0Ac",
+    url: "https://www.youtube.com/watch?v=iUtFxW0Y0Ac",
     title: '"Ghar Mein Bahut Ashanti Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=jSj7ahSw6xY",
+    url: "https://www.youtube.com/watch?v=jSj7ahSw6xY",
     title: "22 09 2024 - पाप पुण्य ये दोनों बड़ी, इक लोहा इक कंचन केरी",
   },
   {
-    link: "https://www.youtube.com/watch?v=3RR8ymX76QQ",
+    url: "https://www.youtube.com/watch?v=3RR8ymX76QQ",
     title: "23 09 2024 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?",
   },
   {
-    link: "https://www.youtube.com/watch?v=Wj5cK0bdEuY",
+    url: "https://www.youtube.com/watch?v=Wj5cK0bdEuY",
     title: "24 09 2024 - मन मुरीद संसार है गुरु मुरीद कोई एक",
   },
   {
-    link: "https://www.youtube.com/watch?v=sEGzUew5PqY",
+    url: "https://www.youtube.com/watch?v=sEGzUew5PqY",
     title: "25 09 2024 - बिना नाम विष्ठे का कीड़ा",
   },
   {
-    link: "https://www.youtube.com/watch?v=bw7cNhWkNpc",
+    url: "https://www.youtube.com/watch?v=bw7cNhWkNpc",
     title: '"Sau Kaputon Se,Ek Saput Achha" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=w7dur6N411I",
+    url: "https://www.youtube.com/watch?v=w7dur6N411I",
     title: "26 09 2024 - अपने मरने की खबर न जाने औरन को जियावे रही",
   },
   {
-    link: "https://www.youtube.com/watch?v=uIclMJ5ukyM",
+    url: "https://www.youtube.com/watch?v=uIclMJ5ukyM",
     title: '"Sachai Pe Chal Kar, Kabhi Dukh Hi Nahin Milega" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=Vr2iYvzCWDk",
+    url: "https://www.youtube.com/watch?v=Vr2iYvzCWDk",
     title: "01 10 2024 - प्रभुजी तुम बिन कौन छुडावे",
   },
   {
-    link: "https://www.youtube.com/watch?v=PwpLeUzU0-o",
+    url: "https://www.youtube.com/watch?v=PwpLeUzU0-o",
     title: "02 10 2024 - जो कुछ है वो सुरति है कहें कबीर विचार",
   },
   {
-    link: "https://www.youtube.com/watch?v=iKFoYoXOJ8w",
+    url: "https://www.youtube.com/watch?v=iKFoYoXOJ8w",
     title: '"Dekhiyein Kaise Kaise Log Hai,Kya Baat Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=ZLIvZMcOzCQ",
+    url: "https://www.youtube.com/watch?v=ZLIvZMcOzCQ",
     title: "03 10 2024 - धरमन सुन यह मोर स्वभाऊ, विनय सुनत मम रहा न जाऊ",
   },
   {
-    link: "https://www.youtube.com/watch?v=BzapcZHxI0k",
+    url: "https://www.youtube.com/watch?v=BzapcZHxI0k",
     title: "05 10 2024 - चिंता तो सतनाम की और न चितवे दास",
   },
   {
-    link: "https://www.youtube.com/watch?v=7zWl4-rXJvs",
+    url: "https://www.youtube.com/watch?v=7zWl4-rXJvs",
     title: '"Aajkal Drugs  Ka Istemaal Bahut Ho Raha Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=YF5Rc5XRHHs",
+    url: "https://www.youtube.com/watch?v=YF5Rc5XRHHs",
     title: "07 10 2024 - बिन रोये नहीं पाइया साहिब का दीदार",
   },
   {
-    link: "https://www.youtube.com/watch?v=UlI0UBUQYa8",
+    url: "https://www.youtube.com/watch?v=UlI0UBUQYa8",
     title: "09 10 2024 - संतों सतगुरु अलख लखाया",
   },
   {
-    link: "https://www.youtube.com/watch?v=VDEOyiTk1zQ",
+    url: "https://www.youtube.com/watch?v=VDEOyiTk1zQ",
     title: "“Yeh Jism Khuda Ki Niyamat Hai”- Satguru Sahibji",
   },
   {
-    link: "https://www.youtube.com/watch?v=K7wDzyJQhS0",
+    url: "https://www.youtube.com/watch?v=K7wDzyJQhS0",
     title:
       "“Aakhir  Insaan Mahapursh Ke Paas Satsang Sunhein Kyon Jaata Hai”- Satguru Sahibji",
   },
   {
-    link: "https://www.youtube.com/watch?v=5JHLVjLHpiM",
+    url: "https://www.youtube.com/watch?v=5JHLVjLHpiM",
     title: "13 10 2024 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=fZEMfHSFdyg",
+    url: "https://www.youtube.com/watch?v=fZEMfHSFdyg",
     title: "14 10 2024 - आपा पौ आपही बंधलो",
   },
   {
-    link: "https://www.youtube.com/watch?v=JoR_Vtdlutk",
+    url: "https://www.youtube.com/watch?v=JoR_Vtdlutk",
     title: "15 10 2024 - बिन यकतार चैन न पावे",
   },
   {
-    link: "https://www.youtube.com/watch?v=5P147mil-Q4",
+    url: "https://www.youtube.com/watch?v=5P147mil-Q4",
     title: "16 10 2024 - जात पात का चिन्ह न कोई कैसे दूसर जाति होई?",
   },
   {
-    link: "https://www.youtube.com/watch?v=dxEC7xxK0pg",
+    url: "https://www.youtube.com/watch?v=dxEC7xxK0pg",
     title: '"RANJARI WALE SAHIB MERE"',
   },
   {
-    link: "https://www.youtube.com/watch?v=StEcwrz-_H8",
+    url: "https://www.youtube.com/watch?v=StEcwrz-_H8",
     title: "17 10 2024 - जो मेरे शरणागति आई राखूँ तँह मैं प्राण की नाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=1MHDDDhMeto",
+    url: "https://www.youtube.com/watch?v=1MHDDDhMeto",
     title: "18 10 2024 - परमदयाल दया के सागर महाकष्ट दुःख द्वन्द निवारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=RhFGqXKy3aw",
+    url: "https://www.youtube.com/watch?v=RhFGqXKy3aw",
     title: "19 10 2024 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=yQcbw3DvDmU",
+    url: "https://www.youtube.com/watch?v=yQcbw3DvDmU",
     title: "“Hinsak Prani Nahin Palna”- Satguru Sahibji",
   },
   {
-    link: "https://www.youtube.com/watch?v=ruzuMHXHOow",
+    url: "https://www.youtube.com/watch?v=ruzuMHXHOow",
     title: "21 10 2024 - कोई योग कोई ध्यान बतावे, कोई कोई अलख लखावे",
   },
   {
-    link: "https://www.youtube.com/watch?v=RjteBTQ_-tE",
+    url: "https://www.youtube.com/watch?v=RjteBTQ_-tE",
     title: "22 10 2024 - यह कबीर भव भटका खाये, वह कबीर भव पार लगाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=GPMug__lXfU",
+    url: "https://www.youtube.com/watch?v=GPMug__lXfU",
     title: "23 10 2024 - ये जग है स्वारथ का मीत",
   },
   {
-    link: "https://www.youtube.com/watch?v=BfXxr7i68_Y",
+    url: "https://www.youtube.com/watch?v=BfXxr7i68_Y",
     title: "“Hey Devi Aaj Se Tum Meri Mata Ho”- Goswami Tulsidas Ji",
   },
   {
-    link: "https://www.youtube.com/watch?v=8rvgM3KvMBg",
+    url: "https://www.youtube.com/watch?v=8rvgM3KvMBg",
     title: "24 10 2024 - खावता, पीवता, जागता, सोवता कहें कबीर सो रहे माहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=mWmX04sTEQ8",
+    url: "https://www.youtube.com/watch?v=mWmX04sTEQ8",
     title: "25 10 2024 - नानक नन्ने हुई रहो जैसे नन्नी दूब",
   },
   {
-    link: "https://www.youtube.com/watch?v=Qagf6PouMvc",
+    url: "https://www.youtube.com/watch?v=Qagf6PouMvc",
     title: "26 10 2024 - सैयाद के काबू में हैं सब जीव बेचारे",
   },
   {
-    link: "https://www.youtube.com/watch?v=uGttqNv85JA",
+    url: "https://www.youtube.com/watch?v=uGttqNv85JA",
     title: '"Tantrik Ki Char Logon Ki Team Hai” - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=Th19YZpsKsM",
+    url: "https://www.youtube.com/watch?v=Th19YZpsKsM",
     title: "RAMSU (J&K) SATSANG - 27 10 2024 - हमारे पंथ के लक्ष्य",
   },
   {
-    link: "https://www.youtube.com/watch?v=LbJ_LC_EigM",
+    url: "https://www.youtube.com/watch?v=LbJ_LC_EigM",
     title: "28 10 2024 - भाई रे दो जगदीश कहाँ से आये?",
   },
   {
-    link: "https://www.youtube.com/watch?v=axsRdm5oA9k",
+    url: "https://www.youtube.com/watch?v=axsRdm5oA9k",
     title: "29 10 2024 - क्या माँगू कुछ थिर न रहाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=MrSZiHPkD2g",
+    url: "https://www.youtube.com/watch?v=MrSZiHPkD2g",
     title: '"Insaan Paisa Deke,Khud Paagal Banta Hai” - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=kYsTfTo45KQ",
+    url: "https://www.youtube.com/watch?v=kYsTfTo45KQ",
     title: "31 10 2024 - पांच सखी पिहू पिहू करत हैं",
   },
   {
-    link: "https://www.youtube.com/watch?v=ErF5uIa2oJE",
+    url: "https://www.youtube.com/watch?v=ErF5uIa2oJE",
     title: "30 10 2024 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=cSkFaumNVhc",
+    url: "https://www.youtube.com/watch?v=cSkFaumNVhc",
     title: "01 11 2024 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=XGO0coVH2vg",
+    url: "https://www.youtube.com/watch?v=XGO0coVH2vg",
     title: "02 11 2024 - सो सद्गुरु मोहे भावे जो भोग में योग दिखावे",
   },
   {
-    link: "https://www.youtube.com/watch?v=DA376pqWDN8",
+    url: "https://www.youtube.com/watch?v=DA376pqWDN8",
     title: '"Aatma Toh Paramprush Ka Ansh Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=Xm1Wbh0G5gI",
+    url: "https://www.youtube.com/watch?v=Xm1Wbh0G5gI",
     title: "03 11 2024 - चिंता तो सतनाम की और न चितवे दास",
   },
   {
-    link: "https://www.youtube.com/watch?v=jD124vcl3g4",
+    url: "https://www.youtube.com/watch?v=jD124vcl3g4",
     title: "06 11 2024 - अविगत से गति विगत है, मन बुद्धि चित्त से दूर",
   },
   {
-    link: "https://www.youtube.com/watch?v=WUUdn6AR2ps",
+    url: "https://www.youtube.com/watch?v=WUUdn6AR2ps",
     title: '"Mujhe Raat Ke Do Baje Phone Aaya” -  Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=Fi3w8mryNHk",
+    url: "https://www.youtube.com/watch?v=Fi3w8mryNHk",
     title: "07 11 2024 - जैसे चंद्र कुमोदन की रीति, गहे शिष्य तस उर परतीती",
   },
   {
-    link: "https://www.youtube.com/watch?v=bYffKU_pqw0",
+    url: "https://www.youtube.com/watch?v=bYffKU_pqw0",
     title: "08 11 2024 - ये जग है स्वारथ का मीत, समझ नहीं कोई अपना हीत",
   },
   {
-    link: "https://www.youtube.com/watch?v=frf399krusQ",
+    url: "https://www.youtube.com/watch?v=frf399krusQ",
     title: "09 11 2024 - तन धर सुखिया कोई न देखा",
   },
   {
-    link: "https://www.youtube.com/watch?v=Kf0iprQgsgA",
+    url: "https://www.youtube.com/watch?v=Kf0iprQgsgA",
     title:
       '"Raja Pipa,Guru Ravidas Maharaj Ke Shishaye The” -  Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=pdKZ9FdwFYk",
+    url: "https://www.youtube.com/watch?v=pdKZ9FdwFYk",
     title: "11 11 2024 - पांच पचीस ये मन के साथा",
   },
   {
-    link: "https://www.youtube.com/watch?v=SQdCpEjhOGQ",
+    url: "https://www.youtube.com/watch?v=SQdCpEjhOGQ",
     title: "12 11 2024 - मन की बात अगम अपारा, मन भटकाया सब संसारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=TVzYlQthtSU",
+    url: "https://www.youtube.com/watch?v=TVzYlQthtSU",
     title: "13 11 2024 - बिन रोये नहीं पाइया साहिब का दीदार",
   },
   {
-    link: "https://www.youtube.com/watch?v=_iDcxARiVOk",
+    url: "https://www.youtube.com/watch?v=_iDcxARiVOk",
     title: '"Swami Rama Tirtha Trip To Japan"',
   },
   {
-    link: "https://www.youtube.com/watch?v=hychdNtzAGg",
+    url: "https://www.youtube.com/watch?v=hychdNtzAGg",
     title: "14 11 2024 - अपनों कर्म न मेटो जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=tT-8VkcH7-4",
+    url: "https://www.youtube.com/watch?v=tT-8VkcH7-4",
     title: "15 11 2024 - हमारा इतना विरोध क्यों होता है?",
   },
   {
-    link: "https://www.youtube.com/watch?v=_w4yZzpKZfY",
+    url: "https://www.youtube.com/watch?v=_w4yZzpKZfY",
     title: "1581 - 16 11 2024 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=HEhasQmDgLk",
+    url: "https://www.youtube.com/watch?v=HEhasQmDgLk",
     title: '"Panth Ke Anivarya Niyam"',
   },
   {
-    link: "https://www.youtube.com/watch?v=xYlJkwHNdKM",
+    url: "https://www.youtube.com/watch?v=xYlJkwHNdKM",
     title: "1582 - 17 11 2024 - माया महा ठगनी हम जानी",
   },
   {
-    link: "https://www.youtube.com/watch?v=Ex0dP_w7rAk",
+    url: "https://www.youtube.com/watch?v=Ex0dP_w7rAk",
     title: "1583 - 18 11 2024 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=CrhBN0plzOs",
+    url: "https://www.youtube.com/watch?v=CrhBN0plzOs",
     title:
       "1584 - 20 11 2024 - भक्ति स्वतंत्र सकल गुण खानी, बिन सत्संग न पावे प्राणी",
   },
   {
-    link: "https://www.youtube.com/watch?v=lZ8sz_LK2NM",
+    url: "https://www.youtube.com/watch?v=lZ8sz_LK2NM",
     title: '"Yeh Khuli Loot Hai Yaatriyon Ke Saath" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=0w15Vvd6YKU",
+    url: "https://www.youtube.com/watch?v=0w15Vvd6YKU",
     title:
       "1585 - 21 11 2024 - खावता, पीवता, जागता, सोवता कहें कबीर सो रहे माहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=wDpvdREK8OY",
+    url: "https://www.youtube.com/watch?v=wDpvdREK8OY",
     title: "1586 - 22 11 2024 - पाप पुण्य ये दोनों बड़ी, इक लोहा इक कंचन केरी",
   },
   {
-    link: "https://www.youtube.com/watch?v=fWAa1KcCwYQ",
+    url: "https://www.youtube.com/watch?v=fWAa1KcCwYQ",
     title: "1587 - 23 11 2024 - राम कृष्ण से को बड़ा तिन भी तो गुरु कीन",
   },
   {
-    link: "https://www.youtube.com/watch?v=hIVDYFXGEQM",
+    url: "https://www.youtube.com/watch?v=hIVDYFXGEQM",
     title: "1588 - 24 11 2024 - सो सद्गुरु मोहे भावे जो भोग में योग दिखावे",
   },
   {
-    link: "https://www.youtube.com/watch?v=nOLKxTSZ4j4",
+    url: "https://www.youtube.com/watch?v=nOLKxTSZ4j4",
     title: "1589 - 25 11 2024 - जेते घट तेते व्रत अचरज कथो न जाये",
   },
   {
-    link: "https://www.youtube.com/watch?v=8I1st313-4I",
+    url: "https://www.youtube.com/watch?v=8I1st313-4I",
     title: "1590 - 26 11 2024 - मन की बात अगम अपरा, मन भटकाए सब संसारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=W4jDBw_SnUo",
+    url: "https://www.youtube.com/watch?v=W4jDBw_SnUo",
     title:
       "1591 - 28 11 2024 - धर्मन सुन यह मोर स्वभाउ विनती सुनत मम रहा न जाऊ",
   },
   {
-    link: "https://www.youtube.com/watch?v=XwToz4_MonM",
+    url: "https://www.youtube.com/watch?v=XwToz4_MonM",
     title: "1592 - 29 11 2024 - मन माया तो एक है माया मनहि समाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=lKp7YPpHEtw&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=lKp7YPpHEtw&pp=0gcJCeAJAYcqIYzv",
     title: "1593 - 30 11 2024 - कोटि नाम संसार में तिनते मुक्ति न होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=HdLcQzWpY18",
+    url: "https://www.youtube.com/watch?v=HdLcQzWpY18",
     title: "1594 - 02 12 2024 - आतम ज्ञान बिना नर भटके क्या मथुरा क्या काशी",
   },
   {
-    link: "https://www.youtube.com/watch?v=fm4f6oJK6WY",
+    url: "https://www.youtube.com/watch?v=fm4f6oJK6WY",
     title: "1595 - 03 12 24 - सिद्ध लोक, स्वर्ग और नर्क कैसे जाते हैं?",
   },
   {
-    link: "https://www.youtube.com/watch?v=7zuXs-VMjl4",
+    url: "https://www.youtube.com/watch?v=7zuXs-VMjl4",
     title:
       "1596 - 04 12 2024 - अस प्रभु अछत ह्रदय अबिकारी, भ्रम वश जीव फिरे दुखारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=9_7p73QvrKU&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=9_7p73QvrKU&pp=0gcJCeAJAYcqIYzv",
     title: "1597 - 05 12 2024 - 5 दिसंबर - हमारा 54th नामदान दिवस",
   },
   {
-    link: "https://www.youtube.com/watch?v=Blm8WnGzs9Q",
+    url: "https://www.youtube.com/watch?v=Blm8WnGzs9Q",
     title: "1598 - 06 12 2024 - ब्रह्म जपत हैं विष्णु जपत हैं और जपत हैं शिव",
   },
   {
-    link: "https://www.youtube.com/watch?v=B2FYnX24iC8",
+    url: "https://www.youtube.com/watch?v=B2FYnX24iC8",
     title: "1599 - 07 12 2024 - मिर्गी के दौरे का इलाज",
   },
   {
-    link: "https://www.youtube.com/watch?v=NMzuQD1UWiU",
+    url: "https://www.youtube.com/watch?v=NMzuQD1UWiU",
     title: '"Buri Nazar Wale Tera Muh Kala" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=K-t3wfgN0qI",
+    url: "https://www.youtube.com/watch?v=K-t3wfgN0qI",
     title:
       "1600 - 10 12 2024 - मोर भक्त चंडाल किम होई, सब जीवन से श्रेष्ठै होई",
   },
   {
-    link: "https://www.youtube.com/watch?v=4SzN_JJcP6w",
+    url: "https://www.youtube.com/watch?v=4SzN_JJcP6w",
     title: "1601 - 11 12 2024 - कोई सर्गुण में रीझ रहा, कोई निर्गुण ठहराए",
   },
   {
-    link: "https://www.youtube.com/watch?v=NG02XaCP5-8",
+    url: "https://www.youtube.com/watch?v=NG02XaCP5-8",
     title: '"Har Bimari Ka Udgam Hee Bhojan Se Hota Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=aHXaUyIHqPY",
+    url: "https://www.youtube.com/watch?v=aHXaUyIHqPY",
     title: "1602 - 12 12 2024 - वा घर की सुधि कोई न बतावे जहवाँ से हँसा आया है",
   },
   {
-    link: "https://www.youtube.com/watch?v=y3eYmNt77Yk",
+    url: "https://www.youtube.com/watch?v=y3eYmNt77Yk",
     title: "1603 - 13 12 2024 - भृंगमता होए जेहि पासा, सोइ गुरु सत्य धर्मदासा",
   },
   {
-    link: "https://www.youtube.com/watch?v=w1WmBD7SH1E",
+    url: "https://www.youtube.com/watch?v=w1WmBD7SH1E",
     title: "1604 - 14 12 2024 - मूल नाम जो गुप्त है वो जाने बिरला कोय",
   },
   {
-    link: "https://www.youtube.com/watch?v=p1-zBExCwE8",
+    url: "https://www.youtube.com/watch?v=p1-zBExCwE8",
     title: '"Fits Ka Koi Ilaaj Nahin Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=xyU9ICO3qi0",
+    url: "https://www.youtube.com/watch?v=xyU9ICO3qi0",
     title: "1605 - 15 12 2024 - जा घट नाम न संचरे तिसको जान मशान",
   },
   {
-    link: "https://www.youtube.com/watch?v=HaqZaj6-RAA",
+    url: "https://www.youtube.com/watch?v=HaqZaj6-RAA",
     title: "1606 - 16 12 2024 - संतों अविगत की गति नयारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=Oy6HFNY7w84",
+    url: "https://www.youtube.com/watch?v=Oy6HFNY7w84",
     title: "1607 - 17 12 2024 -  नानक नन्हे हुई रहो जैसे नन्ही दूब",
   },
   {
-    link: "https://www.youtube.com/watch?v=SBBr79w7jZQ",
+    url: "https://www.youtube.com/watch?v=SBBr79w7jZQ",
     title: "1608 - 18 12 2024 - सत्य सोई जो विनशे नाहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=383HYZhcksM",
+    url: "https://www.youtube.com/watch?v=383HYZhcksM",
     title: "1609 - 19 12 2024 - सैयाद के काबू में हैं सब जीव बेचारे",
   },
   {
-    link: "https://www.youtube.com/watch?v=4G-sjkijSBE",
+    url: "https://www.youtube.com/watch?v=4G-sjkijSBE",
     title: "1610 - 20 12 2024 - वेद कितेब पार नहीं पावत ऐसा देश हमारा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=1ptq4CStl3E",
+    url: "https://www.youtube.com/watch?v=1ptq4CStl3E",
     title: "1611 - 21 12 2024 - गुरु के गुण कहत हूँ सुनो धीर चित्तलाये",
   },
   {
-    link: "https://www.youtube.com/watch?v=gfgT2rAuHP8",
+    url: "https://www.youtube.com/watch?v=gfgT2rAuHP8",
     title:
       "1612 - 22 12 2024 - चार वेद मिल झगड़ा कीना ब्रह्म रूप काहू नहीं चीन्हा",
   },
   {
-    link: "https://www.youtube.com/watch?v=LyuPx6j9PPk",
+    url: "https://www.youtube.com/watch?v=LyuPx6j9PPk",
     title: '"Yeh Nicotine Poison Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=DHmbiFwrBuY&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=DHmbiFwrBuY&pp=0gcJCeAJAYcqIYzv",
     title: "1613 - 23 12 2024 - आतम ज्ञान सम ज्ञान न आना",
   },
   {
-    link: "https://www.youtube.com/watch?v=8D12tKyzbAk",
+    url: "https://www.youtube.com/watch?v=8D12tKyzbAk",
     title: '"Concentration Se,Woh Jagah Reactive Ho Jayegi" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=n2LRxY5aCDM",
+    url: "https://www.youtube.com/watch?v=n2LRxY5aCDM",
     title:
       "1615 - 25 12 2024 - खावता, पीवता, जागता, सोवता कहें कबीर सो रहे माहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=0jZ49Z3FWlc",
+    url: "https://www.youtube.com/watch?v=0jZ49Z3FWlc",
     title: "1616 - 26 12 2024 - काग पलट हँसा कर दीना ऐसा नाम सतगुरु मोहे दीना",
   },
   {
-    link: "https://www.youtube.com/watch?v=L905n7qmmd8",
+    url: "https://www.youtube.com/watch?v=L905n7qmmd8",
     title: "1614 - 24 12 2024 - धरमन सुन यह मोर स्वभाऊ, विनय सुनत मम रहा न जाऊ",
   },
   {
-    link: "https://www.youtube.com/watch?v=G2A4yuT5zXw",
+    url: "https://www.youtube.com/watch?v=G2A4yuT5zXw",
     title: "1617 - 27 12 2024 - तन धर सुखिया कोई न देखा जो देखा सो दुखिया",
   },
   {
-    link: "https://www.youtube.com/watch?v=ksvErtbL5as",
+    url: "https://www.youtube.com/watch?v=ksvErtbL5as",
     title: '"Smartphone Ne Bahut Nuksan Kiya Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=li2tsBeTKcE&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=li2tsBeTKcE&pp=0gcJCeAJAYcqIYzv",
     title: "1618 - 28 12 2024 - वेद कितेब पार नहीं पावत ऐसा देश हमारा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=KOuGLk_PUMs",
+    url: "https://www.youtube.com/watch?v=KOuGLk_PUMs",
     title: "1619 - 30 12 2024 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=ZlQn_lT5yrM",
+    url: "https://www.youtube.com/watch?v=ZlQn_lT5yrM",
     title: '"Dharti Disbalance Ho Rahi Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=IqGKJx9gZyE",
+    url: "https://www.youtube.com/watch?v=IqGKJx9gZyE",
     title: "1620 - 01 01 2025 - गुरु दर्शन के अनेक फल जानत संत सुजान",
   },
   {
-    link: "https://www.youtube.com/watch?v=l4oZh7jMXCk",
+    url: "https://www.youtube.com/watch?v=l4oZh7jMXCk",
     title: "1621 - 02 01 2025 - चौथा पद निर्वाण पूरे गुरु से पाइये",
   },
   {
-    link: "https://www.youtube.com/watch?v=rbcx_d_togA",
+    url: "https://www.youtube.com/watch?v=rbcx_d_togA",
     title:
       "1622 - 03 01 2025 - भक्ति न होये नाचे गाये, भक्ति न होये मृदंग बजाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=iWJPcMgmuiw",
+    url: "https://www.youtube.com/watch?v=iWJPcMgmuiw",
     title: "1623 - 04 01 2025 - शरीर मध्ये स्वाँसा सार",
   },
   {
-    link: "https://www.youtube.com/watch?v=ghwf7qLUFWc",
+    url: "https://www.youtube.com/watch?v=ghwf7qLUFWc",
     title: "1624 - 05 01 2025 - मोर कहा बिरला जान माने",
   },
   {
-    link: "https://www.youtube.com/watch?v=CqISqk1A1a4",
+    url: "https://www.youtube.com/watch?v=CqISqk1A1a4",
     title: "1625 - 06 01 2025 - जो कुछ है सो सुरति है कहें कबीर समझाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=V70V5fQGNPQ",
+    url: "https://www.youtube.com/watch?v=V70V5fQGNPQ",
     title: "1626 - 07 01 2025 - कामी, क्रोधी, आलसी इनसे भक्ति न होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=Dly3oM8538g",
+    url: "https://www.youtube.com/watch?v=Dly3oM8538g",
     title: "1627 - 08 01 2025 - अनहद लूट होत घट भीतर घट का मरम न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=SSIEOZJTtnA",
+    url: "https://www.youtube.com/watch?v=SSIEOZJTtnA",
     title: "1628 - 09 01 2025 - ब्रह्म राम ते नाम बड़",
   },
   {
-    link: "https://www.youtube.com/watch?v=RbFDZB8Tn8o",
+    url: "https://www.youtube.com/watch?v=RbFDZB8Tn8o",
     title: '"Prathana Main Dum Hota Hai" - Satguru Sahibji',
   },
   {
-    link: "https://www.youtube.com/watch?v=_HMDCLkIDVo",
+    url: "https://www.youtube.com/watch?v=_HMDCLkIDVo",
     title: "1629 - 10 01 2025 - कबिरा संगत साध की बड़े भाग ते होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=kL2mB3VbCls",
+    url: "https://www.youtube.com/watch?v=kL2mB3VbCls",
     title: "1630 - 11 01 2025 - चौरासी लाख योनियाँ क्यों बनाई गईं?",
   },
   {
-    link: "https://www.youtube.com/watch?v=cmSdNbcSR_I",
+    url: "https://www.youtube.com/watch?v=cmSdNbcSR_I",
     title: "1631 - 12 01 2025 - माया काली नागिन, जिन डसिया सब संसार",
   },
   {
-    link: "https://www.youtube.com/watch?v=woADygrsBDs",
+    url: "https://www.youtube.com/watch?v=woADygrsBDs",
     title: "1632 - 13 01 2025 - जीव अधम और नीच है इसको मत पतियाय",
   },
   {
-    link: "https://www.youtube.com/watch?v=ooeQMsKlRcc",
+    url: "https://www.youtube.com/watch?v=ooeQMsKlRcc",
     title: "1633 - 14 01 2025 - वा घर की सुधि कोई न बतावे जहवाँ से हँसा आया है",
   },
   {
-    link: "https://www.youtube.com/watch?v=fTJys4NlFIs",
+    url: "https://www.youtube.com/watch?v=fTJys4NlFIs",
     title:
       "1634 - 15 01 2025 - जाकी सुरति लाग रही जहवाँ कहें कबीर पहुँचाऊँ तहवाँ",
   },
   {
-    link: "https://www.youtube.com/watch?v=Va3PaPxO4ZE",
+    url: "https://www.youtube.com/watch?v=Va3PaPxO4ZE",
     title:
       "1635 - 16 01 2025 - धर्मन सुन यह मोर स्वभाउ विनती सुनत मम रहा न जाऊ",
   },
   {
-    link: "https://www.youtube.com/watch?v=AW6DzEATlNA",
+    url: "https://www.youtube.com/watch?v=AW6DzEATlNA",
     title: "1636 - 17 01 2025 - ये काया है समरथ केरी, काया की गति काहू न हेरी",
   },
   {
-    link: "https://www.youtube.com/watch?v=mMa93yGiy0A&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=mMa93yGiy0A&pp=0gcJCeAJAYcqIYzv",
     title: "1637 - 18 01 2025 - आतम ज्ञान सम ज्ञान न आना",
   },
   {
-    link: "https://www.youtube.com/watch?v=9UjJ_sZSCGA",
+    url: "https://www.youtube.com/watch?v=9UjJ_sZSCGA",
     title: "1638 - 19 01 2025 - वेद कितेब पार नहीं पावत ऐसा देश हमारा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=SQO2CViJwfU",
+    url: "https://www.youtube.com/watch?v=SQO2CViJwfU",
     title: "1639 - 20 01 2025 - बहु बंधन ते बांधिया एक बिचारा जीव",
   },
   {
-    link: "https://www.youtube.com/watch?v=u4BNeS0j5rY",
+    url: "https://www.youtube.com/watch?v=u4BNeS0j5rY",
     title: "1640 - 21 01 2025 - गुरु गुरु कहे संसारा, गुरु सोइ जो भ्रम निवारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=6gD34TRBOxw",
+    url: "https://www.youtube.com/watch?v=6gD34TRBOxw",
     title: "1641 - 22 01 2025 - तन धर सुखिया कोई न देखा जो देखा सो दुखिया",
   },
   {
-    link: "https://www.youtube.com/watch?v=jpe7GLJQQp4",
+    url: "https://www.youtube.com/watch?v=jpe7GLJQQp4",
     title: "1642 - 23 01 2025 - कहो कवन सिद्ध बिन विश्वासा",
   },
   {
-    link: "https://www.youtube.com/watch?v=MzG0kLQ42qY&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=MzG0kLQ42qY&pp=0gcJCeAJAYcqIYzv",
     title: "1643 - 24 01 2025 - क्या शरीर की छः अवस्थाओं में कहीं भी सुख है?",
   },
   {
-    link: "https://www.youtube.com/watch?v=0h4ilMPRPVE",
+    url: "https://www.youtube.com/watch?v=0h4ilMPRPVE",
     title: "1644 - 25 01 2025 - गुरु से सुरति राख रह जोड़ी",
   },
   {
-    link: "https://www.youtube.com/watch?v=8eDKdGMJn9g",
+    url: "https://www.youtube.com/watch?v=8eDKdGMJn9g",
     title:
       "1645 - 26 01 2025 - जहाँ सुमति तहँ संपत्ति नाना, जहाँ कुमति तहँ विपत्ति निदाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=7cEvgYNeKVc",
+    url: "https://www.youtube.com/watch?v=7cEvgYNeKVc",
     title: "1646 - 27 01 2025 - निराकार ते भेद आदि कोई जाने नहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=2ZDn4jSw5jA",
+    url: "https://www.youtube.com/watch?v=2ZDn4jSw5jA",
     title: "1647 - 28 01 2025 - शिव गोरख सब पच पच हारे, इस काया का भेद न पाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=LWC7hrkmNtw",
+    url: "https://www.youtube.com/watch?v=LWC7hrkmNtw",
     title:
       "1648 - 29 01 2025 - भक्ति स्वतंत्र सकल गुण खानी बिनु सत्संग न पावे प्राणी",
   },
   {
-    link: "https://www.youtube.com/watch?v=XTMsDm1RAek",
+    url: "https://www.youtube.com/watch?v=XTMsDm1RAek",
     title: "1649 - 30 01 2025 - मन की बात अगम अपरा, मन भटकाए सब संसारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=aUNkxtUCJNo",
+    url: "https://www.youtube.com/watch?v=aUNkxtUCJNo",
     title: "1650 - 31 01 2025 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=uQshxa4IQEw",
+    url: "https://www.youtube.com/watch?v=uQshxa4IQEw",
     title: "1651 - 01 02 2025 - भय नाशन दुर्मति हरण कलि में प्रभु को नाम",
   },
   {
-    link: "https://www.youtube.com/watch?v=2of72j-lMbE",
+    url: "https://www.youtube.com/watch?v=2of72j-lMbE",
     title: "1653 - 03 02 2025 - मिर्गी के दौरे का इलाज",
   },
   {
-    link: "https://www.youtube.com/watch?v=HvEEl_EHo3U",
+    url: "https://www.youtube.com/watch?v=HvEEl_EHo3U",
     title: "1652 - 02 02 2025 - कोटि नाम संसार में तिनते मुक्ति न होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=XDqQp9vWauw",
+    url: "https://www.youtube.com/watch?v=XDqQp9vWauw",
     title: "1654 - 04 02 2025 - मन माया में रम रहयो बिसारयो नाम गोविन्द",
   },
   {
-    link: "https://www.youtube.com/watch?v=hSTHbMPfTrM",
+    url: "https://www.youtube.com/watch?v=hSTHbMPfTrM",
     title: "1655 - 05 02 2025 - नाम पारस परस घट में काग होये मराल",
   },
   {
-    link: "https://www.youtube.com/watch?v=ZhkEdg_C3TY",
+    url: "https://www.youtube.com/watch?v=ZhkEdg_C3TY",
     title:
       "1656 - 06 02 2025 - जाकी सुरति लाग रही जहवाँ कहें कबीर पहुँचाऊँ तहवाँ",
   },
   {
-    link: "https://www.youtube.com/watch?v=pvRw2NDcvfs",
+    url: "https://www.youtube.com/watch?v=pvRw2NDcvfs",
     title: "1657 - 09 02 2025 - ये काया है समरथ केरी, काया की गति काहू न हेरी",
   },
   {
-    link: "https://www.youtube.com/watch?v=X2c-EI4_Ad4&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=X2c-EI4_Ad4&pp=0gcJCeAJAYcqIYzv",
     title: "1658 - 10 02 2025 - गुरु सत्य, नाम सत्य, आप सत्य जो होयें",
   },
   {
-    link: "https://www.youtube.com/watch?v=uBgOChwIsGk",
+    url: "https://www.youtube.com/watch?v=uBgOChwIsGk",
     title: "1659 - 11 02 2025 - सो तो शब्द विदेह - लिखा न जाई पढ़ा न जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=6UX1iUSrOZ8",
+    url: "https://www.youtube.com/watch?v=6UX1iUSrOZ8",
     title: "1660 - 12 02 2025 - बहु बंधन ते बाँधिया एक बिचारा जीव",
   },
   {
-    link: "https://www.youtube.com/watch?v=3ueLyMLfvO8",
+    url: "https://www.youtube.com/watch?v=3ueLyMLfvO8",
     title: "1661 - 13 02 2025 - शरीर मध्ये स्वाँसा सार",
   },
   {
-    link: "https://www.youtube.com/watch?v=lfwlxaqPslU",
+    url: "https://www.youtube.com/watch?v=lfwlxaqPslU",
     title: "1662 - 14 02 2025 - मन की तरंग मार दो बस हो गया भजन",
   },
   {
-    link: "https://www.youtube.com/watch?v=G_rrTL0bzsE",
+    url: "https://www.youtube.com/watch?v=G_rrTL0bzsE",
     title: "1663 - 15 02 2025 - सत्य नाम सुमिरे जो कोई ताका आवागमन न होई",
   },
   {
-    link: "https://www.youtube.com/watch?v=MdnkiRt0HdQ",
+    url: "https://www.youtube.com/watch?v=MdnkiRt0HdQ",
     title: "1664 - 18 02 2024 - देव निरंजन सकल शरीरा, तामे भ्रम भ्रम रहत कबीरा",
   },
   {
-    link: "https://www.youtube.com/watch?v=GrqhxvYhOBw",
+    url: "https://www.youtube.com/watch?v=GrqhxvYhOBw",
     title: "1665 - 19 02 2025 - तन धर सुखिया कोई न देखा जो देखा सो दुखिया",
   },
   {
-    link: "https://www.youtube.com/watch?v=LVabVveMk5A",
+    url: "https://www.youtube.com/watch?v=LVabVveMk5A",
     title: "1666 - 20 02 2025 - शरीर मध्ये स्वाँसा सार",
   },
   {
-    link: "https://www.youtube.com/watch?v=_RaNftrEA5o&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=_RaNftrEA5o&pp=0gcJCeAJAYcqIYzv",
     title: "1667 - 22 02 2025 - सब कुछ लिख लिख धरत है जो जो करम करे जग माहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=mTkfwmtVGfk",
+    url: "https://www.youtube.com/watch?v=mTkfwmtVGfk",
     title: "1668 - 23 02 2024 - मूल नाम जो गुप्त है वो जाने बिरला कोय",
   },
   {
-    link: "https://www.youtube.com/watch?v=5k8alDxaaX8&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=5k8alDxaaX8&pp=0gcJCeAJAYcqIYzv",
     title: "1669 - 24 02 2024 - जात पात का चिन्ह न कोई कैसे दूसर जाति होई?",
   },
   {
-    link: "https://www.youtube.com/watch?v=iqtrCDnSbFU",
+    url: "https://www.youtube.com/watch?v=iqtrCDnSbFU",
     title: "1670 - 25 02 2025 - ताको योगेश्वर नहीं पाए और जीव की कौन चलाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=7CC9xyI4KiE",
+    url: "https://www.youtube.com/watch?v=7CC9xyI4KiE",
     title: "26 02 2025 - ये संसार काल है राजा यहाँ कर्म का जाल पसरा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=D1HcO5ffh4g&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=D1HcO5ffh4g&pp=0gcJCeAJAYcqIYzv",
     title: "27 02 2025 - पांच पचीस ये मन के साथा",
   },
   {
-    link: "https://www.youtube.com/watch?v=Uu-Lp6J5Bl0&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=Uu-Lp6J5Bl0&pp=0gcJCeAJAYcqIYzv",
     title: "28 02 2025 - जब लग मन का कर्म न खोये, तब लग मन बस में नहीं होए",
   },
   {
-    link: "https://www.youtube.com/watch?v=aL-_2Lvnpoc",
+    url: "https://www.youtube.com/watch?v=aL-_2Lvnpoc",
     title: "01 03 2025 - सबका थाह पाया, इस गंडार का थाह न पाया",
   },
   {
-    link: "https://www.youtube.com/watch?v=mkp2fjBddYU",
+    url: "https://www.youtube.com/watch?v=mkp2fjBddYU",
     title: "02 03 2025 - आपा पौ आपाही बंधलो",
   },
   {
-    link: "https://www.youtube.com/watch?v=OMHdDWvy-8I",
+    url: "https://www.youtube.com/watch?v=OMHdDWvy-8I",
     title: "07 03 2025 - क्या माँगू कुछ थिर न रहाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=iLkIq04Vhmc",
+    url: "https://www.youtube.com/watch?v=iLkIq04Vhmc",
     title: "08 03 2025 - अव्वल संत कबीर हैं, दूजे रामानंद",
   },
   {
-    link: "https://www.youtube.com/watch?v=5ZHGDdqBc0A&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=5ZHGDdqBc0A&pp=0gcJCeAJAYcqIYzv",
     title: "09 03 2025 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=IL_hyvReNZo",
+    url: "https://www.youtube.com/watch?v=IL_hyvReNZo",
     title: "10 03 2025 - पांच पचीस ये मनही के साथा",
   },
   {
-    link: "https://www.youtube.com/watch?v=8u8IfcklufU",
+    url: "https://www.youtube.com/watch?v=8u8IfcklufU",
     title: "12 03 2025 - पांच पचीस तीन का मेला, ये सब आहे निरंजन चेला",
   },
   {
-    link: "https://www.youtube.com/watch?v=Y7UgUt_1FQE",
+    url: "https://www.youtube.com/watch?v=Y7UgUt_1FQE",
     title: "15 03 2025 - पाप पुण्य ये दोनों बेड़ी, इक लोहा इक कंचन केरी",
   },
   {
-    link: "https://www.youtube.com/watch?v=JXfeXtIWtf0",
+    url: "https://www.youtube.com/watch?v=JXfeXtIWtf0",
     title: "17 03 2025 - जिनके धन सतनाम है तिनका जीवन धन्य",
   },
   {
-    link: "https://www.youtube.com/watch?v=t2fQjBIM3i0",
+    url: "https://www.youtube.com/watch?v=t2fQjBIM3i0",
     title: "18 03 2025 - नानक नन्ने हुई रहो जैसे नन्नी दूब",
   },
   {
-    link: "https://www.youtube.com/watch?v=7_jqFjC4K-Y",
+    url: "https://www.youtube.com/watch?v=7_jqFjC4K-Y",
     title: "19 03 2025 - सुमिरन से मन लाइए जैसे दाम कंगाल",
   },
   {
-    link: "https://www.youtube.com/watch?v=kxTykXda9fw",
+    url: "https://www.youtube.com/watch?v=kxTykXda9fw",
     title: "20 03 2025 - अस प्रभु अक्षत ह्रदय अविकारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=-qBg0cgKXIg",
+    url: "https://www.youtube.com/watch?v=-qBg0cgKXIg",
     title: "O Sahiba,O Sahiba - Sung by SAHIBJI",
   },
   {
-    link: "https://www.youtube.com/watch?v=no5NKe9eAZo",
+    url: "https://www.youtube.com/watch?v=no5NKe9eAZo",
     title: "21 03 2025 - मन करता यह देह समाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=ZO9MHSPgcLk",
+    url: "https://www.youtube.com/watch?v=ZO9MHSPgcLk",
     title: "22 03 2025 - भक्ति स्वतंत्र सकल गुण खानी, बिन सत्संग न पावे प्राणी",
   },
   {
-    link: "https://www.youtube.com/watch?v=coKWIJTxqxU",
+    url: "https://www.youtube.com/watch?v=coKWIJTxqxU",
     title: "23 03 2025 - गुरु सजीवन नाम बताये",
   },
   {
-    link: "https://www.youtube.com/watch?v=5zD8bjXgoqY",
+    url: "https://www.youtube.com/watch?v=5zD8bjXgoqY",
     title: "24 03 2025 - कबीर मन तो एक है भावे जहाँ लगाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=bjfd5FTEMzU",
+    url: "https://www.youtube.com/watch?v=bjfd5FTEMzU",
     title: "26 03 2025 - इतना सा विचार ले तो हो गया भजन",
   },
   {
-    link: "https://www.youtube.com/watch?v=Nzibg7DHP7g",
+    url: "https://www.youtube.com/watch?v=Nzibg7DHP7g",
     title: "27 03 2025 - युगों का मनुष्य पर प्रभाव",
   },
   {
-    link: "https://www.youtube.com/watch?v=nEVASuuY8MU",
+    url: "https://www.youtube.com/watch?v=nEVASuuY8MU",
     title: "28 03 2025 - भय बिन भक्ति न होये भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=Wpd42EqlMuc",
+    url: "https://www.youtube.com/watch?v=Wpd42EqlMuc",
     title: "30 03 2025 - अवधू अंध धुंध अँधियारा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=5DYsWKZtB74&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=5DYsWKZtB74&pp=0gcJCeAJAYcqIYzv",
     title: "31 03 2025 - कोटि नाम संसार में तिनते मुक्ति न होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=qClQJuO4Q-c",
+    url: "https://www.youtube.com/watch?v=qClQJuO4Q-c",
     title: "01 04 2025 - संतों तन खोजे मन पाया",
   },
   {
-    link: "https://www.youtube.com/watch?v=US3uuG725WQ",
+    url: "https://www.youtube.com/watch?v=US3uuG725WQ",
     title: "02 04 2025 - शिव गोरख सब पच पच हारे, इस काया का भेद न पाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=UsbLIRAnB00&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=UsbLIRAnB00&pp=0gcJCeAJAYcqIYzv",
     title: "03 04 2025 - गुरु गुरु कहे सकल संसारा गुरु सोइ जो भ्रम निवारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=MG5e8bgn1-0",
+    url: "https://www.youtube.com/watch?v=MG5e8bgn1-0",
     title: "04 04 2025 - जाकी गाँठी नाम है वाके हैं सब सिद्ध",
   },
   {
-    link: "https://www.youtube.com/watch?v=fj9gLBdO5gg",
+    url: "https://www.youtube.com/watch?v=fj9gLBdO5gg",
     title: "05 04 2025 - आपा तज हरि को भजे तब पाए दीदार",
   },
   {
-    link: "https://www.youtube.com/watch?v=T72_j08Cwqw",
+    url: "https://www.youtube.com/watch?v=T72_j08Cwqw",
     title: "06 04 2025 - ध्यान ही वेद शास्त्र कहत हैं, ध्यान ही संत बखाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=t8hrFk9g8ic",
+    url: "https://www.youtube.com/watch?v=t8hrFk9g8ic",
     title: "08 04 2025 - भय बिन भक्ति न होये भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=zM1R4YX0HDQ",
+    url: "https://www.youtube.com/watch?v=zM1R4YX0HDQ",
     title: "09 04 2025 - गुरु बिन मोक्ष मिले न भाई कोटिन करे उपाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=Z44t9oLuiO4",
+    url: "https://www.youtube.com/watch?v=Z44t9oLuiO4",
     title: "11 04 2025 - मांसाहारी मानवा प्रत्यक्ष राक्षस जान",
   },
   {
-    link: "https://www.youtube.com/watch?v=PqJ1Sddg8Oo",
+    url: "https://www.youtube.com/watch?v=PqJ1Sddg8Oo",
     title: '"Toot Gayi Hai Mala" - Sung by SAHIBJI',
   },
   {
-    link: "https://www.youtube.com/watch?v=ZYVJ82OKJ5E",
+    url: "https://www.youtube.com/watch?v=ZYVJ82OKJ5E",
     title: "12 04 2025 - जो तू आया हरुआ बनके तजो मनी का भारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=Wf8rJxvkX34",
+    url: "https://www.youtube.com/watch?v=Wf8rJxvkX34",
     title: "14 04 2025 - भक्ति भक्ति सब जगत बखाना, भक्ति भेद कोई बिरला जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=drnnOK-M1JA",
+    url: "https://www.youtube.com/watch?v=drnnOK-M1JA",
     title: "21 04 2025 - चेत सवेरे बाँवरे फिर पाछे पछताए",
   },
   {
-    link: "https://www.youtube.com/watch?v=4YkdFjTWvzk",
+    url: "https://www.youtube.com/watch?v=4YkdFjTWvzk",
     title: "22 04 2025 - तीन लोक से जुदा है वो सन्तन का देश",
   },
   {
-    link: "https://www.youtube.com/watch?v=lFWDifFrXcc",
+    url: "https://www.youtube.com/watch?v=lFWDifFrXcc",
     title: "24 04 2025 - कबीर मन तो एक है भावे जहाँ लगाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=OaoNTMMNpSc",
+    url: "https://www.youtube.com/watch?v=OaoNTMMNpSc",
     title: "23 04 2024 - ऐसे खरे सयाने अटके",
   },
   {
-    link: "https://www.youtube.com/watch?v=cDENcMV3cxA&",
+    url: "https://www.youtube.com/watch?v=cDENcMV3cxA&",
     title: "25 04 2025 - नानक दुखिया सब संसार, सुखी सोइ जे नाम आधार",
   },
   {
-    link: "https://www.youtube.com/watch?v=1zMJY1vFLek",
+    url: "https://www.youtube.com/watch?v=1zMJY1vFLek",
     title: "26 04 2025 - कोटिन परलय हो गई हम नहीं मरणंहार",
   },
   {
-    link: "https://www.youtube.com/watch?v=_s-Qmdi9egA",
+    url: "https://www.youtube.com/watch?v=_s-Qmdi9egA",
     title: "27 04 2025 - मन पर जो अस्वार है ऐसा बिरला कोय",
   },
   {
-    link: "https://www.youtube.com/watch?v=Yk2EPzU_eTc",
+    url: "https://www.youtube.com/watch?v=Yk2EPzU_eTc",
     title: "28 04 2025 - सीधी मेरी चाल है सबको टेढ़ी लागे",
   },
   {
-    link: "https://www.youtube.com/watch?v=IH57AdaTiAk",
+    url: "https://www.youtube.com/watch?v=IH57AdaTiAk",
     title: "29 04 2025 - ब्रह्म जपत हैं विष्णु जपत हैं और जपत हैं शिव",
   },
   {
-    link: "https://www.youtube.com/watch?v=M5V6uoFrMJY",
+    url: "https://www.youtube.com/watch?v=M5V6uoFrMJY",
     title: "30 04 2025 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=3bWqj3d4BNg",
+    url: "https://www.youtube.com/watch?v=3bWqj3d4BNg",
     title: "01 05 2025 - निंदक जिए युगन युग काम हमारा होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=_QG5LI4pY-0",
+    url: "https://www.youtube.com/watch?v=_QG5LI4pY-0",
     title:
       "02 05 2025 - अव्वल संत कबीर हैं दूजे रामानंद तासे भक्ति प्रकट भई सात द्वीप नौ खंड",
   },
   {
-    link: "https://www.youtube.com/watch?v=fOb-HM9by9s",
+    url: "https://www.youtube.com/watch?v=fOb-HM9by9s",
     title: "03 05 2025 - जीवन पांच पचीसी लागी, काम क्रोध मद लोभ में पागी",
   },
   {
-    link: "https://www.youtube.com/watch?v=HnpMKY07v9Y",
+    url: "https://www.youtube.com/watch?v=HnpMKY07v9Y",
     title: "04 05 2025 - माया महा ठगनी हम जानी",
   },
   {
-    link: "https://www.youtube.com/watch?v=QwWHWJx7Fo8",
+    url: "https://www.youtube.com/watch?v=QwWHWJx7Fo8",
     title: "05 05 2025 - जप तप संयम साधना सब सुमिरन के माहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=Rt4NS2ozjEE",
+    url: "https://www.youtube.com/watch?v=Rt4NS2ozjEE",
     title: "06 05 2025 - ऐसा भेद सुनो धरमदासु, जन्म जन्म की मेटत त्रासु",
   },
   {
-    link: "https://www.youtube.com/watch?v=ebnSJhUxTxs",
+    url: "https://www.youtube.com/watch?v=ebnSJhUxTxs",
     title: "08 05 2025 - मरते मरते जग मुआ मरन न जाना कोई",
   },
   {
-    link: "https://www.youtube.com/watch?v=_7SV5cM2dKI",
+    url: "https://www.youtube.com/watch?v=_7SV5cM2dKI",
     title: "09 05 2025 - जेतिक कर्म करे संसारा सो सब आये काल व्यवहारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=-xpSQvVK74E",
+    url: "https://www.youtube.com/watch?v=-xpSQvVK74E",
     title: "10 05 2025 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=Zp3tGI0QkmM&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=Zp3tGI0QkmM&pp=0gcJCeAJAYcqIYzv",
     title: "11 05 2025 - ऊंच वही जो नामहि जाना, बिना नाम सब नीच बखाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=vRrdvitnsmY",
+    url: "https://www.youtube.com/watch?v=vRrdvitnsmY",
     title: "12 05 2025 - आखिर ये तन खाक मिलेगा कहाँ फिरत मगरूरी में",
   },
   {
-    link: "https://www.youtube.com/watch?v=dYtta97uT-E",
+    url: "https://www.youtube.com/watch?v=dYtta97uT-E",
     title: "13 05 2025 - तू नाम सुमर जग लड़ने दे",
   },
   {
-    link: "https://www.youtube.com/watch?v=PJLs-tKqUHQ",
+    url: "https://www.youtube.com/watch?v=PJLs-tKqUHQ",
     title: "14 05 2025 - जहवाँ से हँसा आया अमर है वो लोकवा",
   },
   {
-    link: "https://www.youtube.com/watch?v=k6rtjDlmwyo",
+    url: "https://www.youtube.com/watch?v=k6rtjDlmwyo",
     title: "15 05 2025 - गुप्त मता कोई और है, विरला लख पाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=VF7MZWhwXZw",
+    url: "https://www.youtube.com/watch?v=VF7MZWhwXZw",
     title: "17 05 2025 - दया लहे निज धाम को छूटे सकल संताप",
   },
   {
-    link: "https://www.youtube.com/watch?v=n2hB9U7tvVc",
+    url: "https://www.youtube.com/watch?v=n2hB9U7tvVc",
     title: "19 05 2025 - रूप कुरूप जाए नहीं बोली",
   },
   {
-    link: "https://www.youtube.com/watch?v=TdeD9Xd_1nY",
+    url: "https://www.youtube.com/watch?v=TdeD9Xd_1nY",
     title: "20 05 2025 - जीव पड़ा बहु लूट में न कछु लेन न देन",
   },
   {
-    link: "https://www.youtube.com/watch?v=S7z4usemBMk",
+    url: "https://www.youtube.com/watch?v=S7z4usemBMk",
     title: "21 05 2025 - रिद्धि सिद्धि सेवा करे मुक्ति न छोड़े साथ",
   },
   {
-    link: "https://www.youtube.com/watch?v=IXSN7a_Bdko",
+    url: "https://www.youtube.com/watch?v=IXSN7a_Bdko",
     title: "22 05 2025 - तन मन जब एक रहे तो हँस कबीर कहलाये",
   },
   {
-    link: "https://www.youtube.com/watch?v=TSS5rmASbB0",
+    url: "https://www.youtube.com/watch?v=TSS5rmASbB0",
     title: "23 05 2025 - नर्क निवारक नाम है भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=duSNx7K_PBU",
+    url: "https://www.youtube.com/watch?v=duSNx7K_PBU",
     title: "24 05 2025 - तन धर सुखिया कोई न देखा",
   },
   {
-    link: "https://www.youtube.com/watch?v=E564o6mFYSw",
+    url: "https://www.youtube.com/watch?v=E564o6mFYSw",
     title: "25 05 2025 - सैयाद के काबू में हैं सब जीव बेचारे",
   },
   {
-    link: "https://www.youtube.com/watch?v=EP_3jigmNT0",
+    url: "https://www.youtube.com/watch?v=EP_3jigmNT0",
     title: "26 05 2025 - गुरु गुरु कहे सकल संसारा गुरु सोइ जो भ्रम निवारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=pQpp64YuNxI",
+    url: "https://www.youtube.com/watch?v=pQpp64YuNxI",
     title: "27 05 2025 - काया मध्ये स्वाँसा सार",
   },
   {
-    link: "https://www.youtube.com/watch?v=PAFVPSOb3Oc",
+    url: "https://www.youtube.com/watch?v=PAFVPSOb3Oc",
     title: "28 05 2025 - सेई शूर जो मन गहे, निमख न चलने दे",
   },
   {
-    link: "https://www.youtube.com/watch?v=lQmiRFW-r_I&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=lQmiRFW-r_I&pp=0gcJCeAJAYcqIYzv",
     title: "29 05 2025 - विष अमृत रहत एक संगा, मलियागिरी में रहत भुजंगा",
   },
   {
-    link: "https://www.youtube.com/watch?v=uy0Iq4GPeBU",
+    url: "https://www.youtube.com/watch?v=uy0Iq4GPeBU",
     title: "30 05 2025 - क्या शरीर की सभी अवस्थाएं भ्रमांक हैं?",
   },
   {
-    link: "https://www.youtube.com/watch?v=rjvuFpGY3rA",
+    url: "https://www.youtube.com/watch?v=rjvuFpGY3rA",
     title: "31 05 2025 - ध्यान ही वेद शास्त्र कहत हैं ध्यान ही वेद बखाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=f061p8KzxYs",
+    url: "https://www.youtube.com/watch?v=f061p8KzxYs",
     title: "01 06 2025 - कबीर मन तो एक है भावे जहाँ लगाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=y9HyTHNlnEA",
+    url: "https://www.youtube.com/watch?v=y9HyTHNlnEA",
     title: "02 06 2025 - पाँच तत्त्व को तन रच्यो ये जानत संत सुजान",
   },
   {
-    link: "https://www.youtube.com/watch?v=m239GAi_mJ8",
+    url: "https://www.youtube.com/watch?v=m239GAi_mJ8",
     title: "03 06 2025 - कली यह नाम धर्मन हँस रूप सिधावहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=FkpwlydkSNo",
+    url: "https://www.youtube.com/watch?v=FkpwlydkSNo",
     title: "04 06 2025 - शिव गोरख सब पच पच हारे, इस काया का भेद न पाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=-GThVMcX-6U",
+    url: "https://www.youtube.com/watch?v=-GThVMcX-6U",
     title: "05 06 2025 - केवल ज्ञान कबीर का कोई बिरले जन जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=WFmbnvKC2fg",
+    url: "https://www.youtube.com/watch?v=WFmbnvKC2fg",
     title: "06 06 2025 - नाम बिना हृदय शुद्ध न होई कोटिन भाँति करे जो कोई",
   },
   {
-    link: "https://www.youtube.com/watch?v=lgzQ_UOfj-4",
+    url: "https://www.youtube.com/watch?v=lgzQ_UOfj-4",
     title: "07 06 2025 - जाकी सुरति लाग रही जहवाँ कहें कबीर पहुँचाऊँ तहवाँ",
   },
   {
-    link: "https://www.youtube.com/watch?v=Ou2O49wPvWI&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=Ou2O49wPvWI&pp=0gcJCeAJAYcqIYzv",
     title: "08 06 2025 - बृह्मा दुखिया, विष्णु दुखिया, शंकर दुखिया भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=9D0br0fLEv8",
+    url: "https://www.youtube.com/watch?v=9D0br0fLEv8",
     title: "09 06 2025 - तन धर सुखिया कोई न देखा जो देखा सो दुखिया",
   },
   {
-    link: "https://www.youtube.com/watch?v=5-t1welruiA",
+    url: "https://www.youtube.com/watch?v=5-t1welruiA",
     title: "10 06 2025 - जनम मरण का दुःख अति भारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=Zvq6hBrq7Yw",
+    url: "https://www.youtube.com/watch?v=Zvq6hBrq7Yw",
     title: "13 06 2025 - जीव पड़ा बहु लूट में न कछु लेन न देन",
   },
   {
-    link: "https://www.youtube.com/watch?v=qQN6oBAW1FY",
+    url: "https://www.youtube.com/watch?v=qQN6oBAW1FY",
     title: "17 06 2025 - संतों तन खोजे मन पाया",
   },
   {
-    link: "https://www.youtube.com/watch?v=itFAsce64RU",
+    url: "https://www.youtube.com/watch?v=itFAsce64RU",
     title: "18 06 2025 - गुरु शिष्य और ईश्वर मिल कीना भक्ति विवेक",
   },
   {
-    link: "https://www.youtube.com/watch?v=RVwRUfiQ1h8",
+    url: "https://www.youtube.com/watch?v=RVwRUfiQ1h8",
     title: "19 06 2025 - जगत है रैन का सपना समझ नहीं यहाँ कोई अपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=clOYXcRvQVI",
+    url: "https://www.youtube.com/watch?v=clOYXcRvQVI",
     title: "25 06 2025 - तुमसे बिसर गई सुधि वा घर की",
   },
   {
-    link: "https://www.youtube.com/watch?v=B8niQLi_juw",
+    url: "https://www.youtube.com/watch?v=B8niQLi_juw",
     title: "26 06 2025 - कुछ तो मुक्ति का जतन कर ले",
   },
   {
-    link: "https://www.youtube.com/watch?v=8uXYmqmg5e8",
+    url: "https://www.youtube.com/watch?v=8uXYmqmg5e8",
     title: "27 06 2025 - आतम ज्ञान बिना नर भटके क्या मथुरा क्या कशी",
   },
   {
-    link: "https://www.youtube.com/watch?v=bZgQ3dnJYXY",
+    url: "https://www.youtube.com/watch?v=bZgQ3dnJYXY",
     title: "29 06 2025 - अद्भुत नाम सदा रखवाला",
   },
   {
-    link: "https://www.youtube.com/watch?v=n_ZG2xLL27k",
+    url: "https://www.youtube.com/watch?v=n_ZG2xLL27k",
     title: "30 06 2025 - भय बिन भक्ति न होये भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=j3oKSIA4OwE",
+    url: "https://www.youtube.com/watch?v=j3oKSIA4OwE",
     title: "01 07 2025 - ध्यान शुद्धम तो मोक्ष शुद्धम",
   },
   {
-    link: "https://www.youtube.com/watch?v=f9lnU3wJkeQ",
+    url: "https://www.youtube.com/watch?v=f9lnU3wJkeQ",
     title: "02 07 2025 - पुरुष शक्ति जब आन समाई तब नहीं रोके काल कसाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=eUoFOGiaeQ8",
+    url: "https://www.youtube.com/watch?v=eUoFOGiaeQ8",
     title: "03 07 2025 - गुरु गुरु कहे सकल संसारा गुरु सोइ जो तत्व विचारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=Liac7z5604k",
+    url: "https://www.youtube.com/watch?v=Liac7z5604k",
     title: "04 07 2025 - कोई सर्गुण में रीझ रहा कोई निर्गुण ठहराए",
   },
   {
-    link: "https://www.youtube.com/watch?v=1cRmPrvY9Do",
+    url: "https://www.youtube.com/watch?v=1cRmPrvY9Do",
     title: "05 07 2025 - साँच बराबर तप नहीं झूठ बराबर पाप",
   },
   {
-    link: "https://www.youtube.com/watch?v=j0CkWYsUmxc",
+    url: "https://www.youtube.com/watch?v=j0CkWYsUmxc",
     title: "07 07 2025 - संतों घर में झगड़ा भारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=PF7-E8i5j1o",
+    url: "https://www.youtube.com/watch?v=PF7-E8i5j1o",
     title: '"RAHEMATA KARDA HAI"',
   },
   {
-    link: "https://www.youtube.com/watch?v=SDp_UK1V914",
+    url: "https://www.youtube.com/watch?v=SDp_UK1V914",
     title: "11 07 2025 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=WeVGzJT-N5c",
+    url: "https://www.youtube.com/watch?v=WeVGzJT-N5c",
     title: "10 07 2025 - ३३ कोटि देव सबही संत से डरते",
   },
   {
-    link: "https://www.youtube.com/watch?v=OsvsswZ8Mzw",
+    url: "https://www.youtube.com/watch?v=OsvsswZ8Mzw",
     title: "12 07 2025 - पाप पुण्य ये दोनों बेड़ी, इक लोहा इक कंचन केरी",
   },
   {
-    link: "https://www.youtube.com/watch?v=59bmx-5u1TI",
+    url: "https://www.youtube.com/watch?v=59bmx-5u1TI",
     title: "13 07 2025 - भय बिन भक्ति न होये भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=pjDccsa7-Ho",
+    url: "https://www.youtube.com/watch?v=pjDccsa7-Ho",
     title: "14 07 2025 - आहार शुद्धं तो मोक्ष शुद्धं",
   },
   {
-    link: "https://www.youtube.com/watch?v=WZGcjSi6vg4",
+    url: "https://www.youtube.com/watch?v=WZGcjSi6vg4",
     title: "15 07 2025 - गुरु भक्ति में सब फल पावे बहुरि न हँसा भवजल आये",
   },
   {
-    link: "https://www.youtube.com/watch?v=9H55IuWlHZY",
+    url: "https://www.youtube.com/watch?v=9H55IuWlHZY",
     title: "16 07 2025 - माया महा ठगनी हम जानी",
   },
   {
-    link: "https://www.youtube.com/watch?v=JDyg7ZXKn-M",
+    url: "https://www.youtube.com/watch?v=JDyg7ZXKn-M",
     title: "17 07 2025 - नाम सत्य, गुरु सत्य, आप सत्य जो होय",
   },
   {
-    link: "https://www.youtube.com/watch?v=5cG-z1tdk-Q",
+    url: "https://www.youtube.com/watch?v=5cG-z1tdk-Q",
     title: "18 07 2025 - भाई रे दो जगदीश कहाँ से आये?",
   },
   {
-    link: "https://www.youtube.com/watch?v=pPwooJPhzo8",
+    url: "https://www.youtube.com/watch?v=pPwooJPhzo8",
     title: "19 07 2025 - शिव गोरख बहु आचारी माया ने सब ठग डारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=U30Dhr-EC9w",
+    url: "https://www.youtube.com/watch?v=U30Dhr-EC9w",
     title: "20 07 2025 - निंदक जिए युगन युग काम हमारा होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=lnxmTrP48ro",
+    url: "https://www.youtube.com/watch?v=lnxmTrP48ro",
     title: "21 07 2025 - शिव गोरख सब पच पच हारे, इस काया का भेद न पाए",
   },
   {
-    link: "https://www.youtube.com/watch?v=Y4yiDnziNTo",
+    url: "https://www.youtube.com/watch?v=Y4yiDnziNTo",
     title: "23 07 2025 - माया महा ठगनी हम जानी",
   },
   {
-    link: "https://www.youtube.com/watch?v=4sJ29rfgKEs",
+    url: "https://www.youtube.com/watch?v=4sJ29rfgKEs",
     title: "22 07 2025 - मन तरंग में जगत भुलाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=rLsOcPrFBkY&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=rLsOcPrFBkY&pp=0gcJCeAJAYcqIYzv",
     title: "24 07 2025 - तन धर सुखिया कोई न देखा",
   },
   {
-    link: "https://www.youtube.com/watch?v=AKoBsxTmvMo",
+    url: "https://www.youtube.com/watch?v=AKoBsxTmvMo",
     title: "25 07 2025 - जन्म एक नहीं जन्म अनेका मिटे नहीं कर्म का लेखा",
   },
   {
-    link: "https://www.youtube.com/watch?v=C8pC6lIhHyY",
+    url: "https://www.youtube.com/watch?v=C8pC6lIhHyY",
     title: "26 07 2025 - सब नर नारि तत्त्व सम आई, इक सम ज्ञान सबिन को नाहीं",
   },
   {
-    link: "https://www.youtube.com/watch?v=9vxUictBX5E",
+    url: "https://www.youtube.com/watch?v=9vxUictBX5E",
     title: "27 07 2025 - को कहे वेद झूठा, झूठा वो जो वेद न विचारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=emYAVU8sm2c&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=emYAVU8sm2c&pp=0gcJCeAJAYcqIYzv",
     title: "28 07 2025 - सार नाम सजीवन जानो",
   },
   {
-    link: "https://www.youtube.com/watch?v=lL8I6h-fUC8",
+    url: "https://www.youtube.com/watch?v=lL8I6h-fUC8",
     title: "29 07 2025 - जो कुछ है वो सुरति है",
   },
   {
-    link: "https://www.youtube.com/watch?v=RApDYkLOPXo",
+    url: "https://www.youtube.com/watch?v=RApDYkLOPXo",
     title: "30 07 2025 - इंद्री द्वार झरोखा नाना तँह देवा कर बैठे थाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=Yga8rq6Hb4E",
+    url: "https://www.youtube.com/watch?v=Yga8rq6Hb4E",
     title: "31 07 2025 - इंद्रिन सुरन न ज्ञान सुहाई विषय भोग पर प्रीत सदाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=vdr5S4L5_-Q",
+    url: "https://www.youtube.com/watch?v=vdr5S4L5_-Q",
     title: "01 08 2025 - ध्यान शुद्धम तो मोक्ष शुद्धम",
   },
   {
-    link: "https://www.youtube.com/watch?v=qGprl8Ygcvg",
+    url: "https://www.youtube.com/watch?v=qGprl8Ygcvg",
     title: "02 08 2025 - न सुखहाल में मजा है न दुखहाल में मजा है",
   },
   {
-    link: "https://www.youtube.com/watch?v=-cgZ6xBXztU",
+    url: "https://www.youtube.com/watch?v=-cgZ6xBXztU",
     title: "03 08 2025 - चार वेद मिल झगड़ा कीना, ब्रह्म रूप कहु नहीं चीन्हा",
   },
   {
-    link: "https://www.youtube.com/watch?v=hB_5YZV8J08",
+    url: "https://www.youtube.com/watch?v=hB_5YZV8J08",
     title: "04 08 2025 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=mOdnw1ASWAk",
+    url: "https://www.youtube.com/watch?v=mOdnw1ASWAk",
     title: "05 08 2025 - जात पात होकर नहीं आये ये झगड़ा जग में फैलाये",
   },
   {
-    link: "https://www.youtube.com/watch?v=Cku8ciqglxY",
+    url: "https://www.youtube.com/watch?v=Cku8ciqglxY",
     title: "08 08 2025 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=QCI4xdUfJ_A",
+    url: "https://www.youtube.com/watch?v=QCI4xdUfJ_A",
     title: "Tu Hi Hai Mera Bharosa - Sung by SADGURU SAHIBJI",
   },
   {
-    link: "https://www.youtube.com/watch?v=RfFaNXhWjjg",
+    url: "https://www.youtube.com/watch?v=RfFaNXhWjjg",
     title: "09 08 2025 - अस असुर घट में बसे कैसे रहे कुशल",
   },
   {
-    link: "https://www.youtube.com/watch?v=H56m5wpu9o0",
+    url: "https://www.youtube.com/watch?v=H56m5wpu9o0",
     title: "11 08 2025 - जीवत मरे मरे पुनि जीवे",
   },
   {
-    link: "https://www.youtube.com/watch?v=jUgyAn4k5NQ",
+    url: "https://www.youtube.com/watch?v=jUgyAn4k5NQ",
     title: "10 08 2024 - कोटि कर्म पल में कटे जब आवे सतगुरु ओट",
   },
   {
-    link: "https://www.youtube.com/watch?v=_l_kIMGSsoA",
+    url: "https://www.youtube.com/watch?v=_l_kIMGSsoA",
     title: "13 08 2025 - जो कुछ है वो सुरति है",
   },
   {
-    link: "https://www.youtube.com/watch?v=mcQGD7jhwt8",
+    url: "https://www.youtube.com/watch?v=mcQGD7jhwt8",
     title: "14 08 2025 - मन लोभी मन लालची मन चंचल मन चोर",
   },
   {
-    link: "https://www.youtube.com/watch?v=JWGEjUqFKLI",
+    url: "https://www.youtube.com/watch?v=JWGEjUqFKLI",
     title:
       '𝑰𝒏𝒔𝒑𝒊𝒓𝒂𝒕𝒊𝒐𝒏𝒂𝒍 𝑴𝒆𝒔𝒔𝒂𝒈𝒆 𝒃𝒚 𝑺𝒂𝒕𝒈𝒖𝒓𝒖 𝑴𝒂𝒅𝒉𝒖 𝑷𝒂𝒓𝒂𝒎𝒉𝒂𝒏𝒔 𝑱𝒊 𝒐𝒏 𝑰𝒏𝒅𝒆𝒑𝒆𝒏𝒅𝒆𝒏𝒄𝒆 𝑫𝒂𝒚"',
   },
   {
-    link: "https://www.youtube.com/watch?v=xckMQ54lk2g",
+    url: "https://www.youtube.com/watch?v=xckMQ54lk2g",
     title: "16 08 2025 - सर्व भूतानु ह्रदय",
   },
   {
-    link: "https://www.youtube.com/watch?v=px9AoJmyah0",
+    url: "https://www.youtube.com/watch?v=px9AoJmyah0",
     title: "18 08 2025 - इंद्रिन सुरन न ज्ञान सुहाई, विषय भोग पर प्रीत सदाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=RLz6HKZc4b0",
+    url: "https://www.youtube.com/watch?v=RLz6HKZc4b0",
     title: "19 08 2025 - कबीर काया अथाह है कोई बिरला जाने भेद",
   },
   {
-    link: "https://www.youtube.com/watch?v=5J8XjJeUJoQ",
+    url: "https://www.youtube.com/watch?v=5J8XjJeUJoQ",
     title: "20 08 2025 - काया की गत काहू न जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=Esrohwrp0cg&pp=0gcJCeAJAYcqIYzv",
+    url: "https://www.youtube.com/watch?v=Esrohwrp0cg&pp=0gcJCeAJAYcqIYzv",
     title: "21 08 2025 - जब लग पूरा गुरु न पावे तब लग भवजल भटका खाये",
   },
   {
-    link: "https://www.youtube.com/watch?v=grIhwphl_XQ",
+    url: "https://www.youtube.com/watch?v=grIhwphl_XQ",
     title: "22 08 2024 - जगत है रैन का सपना",
   },
   {
-    link: "https://www.youtube.com/watch?v=LcHEiSr190Q",
+    url: "https://www.youtube.com/watch?v=LcHEiSr190Q",
     title: "23 08 2025 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=gSjR3bGZ2jU",
+    url: "https://www.youtube.com/watch?v=gSjR3bGZ2jU",
     title: "24 08 2025 - हर्ष क्षोभ व्यापे नहीं लोभ मोह अभिमान",
   },
   {
-    link: "https://www.youtube.com/watch?v=etX5mk0pLyk",
+    url: "https://www.youtube.com/watch?v=etX5mk0pLyk",
     title: "25 08 2025 - शब्द सेवे सो गुरमुख होये",
   },
   {
-    link: "https://www.youtube.com/watch?v=_y4F6Hmc5GY",
+    url: "https://www.youtube.com/watch?v=_y4F6Hmc5GY",
     title: "26 08 2025 - नाम बिना विष्ठे का कीड़ा",
   },
   {
-    link: "https://www.youtube.com/watch?v=0WIzY06J20k",
+    url: "https://www.youtube.com/watch?v=0WIzY06J20k",
     title: "28 08 2025 - पुरुष शक्ति जब आन समाई तब नहीं रोके काल कसाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=YQkywbb-FKw",
+    url: "https://www.youtube.com/watch?v=YQkywbb-FKw",
     title: "29 08 2025 - कहत कबीर सुनो भाई साधो जगत बना है मन से",
   },
   {
-    link: "https://www.youtube.com/watch?v=bcDMMGelEn4",
+    url: "https://www.youtube.com/watch?v=bcDMMGelEn4",
     title: "30 08 2025 - यह तन का फल विषय न भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=Jk1ZMYQM5vY",
+    url: "https://www.youtube.com/watch?v=Jk1ZMYQM5vY",
     title: "01 09 2025 - कोई सर्गुण में रीझ रहा कोई निर्गुण ठहराए",
   },
   {
-    link: "https://www.youtube.com/watch?v=EpGk9d1n7ro",
+    url: "https://www.youtube.com/watch?v=EpGk9d1n7ro",
     title: "02 09 2025 - नर्क निवारक नाम है भाई",
   },
   {
-    link: "https://www.youtube.com/watch?v=KCB8gfiEICI",
+    url: "https://www.youtube.com/watch?v=KCB8gfiEICI",
     title: "03 09 2025 - बिन सत्संग कुमति न छूटी",
   },
   {
-    link: "https://www.youtube.com/watch?v=fhqRzGzT7Rg",
+    url: "https://www.youtube.com/watch?v=fhqRzGzT7Rg",
     title: "04 09 2025 - गुरु हैं बड़े गोविन्द से मन में देख विचार",
   },
   {
-    link: "https://www.youtube.com/watch?v=LDkKFEq2wZM",
+    url: "https://www.youtube.com/watch?v=LDkKFEq2wZM",
     title: "05 09 2025 - पाँच तत्त्व को तन रच्यो ये जानत संत सुजान",
   },
   {
-    link: "https://www.youtube.com/watch?v=nxl98hq2uGM",
+    url: "https://www.youtube.com/watch?v=nxl98hq2uGM",
     title: "06 09 2025 - तीन लोक से भिन्न पसारा अमरकलोक सद्गुरु का न्यारा",
   },
   {
-    link: "https://www.youtube.com/watch?v=S_DxjKsU_A0",
+    url: "https://www.youtube.com/watch?v=S_DxjKsU_A0",
     title: "07 09 2025 - हँसा तू तो सबल था अटपट तेरी चाल",
   },
   {
-    link: "https://www.youtube.com/watch?v=i00t9pTgwSY",
+    url: "https://www.youtube.com/watch?v=i00t9pTgwSY",
     title: "08 09 2025 - जाकी गाँठी नाम है ताके हैं सब सिद्ध",
   },
   {
-    link: "https://www.youtube.com/watch?v=GuzQdlmIJWQ",
+    url: "https://www.youtube.com/watch?v=GuzQdlmIJWQ",
     title: "09 09 2025 - मेट अज्ञान ज्ञान दे गुरु नाम है तास",
   },
   {
-    link: "https://www.youtube.com/watch?v=cSqNMleVPoY",
+    url: "https://www.youtube.com/watch?v=cSqNMleVPoY",
     title: "10 09 2025 - सार नाम सजीवन जानो",
   },
   {
-    link: "https://www.youtube.com/watch?v=pMbsqMRbq4M",
+    url: "https://www.youtube.com/watch?v=pMbsqMRbq4M",
     title: "11 09 2025 - आहार शुद्धं तो मोक्ष शुद्धं",
   },
   {
-    link: "https://www.youtube.com/watch?v=KFBloWGJCQ0",
+    url: "https://www.youtube.com/watch?v=KFBloWGJCQ0",
     title: "12 09 2025 - जहँ खोजत ब्रह्मा थके शिव शारद और शेष",
   },
   {
-    link: "https://www.youtube.com/watch?v=8sLWLGbdocY",
+    url: "https://www.youtube.com/watch?v=8sLWLGbdocY",
     title: "13 09 2025 - केवल ज्ञान कबीर का कोई बिरले जन जाना",
   },
   {
-    link: "https://www.youtube.com/watch?v=vWRUWtmLI6M",
+    url: "https://www.youtube.com/watch?v=vWRUWtmLI6M",
     title: "15 09 2025 - अस प्रभु अक्षत अविकारी भ्रम वश जीव फिरत दुखारी",
   },
   {
-    link: "https://www.youtube.com/watch?v=rTOXNK4_jPk",
+    url: "https://www.youtube.com/watch?v=rTOXNK4_jPk",
     title: "16 09 2025 - विष अमृत रहत इक संगा मलयागिरी में रहत भुजंगा",
   },
   {
-    link: "https://www.youtube.com/watch?v=Jnmu-QcVzCY",
+    url: "https://www.youtube.com/watch?v=Jnmu-QcVzCY",
     title: "17 09 2025 - नाम बिना दुखी तीनों देवा, गण गन्धर्व करें जिनकी सेवा",
   },
   {
-    link: "https://www.youtube.com/watch?v=2F7DhTUAz7Q",
+    url: "https://www.youtube.com/watch?v=2F7DhTUAz7Q",
     title: "18 09 2025 - चंद्र सूर्य भास स्वप्न",
   },
   {
-    link: "https://www.youtube.com/watch?v=QB70kBRCKiA",
+    url: "https://www.youtube.com/watch?v=QB70kBRCKiA",
     title: "19 09 2025 - एक बड़ी जाके पाँच हाथ पांचन में पचीस साथ",
   },
   {
-    link: "https://www.youtube.com/watch?v=kwkRpWq-XbY",
+    url: "https://www.youtube.com/watch?v=kwkRpWq-XbY",
     title: "20 09 2025 - दया लहे निज धाम को छूटे सकल संताप",
   },
     {
-        "link": "https://www.youtube.com/watch?v=Z_-zRl3BM2g",
+        "url": "https://www.youtube.com/watch?v=Z_-zRl3BM2g",
         "title": "23 09 2025 - मन लोभी मन लालची मन चंचल मन चोर"
     },
     {
-        "link": "https://www.youtube.com/watch?v=cj51WP0Vr0s",
+        "url": "https://www.youtube.com/watch?v=cj51WP0Vr0s",
         "title": "22 09 2025 - गुरु बिन दान हराम है बूझो वेद पुराण"
     },
     {
-        "link": "https://www.youtube.com/watch?v=YY1fp5HhkfY",
+        "url": "https://www.youtube.com/watch?v=YY1fp5HhkfY",
         "title": "24 09 2025 - भजन बिन बीतल जात घड़ी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Edrsjc3p5rA",
+        "url": "https://www.youtube.com/watch?v=Edrsjc3p5rA",
         "title": "25 09 2024 - धीमर जाल डाल क्या करिहैं जब मीनः बन गया पानी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=BVXVw7zwC3c",
+        "url": "https://www.youtube.com/watch?v=BVXVw7zwC3c",
         "title": "26 09 2025 - कबिरा इस संसार में दो बातें हैं सार - सुख दिए सुख होत है दुःख दिए दुःख होये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=DnxAxV2CH60",
+        "url": "https://www.youtube.com/watch?v=DnxAxV2CH60",
         "title": "27 09 2025 - नाना पंथ जगत में निज निज गुण गावें"
     },
     {
-        "link": "https://www.youtube.com/watch?v=dQfgpJbGluw",
+        "url": "https://www.youtube.com/watch?v=dQfgpJbGluw",
         "title": "28 09 2025 - कबीर मन तो एक है भावे जहाँ लगाए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=D-CwEdzfUVM",
+        "url": "https://www.youtube.com/watch?v=D-CwEdzfUVM",
         "title": "29 09 2025 - तीन लोक से भिन्न पसारा अमरकलोक सद्गुरु का न्यारा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=5hax4toMNSo&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=5hax4toMNSo&pp=0gcJCcUKAYcqIYzv",
         "title": "30 09 2025 - शब्द सेवे सो गुरमुख होये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=kw_GyXpeh1k",
+        "url": "https://www.youtube.com/watch?v=kw_GyXpeh1k",
         "title": "01 10 2025 - देह धरे का दंड है भुगतत हैं सब कोय"
     },
     {
-        "link": "https://www.youtube.com/watch?v=AeDT2dfndjI",
+        "url": "https://www.youtube.com/watch?v=AeDT2dfndjI",
         "title": "02 10 2025 - ध्यान शुद्धम तो मोक्ष शुद्धम"
     },
     {
-        "link": "https://www.youtube.com/watch?v=U3UL6zbho_A",
+        "url": "https://www.youtube.com/watch?v=U3UL6zbho_A",
         "title": "03 10 2025 - प्रीतम को पतियाँ लिखूँ जो कहूँ बसे विदेश"
     },
     {
-        "link": "https://www.youtube.com/watch?v=qMj2iJJs7DM&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=qMj2iJJs7DM&pp=0gcJCcUKAYcqIYzv",
         "title": "04 10 2024 - हरि भक्ति युग चार हैं गुरु भक्ति पल एक"
     },
     {
-        "link": "https://www.youtube.com/watch?v=cRIYsmoNUmM",
+        "url": "https://www.youtube.com/watch?v=cRIYsmoNUmM",
         "title": "05-10-2025 - जीवन पांच पचीसी लागी, काम क्रोध मद लोभ में पागी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=uFPYGYSLkr0",
+        "url": "https://www.youtube.com/watch?v=uFPYGYSLkr0",
         "title": "06 10 2025 - माया मरी न मन मरा मर मर गए शरीर"
     },
     {
-        "link": "https://www.youtube.com/watch?v=bkEHc1DKb3g",
+        "url": "https://www.youtube.com/watch?v=bkEHc1DKb3g",
         "title": "07 10 2025 - सीधी मेरी चाल है सबको टेढ़ी लागे"
     },
     {
-        "link": "https://www.youtube.com/watch?v=cSP2CjvTcz8",
+        "url": "https://www.youtube.com/watch?v=cSP2CjvTcz8",
         "title": "08 10 2025 - ध्यान ही वेद शास्त्र कहत हैं, ध्यान ही संत बखाना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=TYk-YAyUDWE",
+        "url": "https://www.youtube.com/watch?v=TYk-YAyUDWE",
         "title": "09 10 2025 - चंद्र सूर्य भास स्वप्न"
     },
     {
-        "link": "https://www.youtube.com/watch?v=-tKn8hxzh40",
+        "url": "https://www.youtube.com/watch?v=-tKn8hxzh40",
         "title": "10 10 2025 - प्रभुजी तुम बिन कौन छुड़ाए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=GCVKadc2yjM",
+        "url": "https://www.youtube.com/watch?v=GCVKadc2yjM",
         "title": "11 10 2025 - भजन बिन बीतल जात घड़ी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=lOcuhlGY3yg",
+        "url": "https://www.youtube.com/watch?v=lOcuhlGY3yg",
         "title": "12 10 2025 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=WXiirtqnz0w",
+        "url": "https://www.youtube.com/watch?v=WXiirtqnz0w",
         "title": "13 10 2025 - दया लहे निज धाम को छूटे सकल संताप"
     },
     {
-        "link": "https://www.youtube.com/watch?v=-UfHObEm7Y8",
+        "url": "https://www.youtube.com/watch?v=-UfHObEm7Y8",
         "title": "14 10 2025 - कर्म लेख कोई नहीं मुक्ता, लक्ष्मण राम कर्म फल भुगता"
     },
     {
-        "link": "https://www.youtube.com/watch?v=nWSV-b4SYjg&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=nWSV-b4SYjg&pp=0gcJCcUKAYcqIYzv",
         "title": "15 10 2025 - स्वेच्छा निर्मित तन"
     },
     {
-        "link": "https://www.youtube.com/watch?v=zuCnbifMJdg",
+        "url": "https://www.youtube.com/watch?v=zuCnbifMJdg",
         "title": "16 10 2025 - कबीर काया अथाह है कोई बिरला जाने भेद"
     },
     {
-        "link": "https://www.youtube.com/watch?v=7B5mbZueQiE",
+        "url": "https://www.youtube.com/watch?v=7B5mbZueQiE",
         "title": "17 10 2025 - नाना पंथ जगत में निज निज गुण गावें"
     },
     {
-        "link": "https://www.youtube.com/watch?v=y7Zoz9pVEIM",
+        "url": "https://www.youtube.com/watch?v=y7Zoz9pVEIM",
         "title": "19 10 2025 - विष अमृत रहत इक संगा मलयागिरी में रहत भुजंगा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Z22VLPoi9XQ",
+        "url": "https://www.youtube.com/watch?v=Z22VLPoi9XQ",
         "title": "27 10 2025 - सुरति संभाले काज है तू मत भरम भुलाये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=quVBVONMvXs&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=quVBVONMvXs&pp=0gcJCcUKAYcqIYzv",
         "title": "28 10 2025 - केवल ज्ञान कबीर का कोई बिरले जन जाना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=2jbl2cM9KxU",
+        "url": "https://www.youtube.com/watch?v=2jbl2cM9KxU",
         "title": "29 10 2025 - काया की गत काहू न जाना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=VrrapXKD4R0",
+        "url": "https://www.youtube.com/watch?v=VrrapXKD4R0",
         "title": "30 10 2025 - नाम ध्यान बल हँसा घर जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=kCpAWaXLMno",
+        "url": "https://www.youtube.com/watch?v=kCpAWaXLMno",
         "title": "31 10 2025 - जहँ खोजत ब्रह्मा थके शिव शारद और शेष"
     },
     {
-        "link": "https://www.youtube.com/watch?v=sUiySEspafM",
+        "url": "https://www.youtube.com/watch?v=sUiySEspafM",
         "title": "02 11 2025 - ये जग है स्वारथ का मीत, समझ नहीं कोई अपना हीत"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ZRsL0tOrspY",
+        "url": "https://www.youtube.com/watch?v=ZRsL0tOrspY",
         "title": "03 11 2025 - प्रभुजी तुम बिन कौन छुड़ाए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=e8qaEGddbg0",
+        "url": "https://www.youtube.com/watch?v=e8qaEGddbg0",
         "title": "04 11 2025 - कर्म रेख नहीं मिटे मिटाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ekq_vRUsyFI",
+        "url": "https://www.youtube.com/watch?v=ekq_vRUsyFI",
         "title": "07 11 2025 - कस्तूरी कुण्डल बसे मृग खोजे बन माहीं"
     },
     {
-        "link": "https://www.youtube.com/watch?v=InXtOw-oZhA",
+        "url": "https://www.youtube.com/watch?v=InXtOw-oZhA",
         "title": "10 11 2025 - कर्म की गति झीनी राई, पुण्य करत पाप बन जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=RE0IRuYiePw",
+        "url": "https://www.youtube.com/watch?v=RE0IRuYiePw",
         "title": "11 11 2025 - 14 लोक वेद का मंडल तँह लग काल दुहाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=B8k35UbqwXk",
+        "url": "https://www.youtube.com/watch?v=B8k35UbqwXk",
         "title": "12 11 2025 - ध्यान ही वेद शास्त्र कहत हैं, ध्यान ही संत बखाना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=QXvKPxIjG2E",
+        "url": "https://www.youtube.com/watch?v=QXvKPxIjG2E",
         "title": "13 11 2025 - पुरुष शक्ति जब आन समाई तब नहीं रोके काल कसाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=JvvogpWDXHU",
+        "url": "https://www.youtube.com/watch?v=JvvogpWDXHU",
         "title": "19 11 2025 - नाना पंथ जगत में निज निज गुण गावें"
     },
     {
-        "link": "https://www.youtube.com/watch?v=pymfxLwNNZU&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=pymfxLwNNZU&pp=0gcJCcUKAYcqIYzv",
         "title": "20 11 2025 - स्वेच्छा निर्मित तन"
     },
     {
-        "link": "https://www.youtube.com/watch?v=X_nsWeoWBCw",
+        "url": "https://www.youtube.com/watch?v=X_nsWeoWBCw",
         "title": "21 11 2025 - कर्म गति टारे नाही टरी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=VACxAc3kXWs",
+        "url": "https://www.youtube.com/watch?v=VACxAc3kXWs",
         "title": "22 11 2025 - चंद्र सूर्य भास स्वप्न"
     },
     {
-        "link": "https://www.youtube.com/watch?v=hAnRlUbagzI",
+        "url": "https://www.youtube.com/watch?v=hAnRlUbagzI",
         "title": "25 11 2025 - वर्त्तमान क्या है?"
     },
     {
-        "link": "https://www.youtube.com/watch?v=oOdiGbMFghg&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=oOdiGbMFghg&pp=0gcJCcUKAYcqIYzv",
         "title": "26 11 2025 - विनय सुनत मम रहा न जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=y6rB1nk2cVI",
+        "url": "https://www.youtube.com/watch?v=y6rB1nk2cVI",
         "title": "27 11 2025 - मन का कहा न कीजे कोई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=PxEJLefMa3Y",
+        "url": "https://www.youtube.com/watch?v=PxEJLefMa3Y",
         "title": "28 11 2025 - मन खेले मनही खेला"
     },
     {
-        "link": "https://www.youtube.com/watch?v=0vK6DlrtKoU",
+        "url": "https://www.youtube.com/watch?v=0vK6DlrtKoU",
         "title": "29 11 2025 - संतों तन खोजे मन पाया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ymptPdKA8NI",
+        "url": "https://www.youtube.com/watch?v=ymptPdKA8NI",
         "title": "30 11 2025 - कोई सर्गुण में रीझ रहा, कोई निर्गुण ठहराए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=3ahS9rhtpoY&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=3ahS9rhtpoY&pp=0gcJCcUKAYcqIYzv",
         "title": "01 12 2025 - मन को कोई देख न पाए ये नाना नाच नचाये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=JWvZrMWCJms",
+        "url": "https://www.youtube.com/watch?v=JWvZrMWCJms",
         "title": "02 12 2025 - सच्चे गुरु की पहचान कैसे करें?"
     },
     {
-        "link": "https://www.youtube.com/watch?v=jVieb3imI-Y",
+        "url": "https://www.youtube.com/watch?v=jVieb3imI-Y",
         "title": "03 12 2025 - आतम ज्ञान सम ज्ञान न आना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=-w2Ggw74EZA&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=-w2Ggw74EZA&pp=0gcJCcUKAYcqIYzv",
         "title": "05-12-2025 - 55th Naam Diksha Diwas"
     },
     {
-        "link": "https://www.youtube.com/watch?v=JJPzrshL6gU",
+        "url": "https://www.youtube.com/watch?v=JJPzrshL6gU",
         "title": "06 12 2025 - मन का कहा न कीजे कोई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Q2LDS0glTTk",
+        "url": "https://www.youtube.com/watch?v=Q2LDS0glTTk",
         "title": "08 12 2025 - जाकी सुरति लाग रही जहवाँ कहें कबीर पहुँचाऊ तहवाँ"
     },
     {
-        "link": "https://www.youtube.com/watch?v=zln62Xw6pS0",
+        "url": "https://www.youtube.com/watch?v=zln62Xw6pS0",
         "title": "09 12 2025 - तीन लोक के नयका गुरु आगे आधीन"
     },
     {
-        "link": "https://www.youtube.com/watch?v=N646Q8EeJbI",
+        "url": "https://www.youtube.com/watch?v=N646Q8EeJbI",
         "title": "11 12 2025 - संतों तन खोजे मन पाया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ZlwNa1nuKOI&t=4s",
+        "url": "https://www.youtube.com/watch?v=ZlwNa1nuKOI&t=4s",
         "title": "12 12 2025 - सुरति संभाले काज है तू मत भरम भुलाये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=51bwX51gaKs",
+        "url": "https://www.youtube.com/watch?v=51bwX51gaKs",
         "title": "13 12 2025 - गुरु बिन ज्ञान न उपजे कोई कोटिन करे उपाय"
     },
     {
-        "link": "https://www.youtube.com/watch?v=N5rl3UoeA70&t=9s",
+        "url": "https://www.youtube.com/watch?v=N5rl3UoeA70&t=9s",
         "title": "15 12 2025 - भृंगमत दृढ़ गहे करो निज सम ओह"
     },
     {
-        "link": "https://www.youtube.com/watch?v=8YA31ZAZ3d8&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=8YA31ZAZ3d8&pp=0gcJCcUKAYcqIYzv",
         "title": "16 12 2025 - संतों अविगत की गति नयारी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=sqXx0IDJHGI&t=421s",
+        "url": "https://www.youtube.com/watch?v=sqXx0IDJHGI&t=421s",
         "title": "17 12 2025 - माया सब जग लूटिया भरम जाल में डाल"
     },
     {
-        "link": "https://www.youtube.com/watch?v=3KzNRfQzO0c",
+        "url": "https://www.youtube.com/watch?v=3KzNRfQzO0c",
         "title": "18 12 2025 - संतों तन खोजे मन पाया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Df1vSKGOP3Y",
+        "url": "https://www.youtube.com/watch?v=Df1vSKGOP3Y",
         "title": "19 12 2025 - तन थिर मन थिर वचन थिर सुरत निरत थिर होये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=QZUufSsItgg",
+        "url": "https://www.youtube.com/watch?v=QZUufSsItgg",
         "title": "20 12 2025 - हत्या कबहुँ न छूटतहीं कोटिक सुनो पुराण"
     },
     {
-        "link": "https://www.youtube.com/watch?v=dZwIvxTxGVc",
+        "url": "https://www.youtube.com/watch?v=dZwIvxTxGVc",
         "title": "22 12 2025 - कैसे गुरु लख पड़े?"
     },
     {
-        "link": "https://www.youtube.com/watch?v=zMLHnIIEWAg",
+        "url": "https://www.youtube.com/watch?v=zMLHnIIEWAg",
         "title": "24 12 2024 - नानक एको सुमरिये जल थल रहा समाय"
     },
     {
-        "link": "https://www.youtube.com/watch?v=GKjGzL9T6Wg",
+        "url": "https://www.youtube.com/watch?v=GKjGzL9T6Wg",
         "title": "25 12 2025 - विनय सुनत मम रहा न जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=fUzbT6vjrIQ",
+        "url": "https://www.youtube.com/watch?v=fUzbT6vjrIQ",
         "title": "26 12 2025 - काग पलट हँसा कर दीना ऐसा नाम सतगुरु मोहे दीना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=asUwm58VHgE",
+        "url": "https://www.youtube.com/watch?v=asUwm58VHgE",
         "title": "27 12 2025 - आतम अनुभव सूक्षम प्रकाशा तब भव मूल अविद्या नाशा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=9Dr-1RKa_T4&t=581s",
+        "url": "https://www.youtube.com/watch?v=9Dr-1RKa_T4&t=581s",
         "title": "28 12 24 - सिद्ध लोक, स्वर्ग और नर्क कैसे जाते हैं?"
     },
     {
-        "link": "https://www.youtube.com/watch?v=8JqVj4BDeLQ",
+        "url": "https://www.youtube.com/watch?v=8JqVj4BDeLQ",
         "title": "29 12 2025 - संतों तन खोजे मन पाया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=W07KTd8baEE",
+        "url": "https://www.youtube.com/watch?v=W07KTd8baEE",
         "title": "30 12 2025 - क्या सभी धर्म एक ही परमात्मा का सन्देश देते हैं?"
     },
     {
-        "link": "https://www.youtube.com/watch?v=N1_UPmplbEE",
+        "url": "https://www.youtube.com/watch?v=N1_UPmplbEE",
         "title": "“Ladd Padd Ke Tera Sahiba\""
     },
     {
-        "link": "https://www.youtube.com/watch?v=FG_dbyNkuOQ&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=FG_dbyNkuOQ&pp=0gcJCcUKAYcqIYzv",
         "title": "31 12 2025 - सत्तर परलय मारग माहीं"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Wh6axGuIKPM",
+        "url": "https://www.youtube.com/watch?v=Wh6axGuIKPM",
         "title": "01 01 2026 - गुरु बिन भव निधि तरे न कोई, जो शंकर विरंच सम होई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=lak2VSR1Zeg&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=lak2VSR1Zeg&pp=0gcJCcUKAYcqIYzv",
         "title": "02 01 2026 - काग पलट हँसा कर दीना ऐसा नाम सतगुरु मोहे दीना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=zumN671AXUc",
+        "url": "https://www.youtube.com/watch?v=zumN671AXUc",
         "title": "04 01 2025 - मन माया में रम रहयो बिसारयो नाम गोविन्द"
     },
     {
-        "link": "https://www.youtube.com/watch?v=bfENA0z4Y18&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=bfENA0z4Y18&pp=0gcJCcUKAYcqIYzv",
         "title": "05 01 2026 - देह धरे का दंड है भुगतत हैं सब कोय"
     },
     {
-        "link": "https://www.youtube.com/watch?v=s3lH1IEzTIU&t=1s",
+        "url": "https://www.youtube.com/watch?v=s3lH1IEzTIU&t=1s",
         "title": "06 01 2026 - दादू अगम अथाह है दरिया सत्य कबीर"
     },
     {
-        "link": "https://www.youtube.com/watch?v=-VTdbVgX7ZE",
+        "url": "https://www.youtube.com/watch?v=-VTdbVgX7ZE",
         "title": "07 01 2026 - संतों अविगत की गति नयारी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=KLqMB6RqFog",
+        "url": "https://www.youtube.com/watch?v=KLqMB6RqFog",
         "title": "08 01 2026 - चिंता तो सतनाम की और न चितवे दास"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ovQotrHt-JA",
+        "url": "https://www.youtube.com/watch?v=ovQotrHt-JA",
         "title": "09 01 2026 - माया सब जग लूटिया भरम जाल में डाल"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ffCYP-vwvYQ&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=ffCYP-vwvYQ&pp=0gcJCcUKAYcqIYzv",
         "title": "10 01 2026 - भक्ति स्वतंत्र सकल गुण खानी, बिन सत्संग न पावे प्राणी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=GzJotLp4GBA",
+        "url": "https://www.youtube.com/watch?v=GzJotLp4GBA",
         "title": "11 01 2026 - सत्य सोई जो विनशे नाहीं"
     },
     {
-        "link": "https://www.youtube.com/watch?v=jIJsQ8BGCUI",
+        "url": "https://www.youtube.com/watch?v=jIJsQ8BGCUI",
         "title": "12 01 2026 - गुरु सत्य, नाम सत्य, आप सत्य जो होयें"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ETHWvRqcEuY",
+        "url": "https://www.youtube.com/watch?v=ETHWvRqcEuY",
         "title": "लोहड़ी मुबारक 13 01 2026 - जीव अधम और नीच है"
     },
     {
-        "link": "https://www.youtube.com/watch?v=kNKDiZZHZAc",
+        "url": "https://www.youtube.com/watch?v=kNKDiZZHZAc",
         "title": "14 01 2026 - वस्तु कहीं ढूढ़े कहीं कह विधि आवे हाथ"
     },
     {
-        "link": "https://www.youtube.com/watch?v=LghCb8OEtBw",
+        "url": "https://www.youtube.com/watch?v=LghCb8OEtBw",
         "title": "15 01 2026 - मन माया तो एक है माया मनहि समाए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=5x8m3DviSpI",
+        "url": "https://www.youtube.com/watch?v=5x8m3DviSpI",
         "title": "16 01 2026 - नानक एको सुमरिये जल थल रहा समाय"
     },
     {
-        "link": "https://www.youtube.com/watch?v=tHdQRYTqnuM",
+        "url": "https://www.youtube.com/watch?v=tHdQRYTqnuM",
         "title": "17 01 2026 - कामी क्रोधी आलसी इनसे भक्ति न होई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=XaALlhHVj8E",
+        "url": "https://www.youtube.com/watch?v=XaALlhHVj8E",
         "title": "19 01 2026 - विनय सुनत मम रहा न जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Fd8e08cvx2w&t=434s",
+        "url": "https://www.youtube.com/watch?v=Fd8e08cvx2w&t=434s",
         "title": "20 01 2026 - बृह्मा दुखिया, विष्णु दुखिया, शंकर को दुःख दूना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=vRTy6wi72go",
+        "url": "https://www.youtube.com/watch?v=vRTy6wi72go",
         "title": "21 01 2026 - संतों वा घर सबसे न्यारा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=VEcFhMQJhz4",
+        "url": "https://www.youtube.com/watch?v=VEcFhMQJhz4",
         "title": "22 01 2026 - कर्म फाँस में जगत फ़ंदाना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=bohLseU6xy8",
+        "url": "https://www.youtube.com/watch?v=bohLseU6xy8",
         "title": "23 01 2026 - निंदक जिए युगन युग काम हमारा होए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=TpGP_kV08jk",
+        "url": "https://www.youtube.com/watch?v=TpGP_kV08jk",
         "title": "24 01 2026 - मन चीन्हे कोई बिरला भेदी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=puOL58BaU3U",
+        "url": "https://www.youtube.com/watch?v=puOL58BaU3U",
         "title": "26 01 2026 - अंदर सफा बाहर सफा फिर साहेब कहे ख़फा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=uAWVlpGOQBo",
+        "url": "https://www.youtube.com/watch?v=uAWVlpGOQBo",
         "title": "27-01-2026 - बिन रसरी सकल जग बंधिया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=0vkdCpYGJE0",
+        "url": "https://www.youtube.com/watch?v=0vkdCpYGJE0",
         "title": "30 01 2026 - विनती सुनत मम रहा न जाऊ"
     },
     {
-        "link": "https://www.youtube.com/watch?v=4zti7gqOzPM",
+        "url": "https://www.youtube.com/watch?v=4zti7gqOzPM",
         "title": "31 01 2026 - मन चीन्हे बिन परलय तर जाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=9HPfyQJKkkU",
+        "url": "https://www.youtube.com/watch?v=9HPfyQJKkkU",
         "title": "01 02 2026 - आंधरी दुनिया सृष्टि भई बाँवरी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=AmMk8H2b948",
+        "url": "https://www.youtube.com/watch?v=AmMk8H2b948",
         "title": "02 02 2026 - मिर्गी के दौरे का इलाज"
     },
     {
-        "link": "https://www.youtube.com/watch?v=6n8ThRLLqeg&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=6n8ThRLLqeg&pp=0gcJCcUKAYcqIYzv",
         "title": "03 02 2026 - उलट होत वैरागी करत गुरु की सेवा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=_Y9XaKyTalk",
+        "url": "https://www.youtube.com/watch?v=_Y9XaKyTalk",
         "title": "04 02 2026 - कर्म गति टारे नाही टरी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=4aJn4lsYQeY&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=4aJn4lsYQeY&pp=0gcJCcUKAYcqIYzv",
         "title": "05 02 2026 - हत्या कबहुँ न छूटतहीं कोटिक सुनो पुराण"
     },
     {
-        "link": "https://www.youtube.com/watch?v=at66B8SVTfY",
+        "url": "https://www.youtube.com/watch?v=at66B8SVTfY",
         "title": "06 02 2026 - आतम ज्ञान सम ज्ञान न आना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=WG-Pw9ulGQI&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=WG-Pw9ulGQI&pp=0gcJCcUKAYcqIYzv",
         "title": "08 02 2026 - भृंगमत दृढ़ गहे करो निज सम ओह"
     },
     {
-        "link": "https://www.youtube.com/watch?v=1PqB1xfYKsQ&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=1PqB1xfYKsQ&pp=0gcJCcUKAYcqIYzv",
         "title": "09 02 2026 - तन धर सुखिया कोई न देखा जो देखा सो दुखिया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=xyhhy_NLnBY",
+        "url": "https://www.youtube.com/watch?v=xyhhy_NLnBY",
         "title": "“Sahib Mere Pyaare”"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Uh5OQ1VJJ5U",
+        "url": "https://www.youtube.com/watch?v=Uh5OQ1VJJ5U",
         "title": "10 02 2026 - सबका थाह पाया, इस गंडार का थाह न पाया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Ib7daP9Hx_o",
+        "url": "https://www.youtube.com/watch?v=Ib7daP9Hx_o",
         "title": "12 02 2026 - कोई सर्गुण में रीझ रहा, कोई निर्गुण ठहराए"
     },
     {
-        "link": "https://www.youtube.com/watch?v=9-g589VsAc0",
+        "url": "https://www.youtube.com/watch?v=9-g589VsAc0",
         "title": "13 02 2026 - बिना प्रेम पावे नहीं कोई कोटिन करे उपाय"
     },
     {
-        "link": "https://www.youtube.com/watch?v=FNQ9aNtKyCQ&t=2117s",
+        "url": "https://www.youtube.com/watch?v=FNQ9aNtKyCQ&t=2117s",
         "title": "14 02 2026 - जप तप संयम साधना सब सुमिरन के माहीं"
     },
     {
-        "link": "https://www.youtube.com/watch?v=7RecyyxeQ-I",
+        "url": "https://www.youtube.com/watch?v=7RecyyxeQ-I",
         "title": "15 02 2026 - सुरत जात नहीं लागत बारा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=b45Zy9Ye43E",
+        "url": "https://www.youtube.com/watch?v=b45Zy9Ye43E",
         "title": "16 02 2026 - दसों दिशा में लागी आग कहें कबीर कहाँ जहियो भाग"
     },
     {
-        "link": "https://www.youtube.com/watch?v=1O1ezjoJ74U",
+        "url": "https://www.youtube.com/watch?v=1O1ezjoJ74U",
         "title": "17 02 2026 - अदा कर खुद खजाने से छुड़ा ले अपने बन्दे को"
     },
     {
-        "link": "https://www.youtube.com/watch?v=F7T2gMTccv8",
+        "url": "https://www.youtube.com/watch?v=F7T2gMTccv8",
         "title": "18 02 2026 - मिर्गी के दौरे का इलाज"
     },
     {
-        "link": "https://www.youtube.com/watch?v=TeR5w2sbMik",
+        "url": "https://www.youtube.com/watch?v=TeR5w2sbMik",
         "title": "19 02 2026 - दादू अगम अथाह है दरिया सत्य कबीर"
     },
     {
-        "link": "https://www.youtube.com/watch?v=9-Ph1vMUdKs&t=404s",
+        "url": "https://www.youtube.com/watch?v=9-Ph1vMUdKs&t=404s",
         "title": "20 02 2026 - कोई संत विवेकी मन को जाने"
     },
     {
-        "link": "https://www.youtube.com/watch?v=geyiGskBooc",
+        "url": "https://www.youtube.com/watch?v=geyiGskBooc",
         "title": "21 02 2026 - संशय मिटे नाम के धारे"
     },
     {
-        "link": "https://www.youtube.com/watch?v=59SrKB2YSEY",
+        "url": "https://www.youtube.com/watch?v=59SrKB2YSEY",
         "title": "25 02 2026 - जहँ खोजत ब्रह्मा थके शिव शारद और शेष"
     },
     {
-        "link": "https://www.youtube.com/watch?v=zXh9C2-lRm4",
+        "url": "https://www.youtube.com/watch?v=zXh9C2-lRm4",
         "title": "26 02 2026 - विष अमृत रहत इक संगा मलयागिरी में रहत भुजंगा"
     },
     {
-        "link": "https://www.youtube.com/watch?v=Y9GhtaBOrVQ",
+        "url": "https://www.youtube.com/watch?v=Y9GhtaBOrVQ",
         "title": "27 02 2026 - संतों माया महा ठगनी हम जानी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=bYAhajPnMEk",
+        "url": "https://www.youtube.com/watch?v=bYAhajPnMEk",
         "title": "28 02 2026 - कवन नाम का सुमिरन करहूँ"
     },
     {
-        "link": "https://www.youtube.com/watch?v=UhWVVnO0fJI&t=883s",
+        "url": "https://www.youtube.com/watch?v=UhWVVnO0fJI&t=883s",
         "title": "01 03 2026 - माया सब जग लूटिया भरम जाल में डाल"
     },
     {
-        "link": "https://www.youtube.com/watch?v=rnRKrQ962d4&t=1044s",
+        "url": "https://www.youtube.com/watch?v=rnRKrQ962d4&t=1044s",
         "title": "02 03 2026 - 14 लोक वेद का मंडल तँह लग काल दुहाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ZCEjZ9YtfNo",
+        "url": "https://www.youtube.com/watch?v=ZCEjZ9YtfNo",
         "title": "06 03 2026 - काया गढ़ खोज मेरे भाई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=xB69aX8fDx0",
+        "url": "https://www.youtube.com/watch?v=xB69aX8fDx0",
         "title": "“BEDAKHAL” - (FARGATI)"
     },
     {
-        "link": "https://www.youtube.com/watch?v=NhttPPEydBE",
+        "url": "https://www.youtube.com/watch?v=NhttPPEydBE",
         "title": "07 03 2026 - नानक नन्हे हुई रहो जैसे नन्ही दूब"
     },
     {
-        "link": "https://www.youtube.com/watch?v=44NrG6ap2qI",
+        "url": "https://www.youtube.com/watch?v=44NrG6ap2qI",
         "title": "08 03 2026 - कर्म गति टारे नाही टरी"
     },
     {
-        "link": "https://www.youtube.com/watch?v=ygCmn8J_EMw",
+        "url": "https://www.youtube.com/watch?v=ygCmn8J_EMw",
         "title": "09 03 2026 - धन दारा संपत्ति सकल जिन अपनी कर मान"
     },
     {
-        "link": "https://www.youtube.com/watch?v=RgpZ2SmrgFE",
+        "url": "https://www.youtube.com/watch?v=RgpZ2SmrgFE",
         "title": "10 03 2026 - कर्म काल सब जगत नचाये"
     },
     {
-        "link": "https://www.youtube.com/watch?v=sl1bXFOPKXQ&t=1s",
+        "url": "https://www.youtube.com/watch?v=sl1bXFOPKXQ&t=1s",
         "title": "11 03 2026 - नाम नाम सब कोई कहे नाम न चीन्हे कोई"
     },
     {
-        "link": "https://www.youtube.com/watch?v=7GZ0E-3hIfU&t=638s",
+        "url": "https://www.youtube.com/watch?v=7GZ0E-3hIfU&t=638s",
         "title": "12 03 2026 - काग पलट हँसा कर दीना ऐसा नाम सतगुरु मोहे दीना"
     },
     {
-        "link": "https://www.youtube.com/watch?v=RgfD5mdCsPw",
+        "url": "https://www.youtube.com/watch?v=RgfD5mdCsPw",
         "title": "13 03 2026 - अहो भाग्य मानव तन पाया"
     },
     {
-        "link": "https://www.youtube.com/watch?v=kE5zQaUgUyI&t=1267s",
+        "url": "https://www.youtube.com/watch?v=kE5zQaUgUyI&t=1267s",
         "title": "14 03 2026 - पहले बनी प्रारब्ध पाछे बनी शरीर"
     },
     {
-        "link": "https://www.youtube.com/watch?v=WV0V4xpA4Fs",
+        "url": "https://www.youtube.com/watch?v=WV0V4xpA4Fs",
         "title": "16 03 2026 - मान बड़ाई ईर्ष्या दुर्लभ तजना एह"
     },
     {
-        "link": "https://www.youtube.com/watch?v=7n56sismxu0",
+        "url": "https://www.youtube.com/watch?v=7n56sismxu0",
         "title": "17 03 2026 - नाना भ्रम मनही उपजावे"
     },
     {
-        "link": "https://www.youtube.com/watch?v=8dO_JpFvkhI",
+        "url": "https://www.youtube.com/watch?v=8dO_JpFvkhI",
         "title": "18 03 2026 - बिन यकतार कस पतिव्रता"
     },
     {
-        "link": "https://www.youtube.com/watch?v=luAM4kjeV0g&t=97s&pp=0gcJCcUKAYcqIYzv",
+        "url": "https://www.youtube.com/watch?v=luAM4kjeV0g&t=97s&pp=0gcJCcUKAYcqIYzv",
         "title": "19 03 2026 - आदि सच युगादी सच है भी सच नानक होसे भी सच"
     },
     {
-        "link": "https://www.youtube.com/watch?v=V900uarC5qc",
+        "url": "https://www.youtube.com/watch?v=V900uarC5qc",
         "title": "20 03 2026 - बिन सतगुरु उपदेश सुर नर मुनि नहीं निस्तरे"
     },
     {
-        "link": "https://www.youtube.com/watch?v=qshC3JunMRs",
+        "url": "https://www.youtube.com/watch?v=qshC3JunMRs",
         "title": "21 03 2026 - गृह काजा नाना जंजाला"
     },
     {
-        "link": "https://www.youtube.com/watch?v=xfGdVk8cbyc&t=136s",
+        "url": "https://www.youtube.com/watch?v=xfGdVk8cbyc&t=136s",
         "title": "22 03 2026 - भरि यौवन में शीलवन्त कोई होय तो होय"
     }
 ];
