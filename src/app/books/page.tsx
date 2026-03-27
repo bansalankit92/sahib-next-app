@@ -1,7 +1,6 @@
 "use client";
 
 import React, {useEffect, useRef, useState} from "react";
-import Head from "next/head";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
 import BooksAPIService from "@/services/BooksAPIService";
@@ -180,11 +179,6 @@ const BooksSection: React.FC = () => {
     }, [titleQuery, selectedBook?.bookId, selectedBook?.actualName]);
 
     return (
-        <>
-            <Head>
-                <title>Search Books - Sahibji Satsang and Bhajans</title>
-                <meta name="description" content="Search book name or content in hindi or english transliteration" />
-            </Head>
             <section
                 className="container mx-auto px-4 py-8 md:py-12 lg:py-16 xl:py-20 2xl:py-24 3xl:py-28 bg-white dark:bg-gray-900 dark:text-white"
                 id="books-section">
@@ -334,7 +328,6 @@ const BooksSection: React.FC = () => {
             </div>
             </div>
         </section>
-        </>
     );
 }
 
