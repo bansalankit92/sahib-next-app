@@ -1,0 +1,58 @@
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "bookId": {
+        "type": "string"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "isTransliteration": {
+        "type": "boolean"
+      },
+      "name": {
+        "type": "string",
+        "analyzer": "lucene.standard",
+        "multi": {
+          "hi": {
+            "type": "string",
+            "analyzer": "lucene.hindi"
+          },
+          "std": {
+            "type": "string",
+            "analyzer": "lucene.standard"
+          }
+        }
+      },
+      "actualName": {
+        "type": "string",
+        "analyzer": "lucene.standard",
+        "multi": {
+          "hi": {
+            "type": "string",
+            "analyzer": "lucene.hindi"
+          },
+          "std": {
+            "type": "string",
+            "analyzer": "lucene.standard"
+          }
+        }
+      },
+      "content": {
+        "type": "string",
+        "analyzer": "lucene.standard",
+        "multi": {
+          "hi": {
+            "type": "string",
+            "analyzer": "lucene.hindi"
+          },
+          "std": {
+            "type": "string",
+            "analyzer": "lucene.standard"
+          }
+        }
+      }
+    }
+  }
+}

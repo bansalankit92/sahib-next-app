@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useCallback, useEffect, useState} from "react";
 import {useLocalStorage} from "react-use";
 import Button from "@/components/Button";
 import ReactPlayer from "react-player";
@@ -22,6 +22,7 @@ const MediaPlayer: React.FC<PlayerProps> = ({
                                                 title
                                             }) => {
     const [isRandom, setIsRandom] = useState(true)
+    const [isReady, setIsReady] = useState(false)
     const [storageControls, setStorageControls] = useLocalStorage<PlayerControls>("sb-player-controls-ls", {isRandom: true});
 
     useEffect(() => {
@@ -31,16 +32,33 @@ const MediaPlayer: React.FC<PlayerProps> = ({
         })
     }, [isRandom]);
 
+    useEffect(() => {
+        setIsReady(false);
+    }, [url]);
+
+    const handleReady = useCallback(() => {
+        setIsReady(true);
+    }, []);
+
     const onNextClick = () => isRandom ? onRandom() : onNext();
     return (
         <div className="">
             <div className="wrapper">
                 {url &&
-                    (<ReactPlayer url={url} controls={true} playing={true}
+                    (<ReactPlayer src={url} controls={true} playing={isReady}
                                   className="player"
                                   width='100%'
                                   height='100%'
-                                  onEnded={onNextClick}/>)}
+                                  onReady={handleReady}
+                                  onEnded={onNextClick}
+                                  config={{
+                                      youtube: {
+                                          playerVars: {
+                                              autoplay: 1,
+                                              origin: typeof window !== 'undefined' ? window.location.origin : undefined
+                                          }
+                                      }
+                                  }}/>)}
             </div>
 
             <div className="flex items-center justify-between mt-8 flex-wrap gap-4">

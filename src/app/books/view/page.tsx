@@ -2,8 +2,6 @@
 
 import React, {Suspense, useEffect, useState} from "react";
 import Head from "next/head";
-import {marked} from "marked";
-import {useSearchParams} from "next/navigation";
 import MarkdownRenderer from "@/components/MarkdownRenderer";
 
 
@@ -14,10 +12,12 @@ interface PlayerProps {
 const BooksSection: React.FC<PlayerProps> = ({}) => {
 
     const [mdBook, setMdBook] = useState<string>();
-    const searchParams = useSearchParams()
 
     useEffect(() => {
-        let url = searchParams.get("url") || "https://raw.githubusercontent.com/bansalankit92/indian-script-reader/master/assets/70-pralay-marag-mahi/70-praylay-marag-mahi-hin.md";
+        const params = new URLSearchParams(window.location.search);
+        const url =
+            params.get("url") ||
+            "https://raw.githubusercontent.com/bansalankit92/indian-script-reader/master/assets/70-pralay-marag-mahi/70-praylay-marag-mahi-hin.md";
         fetch(url,)
             .then(response => response.blob())
             .then(buffer => {
@@ -28,7 +28,7 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                     setMdBook(reader.result as string)
                 }
             })
-    }, [searchParams]);
+    }, []);
 
     return (
         <>

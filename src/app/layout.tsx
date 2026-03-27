@@ -4,7 +4,6 @@ import './globals.css'
 import Head from "next/head";
 import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import 'react-accessible-accordion/dist/fancy-example.css';
 import { useRouter } from 'next/navigation';
 import { APP_PATHS } from '@/services/AppConstants';
 import BottomNavigation from "@/components/BottomNavigation";

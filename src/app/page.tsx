@@ -7,10 +7,10 @@ import {useLocalStorage} from "react-use";
 import SatsangBhajanPlayer from "@/components/SatsangPlayer";
 import {PlayerContent, VIDEO_TYPE} from "@/models/Player";
 import Select, {components, createFilter, SingleValue} from "react-select";
-import {ReadonlyURLSearchParams, useSearchParams} from 'next/navigation'
 import {SATSANG_URL} from "@/data/satsangUrlTitle";
 import {BHAJANS_URL, SAHIB_BHAJANS_URL} from "@/data/bhajansUrlTitle";
 import ReactPlayer from "react-player";
+import {useSearchParams} from "next/navigation";
 
 interface LastMediaContent {
     [VIDEO_TYPE.SATSANG]?: PlayerContent;
@@ -19,8 +19,6 @@ interface LastMediaContent {
 }
 
 function Home() {
-
-    const searchParams = useSearchParams()
     const [selectedType, setSetelectedType] = useState<VIDEO_TYPE>(VIDEO_TYPE.SATSANG);
 
     const [satsangList, setSatsangList] = useState<PlayerContent[]>([]);
@@ -33,14 +31,17 @@ function Home() {
     const [showHistory, setShowHistory] = useState<boolean>(false);
     const [lastMediaContent, setLastMediaContent] = useState<LastMediaContent>({});
 
-    const setSearchParamsContentType = (searchParams: ReadonlyURLSearchParams) => {
-        const type = searchParams.get('type') || searchParams.get('tab');
+    const searchParams = useSearchParams();
+
+    const setSearchParamsContentType = (params: URLSearchParams | null) => {
+        const type = params?.get('type') || params?.get('tab');
         if (type && type.toUpperCase() in VIDEO_TYPE) {
             setSetelectedType(VIDEO_TYPE[type.toUpperCase() as keyof typeof VIDEO_TYPE]);
         }
     }
+
     useEffect(() => {
-        setSearchParamsContentType(searchParams)
+        setSearchParamsContentType(searchParams);
     }, [searchParams]);
 
     useEffect(() => {
@@ -66,14 +67,14 @@ function Home() {
 
         const sahibBhajanURLS = SAHIB_BHAJANS_URL.filter((x: any) => x.title !== ' - YouTube').map((r: any) => ({
             ...r,
-            type: VIDEO_TYPE.BHAJAN
+            type: VIDEO_TYPE.SAHIB_BHAJAN
         }))
         setSahibBhajanList(sahibBhajanURLS);
         setAllContentList(prevState => [...prevState, ...sahibBhajanURLS]);
 
         const allBhajanURLS = BHAJANS_URL.filter((x: any) => x.title !== ' - YouTube').map((r: any) => ({
             ...r,
-            type: VIDEO_TYPE.SAHIB_BHAJAN
+            type: VIDEO_TYPE.BHAJAN
         }))
         setBhajanList(allBhajanURLS);
         setAllContentList(prevState => [...prevState, ...allBhajanURLS]);
@@ -165,6 +166,8 @@ function Home() {
                 <Select
                     className="my-react-select-container"
                     classNamePrefix="my-react-select"
+                    instanceId="home-content-select"
+                    inputId="home-content-select-input"
                     getOptionLabel={option => option.title}
                     getOptionValue={option => option.url}
                     onChange={handleChange}

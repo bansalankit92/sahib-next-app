@@ -159,7 +159,7 @@ const Player: React.FC<Playerprops> = ({
             </div>
             <div className="wrapper">
                 {url &&
-                    <ReactPlayer url={url} controls={true} playing={true}
+                    <ReactPlayer src={url} controls={true} playing={true}
                                  className="player"
                                  width='100%'
                                  height='100%'

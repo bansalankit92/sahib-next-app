@@ -1,59 +1,200 @@
 "use client";
 
-import React, {useEffect, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import Head from "next/head";
-import {useSearchParams} from "next/navigation";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
-import BooksAPIService from "@/services/BooksAPIService";
+import BooksAPIService, {BookSearchMode} from "@/services/BooksAPIService";
 import {toast} from "react-toastify";
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemButton,
-    AccordionItemHeading,
-    AccordionItemPanel
-} from "react-accessible-accordion";
 import Highlighter from "react-highlight-words";
-import MarkdownRenderer from "@/components/MarkdownRenderer";
+type BookSuggestion = {
+    bookId?: string;
+    actualName?: string;
+    slug?: string;
+};
 
+type BookResult = {
+    _id?: string;
+    name?: string;
+    actualName?: string;
+    content?: string;
+    bookId?: string;
+    score?: number;
+};
 
-interface PlayerProps {
+const DEFAULT_LIMIT = 10;
+const SEARCH_MODES: BookSearchMode[] = ["normal", "fuzzy", "regex"];
 
-}
-
-const BooksSection: React.FC<PlayerProps> = ({}) => {
-
-    const [query, setQuery] = useState<string | null>();
-    const searchParams = useSearchParams()
-    const [booksList, setBooksList] = useState([])
-    const [loading, setLoading] = useState(false)
-
-    const onSearch = async (val: string | null | undefined) => {
-        let q = val || query || searchParams.get("q")
-        try {
-            console.log(q);
-            setLoading(true);
-            const res = await BooksAPIService.search(q || '');
-            console.log(res)
-            const list = res?.data?.results;
-            setBooksList(list)
-        } catch (e) {
-            toast("Failed to find books")
-        } finally {
-            setLoading(false)
-        }
+const getSearchWords = (query = "", mode: BookSearchMode) => {
+    if (mode === "regex") {
+        return [];
     }
+    if (query.includes('"')) {
+        return [query.replaceAll('"', "").trim()].filter(Boolean);
+    }
+    return query.split(/\s+/).filter(Boolean);
+};
+
+const BooksSection: React.FC = () => {
+    const [query, setQuery] = useState("");
+    const [titleQuery, setTitleQuery] = useState("");
+    const [selectedBook, setSelectedBook] = useState<BookSuggestion | null>(null);
+    const [mode, setMode] = useState<BookSearchMode>("normal");
+    const [booksList, setBooksList] = useState<BookResult[]>([]);
+    const [titleSuggestions, setTitleSuggestions] = useState<BookSuggestion[]>([]);
+    const [showTitleSuggestions, setShowTitleSuggestions] = useState(false);
+    const [loading, setLoading] = useState(false);
+    const [loadingMore, setLoadingMore] = useState(false);
+    const [page, setPage] = useState({
+        skip: 0,
+        limit: DEFAULT_LIMIT,
+        nextSkip: null as number | null,
+        hasMore: false,
+    });
+
+    const suggestionDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+    const onSearch = async ({
+                                append = false,
+                                skipOverride,
+                                queryOverride,
+                                titleQueryOverride,
+                                selectedBookOverride,
+                                modeOverride,
+                            }: {
+        append?: boolean;
+        skipOverride?: number;
+        queryOverride?: string;
+        titleQueryOverride?: string;
+        selectedBookOverride?: BookSuggestion | null;
+        modeOverride?: BookSearchMode;
+    } = {}) => {
+        const activeQuery = (queryOverride ?? query).trim();
+        const activeTitleQuery = (titleQueryOverride ?? titleQuery).trim();
+        const activeSelectedBook =
+            selectedBookOverride !== undefined ? selectedBookOverride : selectedBook;
+        const activeMode = modeOverride ?? mode;
+        const activeSkip = append ? skipOverride ?? page.nextSkip ?? 0 : 0;
+
+        if (append) {
+            setLoadingMore(true);
+        } else {
+            setLoading(true);
+        }
+
+        try {
+            const res = await BooksAPIService.search({
+                query: activeQuery,
+                titleQuery: activeTitleQuery,
+                bookId: activeSelectedBook?.bookId || "",
+                mode: activeMode,
+                skip: activeSkip,
+                limit: DEFAULT_LIMIT,
+            });
+
+            if (!res?.success) {
+                throw new Error(res?.message || "Failed to search books");
+            }
+
+            const results = Array.isArray(res?.data?.results) ? res.data.results : [];
+            const apiPage = res?.data?.page || {};
+
+            setBooksList((prev) => (append ? [...prev, ...results] : results));
+            setPage({
+                skip: Number(apiPage.skip ?? activeSkip),
+                limit: Number(apiPage.limit ?? DEFAULT_LIMIT),
+                nextSkip:
+                    typeof apiPage.nextSkip === "number" ? apiPage.nextSkip : null,
+                hasMore: Boolean(apiPage.hasMore),
+            });
+        } catch (error) {
+            if (error instanceof Error) {
+                toast(error.message);
+            } else {
+                toast("Failed to find books");
+            }
+        } finally {
+            setLoading(false);
+            setLoadingMore(false);
+        }
+    };
+
+    const fetchTitleSuggestions = async (value: string) => {
+        try {
+            const res = await BooksAPIService.findName(value);
+            const results = Array.isArray(res?.data?.results) ? res.data.results : [];
+            setTitleSuggestions(results);
+            setShowTitleSuggestions(results.length > 0);
+        } catch (error) {
+            setTitleSuggestions([]);
+            setShowTitleSuggestions(false);
+        }
+    };
+
     useEffect(() => {
-        onSearch('');
+        const params = new URLSearchParams(window.location.search);
+        const initialQuery = (params.get("q") || "").trim();
+        const initialTitle = (params.get("title") || "").trim();
+        const initialBookId = (params.get("bookId") || "").trim();
+        const modeParam = (params.get("mode") || "").trim().toLowerCase();
+        const initialMode = SEARCH_MODES.includes(modeParam as BookSearchMode)
+            ? (modeParam as BookSearchMode)
+            : "normal";
+
+        const initialBook = initialBookId
+            ? {
+                bookId: initialBookId,
+                actualName: initialTitle || initialBookId,
+            }
+            : null;
+
+        if (initialQuery) {
+            setQuery(initialQuery);
+        }
+        if (initialTitle) {
+            setTitleQuery(initialTitle);
+        }
+        if (initialBook) {
+            setSelectedBook(initialBook);
+        }
+        if (initialMode !== mode) {
+            setMode(initialMode);
+        }
+
+        if (initialQuery || initialTitle || initialBookId) {
+            onSearch({
+                queryOverride: initialQuery,
+                titleQueryOverride: initialTitle,
+                selectedBookOverride: initialBook,
+                modeOverride: initialMode,
+            });
+        }
     }, []);
 
     useEffect(() => {
-        let q = searchParams.get("q")
-        if (q) {
-            onSearch(q);
+        const normalizedTitle = titleQuery.trim();
+        const selectedTitle = (selectedBook?.actualName || "").trim();
+
+        if (!normalizedTitle || normalizedTitle === selectedTitle) {
+            setTitleSuggestions([]);
+            setShowTitleSuggestions(false);
+            return;
         }
-    }, [searchParams]);
+
+        if (suggestionDebounceRef.current) {
+            clearTimeout(suggestionDebounceRef.current);
+        }
+
+        suggestionDebounceRef.current = setTimeout(() => {
+            fetchTitleSuggestions(normalizedTitle);
+        }, 250);
+
+        return () => {
+            if (suggestionDebounceRef.current) {
+                clearTimeout(suggestionDebounceRef.current);
+            }
+        };
+    }, [titleQuery, selectedBook?.bookId, selectedBook?.actualName]);
 
     return (
         <>
@@ -70,46 +211,130 @@ const BooksSection: React.FC<PlayerProps> = ({}) => {
                     Search Books
                 </h2>
                 <p className="text-center text-gray-600 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl 3xl:text-4xl dark:text-white">
-                    Search book name or content in hindi or english transliteration
+                    Search book titles and content in Hindi, Devanagari, and transliterated text
                 </p>
             </div>
             <div className="flex flex-col gap-4">
-                <Input name={"query"} label={"Search Query"}
-                       onChange={(e) => {
-                           setQuery(e.target.value)
-                       }}
-                       onKeyDown={(event) => {
-                           if (event.key === 'Enter') {
-                               onSearch(query)
-                           }}}
-                />
-                <Button text={"Submit"} loading={loading} onClick={() => onSearch(query)}/>
+                <div>
+                    <Input
+                        name={"titleQuery"}
+                        label={"Book Title Filter"}
+                        value={titleQuery}
+                        onChange={(e) => {
+                            const value = e.target.value;
+                            setTitleQuery(value);
+                            setShowTitleSuggestions(true);
+                            if ((selectedBook?.actualName || "") !== value) {
+                                setSelectedBook(null);
+                            }
+                        }}
+                        onKeyDown={(event) => {
+                            if (event.key === "Enter") {
+                                onSearch();
+                            }
+                        }}
+                    />
+                    {showTitleSuggestions && titleSuggestions.length > 0 && (
+                        <div className="border border-gray-200 rounded mt-2 max-h-56 overflow-y-auto bg-white dark:bg-gray-800">
+                            {titleSuggestions.map((suggestion) => (
+                                <button
+                                    key={`${suggestion.bookId}-${suggestion.slug}`}
+                                    type="button"
+                                    className="w-full text-left px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700"
+                                    onClick={() => {
+                                        setSelectedBook(suggestion);
+                                        setTitleQuery(suggestion.actualName || "");
+                                        setShowTitleSuggestions(false);
+                                        setTitleSuggestions([]);
+                                    }}
+                                >
+                                    {suggestion.actualName || suggestion.slug || suggestion.bookId}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                </div>
 
+                <Input
+                    name={"query"}
+                    label={"Search Inside Book"}
+                    value={query}
+                    onChange={(e) => {
+                        setQuery(e.target.value);
+                    }}
+                    onKeyDown={(event) => {
+                        if (event.key === "Enter") {
+                            onSearch();
+                        }
+                    }}
+                />
+
+                <div>
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                        Search Mode
+                    </label>
+                    <select
+                        value={mode}
+                        onChange={(e) => setMode(e.target.value as BookSearchMode)}
+                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                    >
+                        <option value="normal">Normal</option>
+                        <option value="fuzzy">Fuzzy</option>
+                        <option value="regex">Regex</option>
+                    </select>
+                </div>
+
+                <div className="flex gap-3 items-center">
+                    <Button text={"Search"} loading={loading} onClick={() => onSearch()}/>
+                    {selectedBook?.bookId && (
+                        <button
+                            type="button"
+                            className="px-3 py-2 rounded border text-sm"
+                            onClick={() => {
+                                setSelectedBook(null);
+                                setTitleQuery("");
+                            }}
+                        >
+                            Clear Book Scope
+                        </button>
+                    )}
+                </div>
 
             <div>
-                Books List
+                <div className="mb-3">
+                    Books List ({booksList.length})
+                </div>
+                {!loading && booksList.length === 0 && (
+                    <div className="text-sm text-gray-500">No books found.</div>
+                )}
 
-                <Accordion allowZeroExpanded={true} allowMultipleExpanded={true}>
-                    {
-                        booksList?.map((x: any) => (
-                            <AccordionItem key={x?.name}>
-                                <AccordionItemHeading>
-                                    <AccordionItemButton>
-                                        {x.name}
-                                    </AccordionItemButton>
-                                </AccordionItemHeading>
-                                <AccordionItemPanel>
-                                    <Highlighter
-                                        highlightClassName=""
-                                        searchWords={ query?.includes('"')?[query.replaceAll('"','')] :(query||'').split(' ')}
-                                        autoEscape={true}
-                                        textToHighlight={x.content}
-                                    />
-                                </AccordionItemPanel>
-                            </AccordionItem>
-                        ))
-                    }
-                </Accordion>
+                <div className="flex flex-col gap-3">
+                    {booksList.map((book, index) => (
+                        <details key={`${book._id || book.name}-${index}`} className="border rounded p-3">
+                            <summary className="cursor-pointer font-medium">
+                                {book.actualName || book.name}
+                            </summary>
+                            <div className="mt-3 text-sm whitespace-pre-wrap">
+                                <Highlighter
+                                    highlightClassName=""
+                                    searchWords={getSearchWords(query, mode)}
+                                    autoEscape={true}
+                                    textToHighlight={book.content || ""}
+                                />
+                            </div>
+                        </details>
+                    ))}
+                </div>
+
+                {page.hasMore && (
+                    <div className="mt-4">
+                        <Button
+                            text={"Load more"}
+                            loading={loadingMore}
+                            onClick={() => onSearch({append: true})}
+                        />
+                    </div>
+                )}
             </div>
             </div>
         </section>
