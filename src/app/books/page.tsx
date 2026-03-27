@@ -4,7 +4,7 @@ import React, {useEffect, useRef, useState} from "react";
 import Head from "next/head";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
-import BooksAPIService, {BookSearchMode} from "@/services/BooksAPIService";
+import BooksAPIService from "@/services/BooksAPIService";
 import {toast} from "react-toastify";
 import Highlighter from "react-highlight-words";
 type BookSuggestion = {
@@ -19,16 +19,13 @@ type BookResult = {
     actualName?: string;
     content?: string;
     bookId?: string;
+    current?: number;
     score?: number;
 };
 
 const DEFAULT_LIMIT = 10;
-const SEARCH_MODES: BookSearchMode[] = ["normal", "fuzzy", "regex"];
 
-const getSearchWords = (query = "", mode: BookSearchMode) => {
-    if (mode === "regex") {
-        return [];
-    }
+const getSearchWords = (query = "") => {
     if (query.includes('"')) {
         return [query.replaceAll('"', "").trim()].filter(Boolean);
     }
@@ -39,10 +36,11 @@ const BooksSection: React.FC = () => {
     const [query, setQuery] = useState("");
     const [titleQuery, setTitleQuery] = useState("");
     const [selectedBook, setSelectedBook] = useState<BookSuggestion | null>(null);
-    const [mode, setMode] = useState<BookSearchMode>("normal");
     const [booksList, setBooksList] = useState<BookResult[]>([]);
     const [titleSuggestions, setTitleSuggestions] = useState<BookSuggestion[]>([]);
     const [showTitleSuggestions, setShowTitleSuggestions] = useState(false);
+    const [fullMatch, setFullMatch] = useState(true);
+    const [useRegex, setUseRegex] = useState(false);
     const [loading, setLoading] = useState(false);
     const [loadingMore, setLoadingMore] = useState(false);
     const [page, setPage] = useState({
@@ -58,22 +56,16 @@ const BooksSection: React.FC = () => {
                                 append = false,
                                 skipOverride,
                                 queryOverride,
-                                titleQueryOverride,
                                 selectedBookOverride,
-                                modeOverride,
                             }: {
         append?: boolean;
         skipOverride?: number;
         queryOverride?: string;
-        titleQueryOverride?: string;
         selectedBookOverride?: BookSuggestion | null;
-        modeOverride?: BookSearchMode;
     } = {}) => {
         const activeQuery = (queryOverride ?? query).trim();
-        const activeTitleQuery = (titleQueryOverride ?? titleQuery).trim();
         const activeSelectedBook =
             selectedBookOverride !== undefined ? selectedBookOverride : selectedBook;
-        const activeMode = modeOverride ?? mode;
         const activeSkip = append ? skipOverride ?? page.nextSkip ?? 0 : 0;
 
         if (append) {
@@ -83,11 +75,11 @@ const BooksSection: React.FC = () => {
         }
 
         try {
+            const searchQuery = activeQuery && fullMatch ? `"${activeQuery}"` : activeQuery;
             const res = await BooksAPIService.search({
-                query: activeQuery,
-                titleQuery: activeTitleQuery,
+                query: searchQuery,
                 bookId: activeSelectedBook?.bookId || "",
-                mode: activeMode,
+                regex: useRegex,
                 skip: activeSkip,
                 limit: DEFAULT_LIMIT,
             });
@@ -136,10 +128,6 @@ const BooksSection: React.FC = () => {
         const initialQuery = (params.get("q") || "").trim();
         const initialTitle = (params.get("title") || "").trim();
         const initialBookId = (params.get("bookId") || "").trim();
-        const modeParam = (params.get("mode") || "").trim().toLowerCase();
-        const initialMode = SEARCH_MODES.includes(modeParam as BookSearchMode)
-            ? (modeParam as BookSearchMode)
-            : "normal";
 
         const initialBook = initialBookId
             ? {
@@ -157,16 +145,11 @@ const BooksSection: React.FC = () => {
         if (initialBook) {
             setSelectedBook(initialBook);
         }
-        if (initialMode !== mode) {
-            setMode(initialMode);
-        }
 
         if (initialQuery || initialTitle || initialBookId) {
             onSearch({
                 queryOverride: initialQuery,
-                titleQueryOverride: initialTitle,
                 selectedBookOverride: initialBook,
-                modeOverride: initialMode,
             });
         }
     }, []);
@@ -246,6 +229,7 @@ const BooksSection: React.FC = () => {
                                         setTitleQuery(suggestion.actualName || "");
                                         setShowTitleSuggestions(false);
                                         setTitleSuggestions([]);
+                                        onSearch({selectedBookOverride: suggestion});
                                     }}
                                 >
                                     {suggestion.actualName || suggestion.slug || suggestion.bookId}
@@ -269,19 +253,31 @@ const BooksSection: React.FC = () => {
                     }}
                 />
 
-                <div>
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                        Search Mode
+                <div className="flex gap-4">
+                    <label className="flex items-center gap-2 cursor-pointer">
+                        <input
+                            type="checkbox"
+                            checked={fullMatch}
+                            onChange={(e) => {
+                                setFullMatch(e.target.checked);
+                                if (e.target.checked) setUseRegex(false);
+                            }}
+                            className="w-4 h-4"
+                        />
+                        <span className="text-sm text-gray-900 dark:text-white">Full Match</span>
                     </label>
-                    <select
-                        value={mode}
-                        onChange={(e) => setMode(e.target.value as BookSearchMode)}
-                        className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
-                    >
-                        <option value="normal">Normal</option>
-                        <option value="fuzzy">Fuzzy</option>
-                        <option value="regex">Regex</option>
-                    </select>
+                    <label className="flex items-center gap-2 cursor-pointer">
+                        <input
+                            type="checkbox"
+                            checked={useRegex}
+                            onChange={(e) => {
+                                setUseRegex(e.target.checked);
+                                if (e.target.checked) setFullMatch(false);
+                            }}
+                            className="w-4 h-4"
+                        />
+                        <span className="text-sm text-gray-900 dark:text-white">Regex</span>
+                    </label>
                 </div>
 
                 <div className="flex gap-3 items-center">
@@ -312,12 +308,12 @@ const BooksSection: React.FC = () => {
                     {booksList.map((book, index) => (
                         <details key={`${book._id || book.name}-${index}`} className="border rounded p-3">
                             <summary className="cursor-pointer font-medium">
-                                {book.actualName || book.name}
+                               ({(book.current ?? 0) + 1}) {book.actualName || book.name}
                             </summary>
                             <div className="mt-3 text-sm whitespace-pre-wrap">
                                 <Highlighter
                                     highlightClassName=""
-                                    searchWords={getSearchWords(query, mode)}
+                                    searchWords={getSearchWords(query)}
                                     autoEscape={true}
                                     textToHighlight={book.content || ""}
                                 />

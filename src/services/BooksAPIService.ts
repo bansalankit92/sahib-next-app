@@ -1,12 +1,9 @@
 import {API} from "@/services/AppConstants";
 
-export type BookSearchMode = "normal" | "fuzzy" | "regex";
-
 type SearchRequest = {
     query?: string;
-    titleQuery?: string;
     bookId?: string;
-    mode: BookSearchMode;
+    regex?: boolean;
     skip?: number;
     limit?: number;
 };
@@ -33,9 +30,8 @@ const BooksAPIService = {
     },
     search: async ({
                        query = '',
-                       titleQuery = '',
                        bookId = '',
-                       mode = "normal",
+                       regex = false,
                        skip = 0,
                        limit = 10,
                    }: SearchRequest) => {
@@ -43,10 +39,9 @@ const BooksAPIService = {
             ...DefaultHeaders,
             method: 'POST',
             body: JSON.stringify({
-                query: query?.trim() || '',
-                titleQuery: titleQuery?.trim() || '',
-                bookId: bookId?.trim() || '',
-                mode,
+                query: query?.trim() || undefined,
+                bookId: bookId?.trim() || undefined,
+                regex,
                 skip,
                 limit,
             })
