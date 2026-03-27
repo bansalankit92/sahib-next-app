@@ -1,6 +1,6 @@
 "use client";
 
-import React, {useEffect, useState} from "react";
+import React, {Suspense, useEffect, useState} from "react";
 import Head from "next/head";
 import Button, {ButtonColors} from "@/components/Button";
 import {useLocalStorage} from "react-use";
@@ -18,7 +18,7 @@ interface LastMediaContent {
     [VIDEO_TYPE.SAHIB_BHAJAN]?: PlayerContent;
 }
 
-function Home() {
+function HomeContent() {
     const [selectedType, setSetelectedType] = useState<VIDEO_TYPE>(VIDEO_TYPE.SATSANG);
 
     const [satsangList, setSatsangList] = useState<PlayerContent[]>([]);
@@ -265,4 +265,10 @@ function Home() {
     );
 }
 
-export default Home;
+export default function Home() {
+    return (
+        <Suspense fallback={<main className="flex flex-col items-center justify-between py-8 mb-20">Loading...</main>}>
+            <HomeContent />
+        </Suspense>
+    );
+}

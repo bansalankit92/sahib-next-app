@@ -53,10 +53,7 @@ const MediaPlayer: React.FC<PlayerProps> = ({
                                   onEnded={onNextClick}
                                   config={{
                                       youtube: {
-                                          playerVars: {
-                                              autoplay: 1,
-                                              origin: typeof window !== 'undefined' ? window.location.origin : undefined
-                                          }
+                                          origin: typeof window !== 'undefined' ? window.location.origin : undefined
                                       }
                                   }}/>)}
             </div>
